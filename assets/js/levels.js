@@ -57,7 +57,7 @@
     open.className = 'level-open';
     open.href = link;
     open.textContent = 'Open Guide';
-    open.setAttribute('aria-label', `Open ${card.dataset.title}`);
+    open.setAttribute('aria-label', `Open Guide: ${card.dataset.title}`);
 
     card.appendChild(art);
     card.appendChild(title);
@@ -201,27 +201,31 @@
     const previewLink = document.querySelector('[data-preview-link]');
     const containers = document.querySelectorAll('[data-level-card-container]');
 
+    function renderPlayer(entry) {
+      if (!entry || !entry.videoId) return;
+      if (typeof window.pixelFlowCreatePlayer === 'function') {
+        window.pixelFlowCreatePlayer(previewFrame, entry.videoId, entry.title || entry.levelLabel);
+        return;
+      }
+      const link = document.createElement('a');
+      link.className = 'video-fallback visible';
+      link.href = `https://www.youtube.com/watch?v=${entry.videoId}`;
+      link.target = '_blank';
+      link.rel = 'noopener';
+      const img = document.createElement('img');
+      img.src = `https://img.youtube.com/vi/${entry.videoId}/hqdefault.jpg`;
+      img.alt = entry.title || 'Pixel Flow walkthrough';
+      const label = document.createElement('span');
+      label.textContent = '在 YouTube 播放';
+      link.appendChild(img);
+      link.appendChild(label);
+      previewFrame.innerHTML = '';
+      previewFrame.appendChild(link);
+    }
+
     function updatePreview(entry) {
       if (!entry || !entry.videoId) return;
-      const iframe = previewFrame.querySelector('[data-preview-iframe]');
-      const nextSrc = `https://www.youtube.com/embed/${entry.videoId}`;
-
-      const newIframe = document.createElement('iframe');
-      newIframe.setAttribute('data-preview-iframe', 'true');
-      newIframe.src = nextSrc;
-      newIframe.title = entry.title || 'Pixel Flow walkthrough';
-      newIframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-      newIframe.allowFullscreen = true;
-
-      if (iframe) {
-        iframe.replaceWith(newIframe);
-      } else {
-        previewFrame.appendChild(newIframe);
-      }
-
-      if (typeof window.pixelFlowRegisterIframe === 'function') {
-        window.pixelFlowRegisterIframe(newIframe);
-      }
+      renderPlayer(entry);
 
       const guideLink =
         entry.guideLink ||
