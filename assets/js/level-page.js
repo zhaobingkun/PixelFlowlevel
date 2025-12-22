@@ -44,16 +44,23 @@
     if (entry.videoId) {
       const container = document.querySelector('[data-detail-video]');
       if (container) {
-        const iframe = document.createElement('iframe');
-        iframe.setAttribute('data-preview-iframe', 'true');
-        iframe.src = `https://www.youtube.com/embed/${entry.videoId}`;
-        iframe.title = titleText;
-        iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
-        iframe.allowFullscreen = true;
         container.innerHTML = '';
-        container.appendChild(iframe);
-        if (typeof window.pixelFlowRegisterIframe === 'function') {
-          window.pixelFlowRegisterIframe(iframe);
+        if (typeof window.pixelFlowCreatePlayer === 'function') {
+          window.pixelFlowCreatePlayer(container, entry.videoId, titleText);
+        } else {
+          const link = document.createElement('a');
+          link.className = 'video-fallback visible';
+          link.href = `https://www.youtube.com/watch?v=${entry.videoId}`;
+          link.target = '_blank';
+          link.rel = 'noopener';
+          const img = document.createElement('img');
+          img.src = `https://img.youtube.com/vi/${entry.videoId}/hqdefault.jpg`;
+          img.alt = titleText;
+          const label = document.createElement('span');
+          label.textContent = '在 YouTube 播放';
+          link.appendChild(img);
+          link.appendChild(label);
+          container.appendChild(link);
         }
       }
     }
