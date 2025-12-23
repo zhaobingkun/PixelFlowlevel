@@ -393,18 +393,37 @@ p {
   box-shadow: var(--shadow);
 }
 
-.level-art {
-  height: 120px;
-  border-radius: 0;
+.level-thumb {
+  position: relative;
+  height: 140px;
+  border: 2px solid var(--ink);
+  overflow: hidden;
   background:
     repeating-linear-gradient(0deg, rgba(27, 27, 27, 0.15) 0 2px, transparent 2px 4px),
     linear-gradient(135deg, #00ffe8, #ff7adf 55%, #ff2bd0);
-  display: grid;
-  place-items: center;
-  color: var(--brand-900);
-  font-weight: 700;
-  font-size: 1.1rem;
-  border: 2px solid var(--ink);
+}
+
+.level-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  image-rendering: pixelated;
+  filter: saturate(1.35) contrast(1.1);
+  display: block;
+}
+
+.level-thumb-label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #ff2bd0, #6df6ff);
+  color: #0d0b12;
+  font-weight: 800;
+  padding: 0.35rem 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-top: 2px solid var(--ink);
 }
 
 .level-meta {

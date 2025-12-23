@@ -33,9 +33,17 @@
     card.dataset.levelNumber = levelNumber;
 
     const art = document.createElement('div');
-    art.className = 'level-art';
-    art.style.setProperty('--level', entry.levelStart || 0);
-    art.textContent = card.dataset.levelLabel;
+    art.className = 'level-thumb';
+    const img = document.createElement('img');
+    img.src = entry.videoId ? `https://img.youtube.com/vi/${entry.videoId}/hqdefault.jpg` : '';
+    img.alt = card.dataset.title;
+    img.loading = 'lazy';
+    img.decoding = 'async';
+    art.appendChild(img);
+    const thumbLabel = document.createElement('span');
+    thumbLabel.className = 'level-thumb-label';
+    thumbLabel.textContent = card.dataset.levelLabel;
+    art.appendChild(thumbLabel);
 
     const title = document.createElement('h3');
     title.textContent = card.dataset.title;

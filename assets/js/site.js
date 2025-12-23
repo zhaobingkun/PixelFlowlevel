@@ -35,7 +35,7 @@
   let apiLoading = false;
 
   function extractVideoId(src) {
-    const match = src.match(/\\/embed\\/([^?]+)/);
+    const match = src.match(/\/embed\/([^?]+)/);
     return match ? match[1] : '';
   }
 
