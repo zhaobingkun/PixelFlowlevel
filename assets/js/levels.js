@@ -207,6 +207,7 @@
     const previewTitle = document.querySelector('[data-preview-title]');
     const previewMeta = document.querySelector('[data-preview-meta]');
     const previewLink = document.querySelector('[data-preview-link]');
+    const previewYt = document.querySelector('[data-preview-yt]');
     const containers = document.querySelectorAll('[data-level-card-container]');
 
     function renderPlayer(entry) {
@@ -242,6 +243,7 @@
       if (previewTitle) previewTitle.textContent = entry.title || entry.levelLabel || 'Pixel Flow Walkthrough';
       if (previewMeta) previewMeta.textContent = entry.subtitle || 'Video walkthrough';
       if (previewLink && guideLink) previewLink.href = guideLink;
+      if (previewYt) previewYt.href = `https://www.youtube.com/watch?v=${entry.videoId}`;
 
       containers.forEach((container) => {
         container.querySelectorAll('.level-card').forEach((card) => {

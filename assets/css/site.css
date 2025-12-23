@@ -586,6 +586,22 @@ p {
   outline-offset: -6px;
 }
 
+.yt-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.6rem;
+  color: var(--ink);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.yt-link::before {
+  content: '▶';
+  color: #ff2bd0;
+}
+
 .video-fallback {
   position: absolute;
   inset: 0;
