@@ -93,7 +93,6 @@
 
   function showFallback(entry) {
     if (!entry || !entry.iframe || !entry.fallback) return;
-    entry.iframe.style.display = 'none';
     entry.fallback.classList.add('visible');
     try {
       entry.iframe.src = '';
@@ -117,7 +116,6 @@
     const fallback = buildFallback(container, videoId, title);
     const playerId = iframe.id || `yt-player-${Date.now()}-${Math.floor(Math.random() * 10000)}`;
     iframe.id = playerId;
-    iframe.style.display = '';
 
     const entry = frameDataById.get(playerId) || { playerId };
     entry.iframe = iframe;
@@ -125,12 +123,10 @@
     entry.playerCreated = entry.playerCreated || false;
     frameDataById.set(playerId, entry);
 
-    fallback.classList.add('visible');
-    iframe.style.display = 'none';
+    fallback.classList.remove('visible');
     iframe.addEventListener('load', () => {
       if (!entry.fallback) return;
       entry.fallback.classList.remove('visible');
-      iframe.style.display = '';
     });
     iframe.addEventListener('error', () => showFallback(entry));
 
@@ -188,11 +184,6 @@
     videoFrames.forEach((iframe) => registerIframe(iframe));
     if (frameDataById.size) {
       ensureApiLoaded();
-      setTimeout(() => {
-        if (!apiReady) {
-          frameDataById.forEach(showFallback);
-        }
-      }, 4000);
     }
   }
 
@@ -200,11 +191,6 @@
     const entry = registerIframe(iframe);
     if (!entry) return;
     ensureApiLoaded();
-    setTimeout(() => {
-      if (!apiReady) {
-        showFallback(entry);
-      }
-    }, 4000);
   };
 
   window.pixelFlowCreatePlayer = function (container, videoId, title) {
@@ -222,16 +208,21 @@
     img.loading = 'lazy';
     img.decoding = 'async';
 
+    const playBadge = document.createElement('div');
+    playBadge.className = 'play-badge';
+    playBadge.textContent = '▶';
+
     const label = document.createElement('span');
     label.textContent = '播放';
 
     button.appendChild(img);
+    button.appendChild(playBadge);
     button.appendChild(label);
     container.appendChild(button);
 
     button.addEventListener('click', () => {
       const iframe = document.createElement('iframe');
-      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&enablejsapi=1`;
       iframe.title = title || 'Pixel Flow walkthrough';
       iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
       iframe.allowFullscreen = true;
