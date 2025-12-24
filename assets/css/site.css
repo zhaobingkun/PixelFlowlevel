@@ -586,10 +586,6 @@ p {
   opacity: 0.75;
 }
 
-.video-lite .play-badge::before {
-  content: '\\25B6';
-}
-
 .video-lite:hover .play-badge {
   transform: translate(-50%, -50%) scale(1.05);
   opacity: 1;
