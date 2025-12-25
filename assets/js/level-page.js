@@ -22,6 +22,14 @@
     return Number.isFinite(num) ? num : null;
   }
 
+  function updateUrl(levelNum) {
+    if (!Number.isFinite(levelNum) || levelNum <= 0) return;
+    const target = `/level/${levelNum}`;
+    if (window.location.pathname !== target) {
+      window.history.replaceState({}, '', target);
+    }
+  }
+
   function setText(selector, value) {
     const el = document.querySelector(selector);
     if (el) el.textContent = value;
@@ -87,6 +95,8 @@
     if (entry.videoId) {
       document.title = `${titleText} | Pixel Flow Guide`;
     }
+
+    updateUrl(levelNumber || entry.levelStart || entry.levelEnd);
   }
 
   function init() {
