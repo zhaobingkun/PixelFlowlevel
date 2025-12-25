@@ -16,11 +16,18 @@
     return '';
   }
 
-  const detailPage = (document.body && document.body.dataset.detailPage) || 'level.html';
+  const detailPageRaw = (document.body && document.body.dataset.detailPage) || 'levels';
+  const detailPage = detailPageRaw.endsWith('/') ? detailPageRaw.replace(/\/+$/, '') : detailPageRaw;
+
+  function buildHref(entry) {
+    if (!entry) return '#';
+    const slug = entry.slug || (entry.levelStart ? `level-${entry.levelStart}` : 'level-1');
+    return `${detailPage}/${slug}.html`;
+  }
 
   function buildCard(entry) {
     const levelNumber = entry.levelStart || entry.levelEnd || 1;
-    const link = `${detailPage}?level=${levelNumber}`;
+    const link = buildHref(entry);
     const card = document.createElement('div');
     card.className = 'level-card';
     card.setAttribute('role', 'button');
@@ -100,7 +107,11 @@
           alert('Level not found in current playlist data.');
           return;
         }
-        window.location.href = `${detailPage}?level=${targetLevel}`;
+        if (entry) {
+          window.location.href = buildHref(entry);
+        } else {
+          window.location.href = `${detailPage}/level-${targetLevel}.html`;
+        }
       }
 
       button.addEventListener('click', jump);
@@ -184,7 +195,11 @@
       if (searchError) searchError.style.display = 'none';
       const entry = findEntryByLevel(searchInput.value);
       if (entry) {
-        window.location.href = `${detailPage}?level=${searchInput.value}`;
+        if (entry) {
+          window.location.href = buildHref(entry);
+        } else {
+          window.location.href = `${detailPage}/level-${searchInput.value}.html`;
+        }
       } else if (searchError) {
         searchError.style.display = 'block';
       }
@@ -239,7 +254,7 @@
       const guideLink =
         entry.guideLink ||
         entry.href ||
-        (entry.levelStart || entry.levelEnd ? `${detailPage}?level=${entry.levelStart || entry.levelEnd}` : '');
+        buildHref(entry);
       if (previewTitle) previewTitle.textContent = entry.title || entry.levelLabel || 'Pixel Flow Walkthrough';
       if (previewMeta) previewMeta.textContent = entry.subtitle || 'Video walkthrough';
       if (previewLink && guideLink) previewLink.href = guideLink;
@@ -260,7 +275,7 @@
         title: defaultEntry.title,
         subtitle: defaultEntry.subtitle,
         levelLabel: rangeLabel(defaultEntry),
-        guideLink: `${detailPage}?level=${defaultEntry.levelStart || defaultEntry.levelEnd || 1}`,
+        guideLink: buildHref(defaultEntry),
       });
     }
 
