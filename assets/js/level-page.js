@@ -9,6 +9,19 @@
     });
   }
 
+  function getLevelFromUrl() {
+    const path = window.location && window.location.pathname ? window.location.pathname : '';
+    const matchPath = path.match(/\/level\/(\d+)/);
+    if (matchPath && matchPath[1]) {
+      const num = Number(matchPath[1]);
+      if (Number.isFinite(num)) return num;
+    }
+    const params = new URLSearchParams(window.location.search);
+    const lvlParam = params.get('level');
+    const num = Number(lvlParam);
+    return Number.isFinite(num) ? num : null;
+  }
+
   function setText(selector, value) {
     const el = document.querySelector(selector);
     if (el) el.textContent = value;
@@ -77,9 +90,7 @@
   }
 
   function init() {
-    const params = new URLSearchParams(window.location.search);
-    const lvlParam = params.get('level');
-    const levelNum = Number(lvlParam);
+    const levelNum = getLevelFromUrl();
     const entry = Number.isFinite(levelNum) ? findEntryByLevel(levelNum) : null;
     const fallback = !entry && data.length ? data[0] : null;
     render(entry || fallback, levelNum);
