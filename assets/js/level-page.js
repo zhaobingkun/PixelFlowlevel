@@ -23,11 +23,8 @@
   }
 
   function updateUrl(levelNum) {
-    if (!Number.isFinite(levelNum) || levelNum <= 0) return;
-    const target = `/level/${levelNum}`;
-    if (window.location.pathname !== target) {
-      window.history.replaceState({}, '', target);
-    }
+    // Keep current URL to remain compatible with static hosting fallback.
+    return;
   }
 
   function setText(selector, value) {

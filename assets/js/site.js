@@ -234,4 +234,23 @@
       }
     });
   };
+
+  function convertStaticLevelFrames() {
+    if (!/\\/levels\\//.test(window.location.pathname || '')) return;
+    const frames = Array.from(document.querySelectorAll('.video-frame iframe'));
+    frames.forEach((iframe) => {
+      const src = iframe.getAttribute('src') || '';
+      const match = src.match(/embed\\/([^?]+)/);
+      const vid = match && match[1] ? match[1] : '';
+      if (!vid) return;
+      const title = iframe.getAttribute('title') || 'Pixel Flow walkthrough';
+      const container = iframe.closest('.video-frame') || iframe.parentElement;
+      if (!container) return;
+      if (typeof window.pixelFlowCreatePlayer === 'function') {
+        window.pixelFlowCreatePlayer(container, vid, title);
+      }
+    });
+  }
+
+  convertStaticLevelFrames();
 })();
