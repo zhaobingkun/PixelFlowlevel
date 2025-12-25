@@ -94,6 +94,27 @@
     }
 
     updateUrl(levelNumber || entry.levelStart || entry.levelEnd);
+
+    renderNearby(levelNumber || entry.levelStart || entry.levelEnd);
+  }
+
+  function renderNearby(current) {
+    const grid = document.querySelector('[data-related-grid]');
+    if (!grid) return;
+    const center = Number(current);
+    if (!Number.isFinite(center)) return;
+    const start = Math.max(1, center - 20);
+    const end = center + 20;
+    const fragment = document.createDocumentFragment();
+    for (let lvl = start; lvl <= end; lvl++) {
+      const link = document.createElement('a');
+      link.className = 'related-chip';
+      link.href = `levels/level-${lvl}.html`;
+      link.textContent = lvl;
+      fragment.appendChild(link);
+    }
+    grid.innerHTML = '';
+    grid.appendChild(fragment);
   }
 
   function init() {
