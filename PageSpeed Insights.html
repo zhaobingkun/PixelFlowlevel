@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&gt; 📋 **优化任务说明**</p>
+<p class="p1">&gt;</p>
+<p class="p1">&gt; 以下为当前网站 PSI 性能测试报告，请根据报告中的内容，帮我设计一个完善的性能优化计划，优化目标是 100 分，并按照重要程度划分优先级；后续按照优化计划进行性能优化，如有影响产品功能交互等重要决策，需要询问我的意见。</p>
+<p class="p2"><br></p>
+<p class="p1"># PageSpeed Insights 完整报告 (桌面端)</p>
+<p class="p2"><br></p>
+<p class="p1">**分析网址:** https://pixelflowlevel.app/</p>
+<p class="p1">**报告时间:** 2025/12/22 16:40:04</p>
+<p class="p2"><br></p>
+<p class="p1">## Lighthouse 分数</p>
+<p class="p2"><br></p>
+<p class="p1">| 类别 | 桌面端 |</p>
+<p class="p1">|------|--------|</p>
+<p class="p1">| 性能 (Performance) | 🟢 94 |</p>
+<p class="p1">| 无障碍 (Accessibility) | 🟢 96 |</p>
+<p class="p1">| 最佳做法 (Best Practices) | 🟡 73 |</p>
+<p class="p1">| SEO | 🟢 100 |</p>
+<p class="p2"><br></p>
+<p class="p1">---</p>
+<p class="p2"><br></p>
+<p class="p1">## 🖥️ 桌面端详细报告</p>
+<p class="p2"><br></p>
+<p class="p1">### 性能 (Performance) 🟢 94</p>
+<p class="p2"><br></p>
+<p class="p1">#### 核心 Web 指标</p>
+<p class="p2"><br></p>
+<p class="p1">- 🟢 **First Contentful Paint**: 0.6 秒</p>
+<p class="p1">- 🟢 **Largest Contentful Paint**: 0.7 秒</p>
+<p class="p1">- 🟡 **Total Blocking Time**: 190 毫秒</p>
+<p class="p1">- 🟢 **Cumulative Layout Shift**: 0.049</p>
+<p class="p1">- 🟢 **Speed Index**: 0.9 秒</p>
+<p class="p2"><br></p>
+<p class="p1">#### 数据分析</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🔴 强制自动重排</p>
+<p class="p2"><br></p>
+<p class="p1">- [未归因] (35.2 ms)</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🔴 网络依赖关系树</p>
+<p class="p2"><br></p>
+<p class="p1">**关键请求链:**</p>
+<p class="p1">- https://pixelflowlevel.app/ (4 KB) [159 ms]</p>
+<p class="p1"><span class="Apple-converted-space">  </span>- https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;fami... (1 KB) [159 ms]</p>
+<p class="p1"><span class="Apple-converted-space">    </span>- https://fonts.gstatic.com/s/pressstart2p/v16/e3t4euO8T-267oI... (5 KB) [276 ms]</p>
+<p class="p1"><span class="Apple-converted-space">    </span>- https://fonts.gstatic.com/s/vt323/v18/pxiKyp0ihIEF2isfFJXUdV... (8 KB) [277 ms]</p>
+<p class="p1"><span class="Apple-converted-space">  </span>- https://www.youtube.com/s/player/50cc0679/www-player.css [332 ms]</p>
+<p class="p1"><span class="Apple-converted-space">  </span>- https://pixelflowlevel.app/assets/css/site.css (4 KB) [246 ms]</p>
+<p class="p1"><span class="Apple-converted-space">  </span>- https://pixelflowlevel.app/assets/js/site.js (3 KB) [277 ms]</p>
+<p class="p1"><span class="Apple-converted-space">  </span>- https://pixelflowlevel.app/assets/js/playlist-data.js (12 KB) [320 ms]</p>
+<p class="p1"><span class="Apple-converted-space">  </span>- https://pixelflowlevel.app/assets/js/levels.js (4 KB) [280 ms]</p>
+<p class="p1">最长链耗时: 332 ms</p>
+<p class="p1">**预连接的源:** 未预连接任何源</p>
+<p class="p1">**预连接候选项:** 没有其他源是预连接的合适候选对象</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🔴 渲染屏蔽请求 — 预计缩短 150 毫秒</p>
+<p class="p2"><br></p>
+<p class="p1">- https://pixelflowlevel.app/assets/css/site.css (4 KB)</p>
+<p class="p1">- https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=VT323&amp;d... (230 ms) (1 KB)</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟡 使用高效的缓存生命周期 — 预计节省 3 KiB</p>
+<p class="p2"><br></p>
+<p class="p1">- https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c39... (3 KB) (7 KB)</p>
+<p class="p1">- https://static.doubleclick.net/instream/ad_status.js (1 KB) (1 KB)</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟡 字体显示 — 预计缩短 10 毫秒</p>
+<p class="p2"><br></p>
+<p class="p1">- https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUA... (5 ms)</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟢 布局偏移原因</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟢 文档请求延迟</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟢 优化 DOM 大小</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟢 重复的 JavaScript</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟢 改进图片传送</p>
+<p class="p2"><br></p>
+<p class="p1">##### ⚪ INP 细分</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟢 LCP 细分</p>
+<p class="p2"><br></p>
+<p class="p1">##### ⚪ 发现 LCP 请求</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟢 旧版 JavaScript</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟢 第三方</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟢 针对移动设备优化视口</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">#### 诊断结果</p>
+<p class="p2"><br></p>
+<p class="p1">##### 🟡 减少未使用的 CSS — 预计节省 57 KiB</p>
+<p class="p2"><br></p>
+<p class="p1">- https://www.youtube.com/s/player/50cc0679/www-player.css (57 KB 未使用)</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">### 无障碍 (Accessibility) 🟢 96</p>
+<p class="p2"><br></p>
+<p class="p1">#### 🔴 背景色和前景色没有足够高的对比度。 (2 个元素)</p>
+<p class="p2"><br></p>
+<p class="p1">**1.** `div.container &gt; div.split &gt; div.card &gt; span.badge`</p>
+<p class="p1">- Fix any of the following:</p>
+<p class="p1"><span class="Apple-converted-space">  </span>Element has insufficient color contrast of 3.22 (foreground color: #ffffff, background color: #ff2bd0, font size: 10.2pt (13.6px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+<p class="p1">```html</p>
+<p class="p1">&lt;span class="badge"&gt;</p>
+<p class="p1">```</p>
+<p class="p1">**2.** `div.container &gt; div.cta-banner &gt; div &gt; span.badge`</p>
+<p class="p1">- Fix any of the following:</p>
+<p class="p1"><span class="Apple-converted-space">  </span>Element has insufficient color contrast of 3.22 (foreground color: #ffffff, background color: #ff2bd0, font size: 10.2pt (13.6px), font weight: normal). Expected contrast ratio of 4.5:1</p>
+<p class="p1">```html</p>
+<p class="p1">&lt;span class="badge"&gt;</p>
+<p class="p1">```</p>
+<p class="p2"><br></p>
+<p class="p1">#### 🔴 带有可见文本标签的元素没有匹配的无障碍名称。 (8 个元素)</p>
+<p class="p2"><br></p>
+<p class="p1">**1.** `div.container &gt; div.cards &gt; div.level-card &gt; a.level-open`</p>
+<p class="p1">- Fix any of the following:</p>
+<p class="p1"><span class="Apple-converted-space">  </span>Text inside the element is not included in the accessible name</p>
+<p class="p1">```html</p>
+<p class="p1">&lt;a class="level-open" href="level/1" aria-label="Open Pixel Flow Level 1-10. Walkthrough Gameplay"&gt;</p>
+<p class="p1">```</p>
+<p class="p1">**2.** `div.container &gt; div.cards &gt; div.level-card &gt; a.level-open`</p>
+<p class="p1">- Fix any of the following:</p>
+<p class="p1"><span class="Apple-converted-space">  </span>Text inside the element is not included in the accessible name</p>
+<p class="p1">```html</p>
+<p class="p1">&lt;a class="level-open" href="level/11" aria-label="Open Pixel Flow Level 11. Walkthrough Gameplay"&gt;</p>
+<p class="p1">```</p>
+<p class="p1">**3.** `div.container &gt; div.cards &gt; div.level-card &gt; a.level-open`</p>
+<p class="p1">- Fix any of the following:</p>
+<p class="p1"><span class="Apple-converted-space">  </span>Text inside the element is not included in the accessible name</p>
+<p class="p1">```html</p>
+<p class="p1">&lt;a class="level-open" href="level/12" aria-label="Open Pixel Flow Level 12. Walkthrough Gameplay"&gt;</p>
+<p class="p1">```</p>
+<p class="p1">**4.** `div.container &gt; div.cards &gt; div.level-card &gt; a.level-open`</p>
+<p class="p1">- Fix any of the following:</p>
+<p class="p1"><span class="Apple-converted-space">  </span>Text inside the element is not included in the accessible name</p>
+<p class="p1">```html</p>
+<p class="p1">&lt;a class="level-open" href="level/13" aria-label="Open Pixel Flow Level 13. Walkthrough Gameplay"&gt;</p>
+<p class="p1">```</p>
+<p class="p1">**5.** `div.container &gt; div.cards &gt; div.level-card &gt; a.level-open`</p>
+<p class="p1">- Fix any of the following:</p>
+<p class="p1"><span class="Apple-converted-space">  </span>Text inside the element is not included in the accessible name</p>
+<p class="p1">```html</p>
+<p class="p1">&lt;a class="level-open" href="level/14" aria-label="Open Pixel Flow Level 14. Walkthrough Gameplay"&gt;</p>
+<p class="p1">```</p>
+<p class="p1">**6.** `div.container &gt; div.cards &gt; div.level-card &gt; a.level-open`</p>
+<p class="p1">- Fix any of the following:</p>
+<p class="p1"><span class="Apple-converted-space">  </span>Text inside the element is not included in the accessible name</p>
+<p class="p1">```html</p>
+<p class="p1">&lt;a class="level-open" href="level/15" aria-label="Open Pixel Flow Level 15. Walkthrough Gameplay"&gt;</p>
+<p class="p1">```</p>
+<p class="p1">**7.** `div.container &gt; div.cards &gt; div.level-card &gt; a.level-open`</p>
+<p class="p1">- Fix any of the following:</p>
+<p class="p1"><span class="Apple-converted-space">  </span>Text inside the element is not included in the accessible name</p>
+<p class="p1">```html</p>
+<p class="p1">&lt;a class="level-open" href="level/16" aria-label="Open Pixel Flow Level 16. Walkthrough Gameplay"&gt;</p>
+<p class="p1">```</p>
+<p class="p1">**8.** `div.container &gt; div.cards &gt; div.level-card &gt; a.level-open`</p>
+<p class="p1">- Fix any of the following:</p>
+<p class="p1"><span class="Apple-converted-space">  </span>Text inside the element is not included in the accessible name</p>
+<p class="p1">```html</p>
+<p class="p1">&lt;a class="level-open" href="level/17" aria-label="Open Pixel Flow Level 17. Walkthrough Gameplay"&gt;</p>
+<p class="p1">```</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">### 最佳做法 (Best Practices) 🟡 73</p>
+<p class="p2"><br></p>
+<p class="p1">#### 🔴 使用第三方 Cookie</p>
+<p class="p2"><br></p>
+<p class="p1">- https://www.youtube.com/embed/W_ILad-El9w</p>
+<p class="p1">- https://www.youtube.com/embed/W_ILad-El9w</p>
+<p class="p1">- https://www.youtube.com/embed/W_ILad-El9w</p>
+<p class="p2"><br></p>
+<p class="p1">#### 🔴 控制台日志中已记录浏览器错误</p>
+<p class="p2"><br></p>
+<p class="p1">- exception</p>
+<p class="p2"><br></p>
+<p class="p1">#### 🔴 问题记录在 Chrome Devtools 的“`Issues`”面板中</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">### SEO 🟢 100</p>
+<p class="p2"><br></p>
+<p class="p1">无问题 ✓</p>
+<p class="p2"><br></p>
+</body>
+</html>
