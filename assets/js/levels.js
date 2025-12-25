@@ -16,12 +16,11 @@
     return '';
   }
 
-  const detailPageRaw = (document.body && document.body.dataset.detailPage) || 'level';
-  const detailPage = detailPageRaw.endsWith('/') ? detailPageRaw.replace(/\/+$/, '') : detailPageRaw;
+  const detailPage = (document.body && document.body.dataset.detailPage) || 'level.html';
 
   function buildCard(entry) {
     const levelNumber = entry.levelStart || entry.levelEnd || 1;
-    const link = `${detailPage}/${levelNumber}`;
+    const link = `${detailPage}?level=${levelNumber}`;
     const card = document.createElement('div');
     card.className = 'level-card';
     card.setAttribute('role', 'button');
@@ -101,7 +100,7 @@
           alert('Level not found in current playlist data.');
           return;
         }
-        window.location.href = `${detailPage}/${targetLevel}`;
+        window.location.href = `${detailPage}?level=${targetLevel}`;
       }
 
       button.addEventListener('click', jump);
@@ -185,7 +184,7 @@
       if (searchError) searchError.style.display = 'none';
       const entry = findEntryByLevel(searchInput.value);
       if (entry) {
-        window.location.href = `${detailPage}/${searchInput.value}`;
+        window.location.href = `${detailPage}?level=${searchInput.value}`;
       } else if (searchError) {
         searchError.style.display = 'block';
       }
@@ -240,7 +239,7 @@
       const guideLink =
         entry.guideLink ||
         entry.href ||
-        (entry.levelStart || entry.levelEnd ? `${detailPage}/${entry.levelStart || entry.levelEnd}` : '');
+        (entry.levelStart || entry.levelEnd ? `${detailPage}?level=${entry.levelStart || entry.levelEnd}` : '');
       if (previewTitle) previewTitle.textContent = entry.title || entry.levelLabel || 'Pixel Flow Walkthrough';
       if (previewMeta) previewMeta.textContent = entry.subtitle || 'Video walkthrough';
       if (previewLink && guideLink) previewLink.href = guideLink;
@@ -261,7 +260,7 @@
         title: defaultEntry.title,
         subtitle: defaultEntry.subtitle,
         levelLabel: rangeLabel(defaultEntry),
-        guideLink: `${detailPage}/${defaultEntry.levelStart || defaultEntry.levelEnd || 1}`,
+        guideLink: `${detailPage}?level=${defaultEntry.levelStart || defaultEntry.levelEnd || 1}`,
       });
     }
 
