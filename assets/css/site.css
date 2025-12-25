@@ -499,7 +499,7 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .feature-list {
@@ -571,19 +571,14 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: radial-gradient(circle, #ff4fd8 30%, #ff9ae8 90%);
-  border: 2px solid var(--ink);
-  box-shadow: var(--shadow);
+  width: 68px;
+  height: 48px;
+  border-radius: 12px;
   display: grid;
   place-items: center;
-  color: #0d0b12;
-  font-weight: 900;
-  font-size: 0.95rem;
-  text-shadow: -1px -1px 0 #fff, 1px 1px 0 #0d0b12;
-  opacity: 0.75;
+  opacity: 0.9;
+  z-index: 2;
+  filter: drop-shadow(0 6px 0 #0d0b12) drop-shadow(0 0 12px rgba(255, 122, 223, 0.5));
 }
 
 .video-lite:hover .play-badge {
@@ -591,24 +586,49 @@ p {
   opacity: 1;
 }
 
-.video-lite span {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0.65rem 0.9rem;
-  background: linear-gradient(90deg, #ff2bd0, #6df6ff);
-  color: #0d0b12;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  border-top: 2px solid var(--ink);
-  box-shadow: 0 -3px 0 #0d0b12;
-}
-
 .video-lite:focus-visible {
   outline: 3px solid var(--ink);
   outline-offset: -6px;
+}
+
+.related-levels {
+  margin-top: 1.25rem;
+  padding: 1rem;
+  border: 2px solid var(--ink);
+  background: #fff;
+  box-shadow: var(--shadow-soft);
+}
+
+.related-levels h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+  gap: 0.5rem;
+}
+
+.related-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.5rem;
+  border: 2px solid var(--ink);
+  background: linear-gradient(135deg, #ff7adf, #6df6ff);
+  color: #0d0b12;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  border-radius: 0;
+}
+
+.related-chip:hover,
+.related-chip:focus-visible {
+  outline: 3px solid #0d0b12;
+  outline-offset: 2px;
+  transform: translateY(-1px);
 }
 
 .yt-link {

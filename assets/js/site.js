@@ -210,14 +210,22 @@
 
     const playBadge = document.createElement('div');
     playBadge.className = 'play-badge';
-    playBadge.textContent = '▶';
-
-    const label = document.createElement('span');
-    label.textContent = '播放';
+    const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svg.setAttribute('viewBox', '0 0 68 48');
+    svg.setAttribute('aria-hidden', 'true');
+    const bg = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    bg.setAttribute('class', 'ytp-large-play-button-bg');
+    bg.setAttribute('d', 'M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z');
+    bg.setAttribute('fill', '#ff2bd0');
+    const tri = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    tri.setAttribute('d', 'M 27 14 L 45 24 L 27 34 z');
+    tri.setAttribute('fill', '#0d0b12');
+    svg.appendChild(bg);
+    svg.appendChild(tri);
+    playBadge.appendChild(svg);
 
     button.appendChild(img);
     button.appendChild(playBadge);
-    button.appendChild(label);
     container.appendChild(button);
 
     button.addEventListener('click', () => {
@@ -236,11 +244,10 @@
   };
 
   function convertStaticLevelFrames() {
-    if (!/\\/levels\\//.test(window.location.pathname || '')) return;
     const frames = Array.from(document.querySelectorAll('.video-frame iframe'));
     frames.forEach((iframe) => {
       const src = iframe.getAttribute('src') || '';
-      const match = src.match(/embed\\/([^?]+)/);
+      const match = src.match(/embed\/([^?]+)/);
       const vid = match && match[1] ? match[1] : '';
       if (!vid) return;
       const title = iframe.getAttribute('title') || 'Pixel Flow walkthrough';
