@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 - Page not found | Pixel Flow</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #0b0014; color: #fefefe; text-align: center; }
+    a { color: #ff7adf; }
+  </style>
+</head>
+<body>
+  <h1>404 - Page not found</h1>
+  <p>We can't find that Pixel Flow page. You will be redirected shortly.</p>
+  <p>If not, <a id="fallback" href="/">click here</a> to return home.</p>
+  <script>
+    (function () {
+      var path = window.location.pathname || '';
+      var match = path.match(/\/level\/(\d+)/);
+      if (match && match[1]) {
+        var target = '/level/' + match[1];
+        document.getElementById('fallback').setAttribute('href', target);
+        window.location.replace(target);
+        return;
+      }
+      setTimeout(function () { window.location.replace('/'); }, 3000);
+    })();
+  </script>
+</body>
+</html>
