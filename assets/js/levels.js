@@ -16,13 +16,13 @@
     return '';
   }
 
-  const detailPageRaw = (document.body && document.body.dataset.detailPage) || 'levels';
+  const detailPageRaw = (document.body && document.body.dataset.detailPage) || 'level';
   const detailPage = detailPageRaw.endsWith('/') ? detailPageRaw.replace(/\/+$/, '') : detailPageRaw;
 
   function buildHref(entry) {
     if (!entry) return '#';
-    const slug = entry.slug || (entry.levelStart ? `level-${entry.levelStart}` : 'level-1');
-    return `${detailPage}/${slug}.html`;
+    const levelNumber = entry.levelStart || entry.levelEnd || 1;
+    return `${detailPage}/${levelNumber}`;
   }
 
   function buildCard(entry) {
