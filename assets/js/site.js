@@ -253,8 +253,13 @@
       const title = iframe.getAttribute('title') || 'Pixel Flow walkthrough';
       const container = iframe.closest('.video-frame') || iframe.parentElement;
       if (!container) return;
+      const nav = container.querySelector('.level-nav');
       if (typeof window.pixelFlowCreatePlayer === 'function') {
         window.pixelFlowCreatePlayer(container, vid, title);
+      }
+      if (nav) {
+        nav.remove();
+        container.insertAdjacentElement('afterend', nav);
       }
     });
   }
