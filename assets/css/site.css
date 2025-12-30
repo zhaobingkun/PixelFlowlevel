@@ -631,6 +631,33 @@ p {
   transform: translateY(-1px);
 }
 
+.level-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.level-nav-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 0.75rem;
+  border: 2px solid var(--ink);
+  background: linear-gradient(135deg, #6df6ff, #ff7adf);
+  color: #0d0b12;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.level-nav-link:hover,
+.level-nav-link:focus-visible {
+  outline: 3px solid #0d0b12;
+  outline-offset: 2px;
+  transform: translateY(-1px);
+}
+
 .yt-link {
   display: inline-flex;
   align-items: center;
