@@ -259,5 +259,16 @@
     });
   }
 
+  function repositionLevelNavs() {
+    document.querySelectorAll('.video-frame .level-nav').forEach((nav) => {
+      const parent = nav.parentElement;
+      const wrapper = parent && parent.classList.contains('video-frame') ? parent : null;
+      if (wrapper && wrapper.parentElement) {
+        wrapper.parentElement.insertBefore(nav, wrapper.nextSibling);
+      }
+    });
+  }
+
   convertStaticLevelFrames();
+  repositionLevelNavs();
 })();
