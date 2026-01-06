@@ -22,7 +22,7 @@
   function buildHref(entry) {
     if (!entry) return '#';
     const levelNumber = entry.levelStart || entry.levelEnd || 1;
-    return `${detailPage}/${levelNumber}`;
+    return `${detailPage}/${levelNumber}/`;
   }
 
   function buildCard(entry) {
@@ -110,7 +110,7 @@
         if (entry) {
           window.location.href = buildHref(entry);
         } else {
-          window.location.href = `${detailPage}/level-${targetLevel}.html`;
+          window.location.href = `${detailPage}/${targetLevel}/`;
         }
       }
 
@@ -198,7 +198,7 @@
         if (entry) {
           window.location.href = buildHref(entry);
         } else {
-          window.location.href = `${detailPage}/level-${searchInput.value}.html`;
+          window.location.href = `${detailPage}/${searchInput.value}/`;
         }
       } else if (searchError) {
         searchError.style.display = 'block';

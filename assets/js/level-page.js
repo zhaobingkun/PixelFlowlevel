@@ -24,7 +24,7 @@
 
   function updateUrl(levelNum) {
     if (!Number.isFinite(levelNum) || levelNum <= 0) return;
-    const target = `/level/${levelNum}`;
+    const target = `/level/${levelNum}/`;
     if (window.location.pathname !== target) {
       window.history.replaceState({}, '', target);
     }
@@ -112,7 +112,7 @@
     for (let lvl = start; lvl <= end; lvl++) {
       const link = document.createElement('a');
       link.className = 'related-chip';
-      link.href = `levels/level-${lvl}.html`;
+      link.href = `/level/${lvl}/`;
       link.textContent = lvl;
       fragment.appendChild(link);
     }
