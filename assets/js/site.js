@@ -274,6 +274,30 @@
     });
   }
 
+  function moveRelatedNextToVideo() {
+    const body = document.body;
+    if (!body || body.dataset.detailPage !== '/level') return;
+    const videoFrame = document.querySelector('.video-frame');
+    const related = document.querySelector('.related-levels');
+    if (!videoFrame || !related) return;
+
+    // If already moved, skip
+    if (related.dataset.moved === 'true' || (videoFrame.parentElement && videoFrame.parentElement.classList.contains('video-related-row'))) {
+      return;
+    }
+
+    const parent = videoFrame.parentElement;
+    if (!parent || !parent.parentNode) return;
+
+    const row = document.createElement('div');
+    row.className = 'video-related-row';
+    parent.parentNode.insertBefore(row, parent);
+    row.appendChild(parent);
+    row.appendChild(related);
+    related.dataset.moved = 'true';
+  }
+
   convertStaticLevelFrames();
   repositionLevelNavs();
+  moveRelatedNextToVideo();
 })();

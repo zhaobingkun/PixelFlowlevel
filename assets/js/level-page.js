@@ -121,6 +121,7 @@
   }
 
   function init() {
+    moveRelatedNextToVideo();
     const levelNum = getLevelFromUrl();
     const entry = Number.isFinite(levelNum) ? findEntryByLevel(levelNum) : null;
     const fallback = !entry && data.length ? data[0] : null;
@@ -134,5 +135,22 @@
     init();
   } else {
     showError('Playlist data not loaded.');
+  }
+
+  function moveRelatedNextToVideo() {
+    const split = document.querySelector('.split');
+    if (!split) return;
+    const columns = split.querySelectorAll(':scope > div');
+    if (columns.length < 2) return;
+    const left = columns[0];
+    const right = columns[1];
+    const related = right.querySelector('.related-levels');
+    if (!related || !left || !left.parentNode) return;
+    // Wrap video and related list side by side
+    const row = document.createElement('div');
+    row.className = 'video-related-row';
+    left.parentNode.insertBefore(row, left);
+    row.appendChild(left);
+    row.appendChild(related);
   }
 })();
