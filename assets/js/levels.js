@@ -141,7 +141,7 @@
 
     const maxLevel = data.reduce((max, entry) => {
       return entry.levelEnd && entry.levelEnd > max ? entry.levelEnd : max;
-    }, 0);
+    }, 0) || 550;
 
     const step = 50;
     const ranges = [];
