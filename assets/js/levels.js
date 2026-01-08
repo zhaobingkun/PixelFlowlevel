@@ -107,11 +107,13 @@
           alert('Level not found in current playlist data.');
           return;
         }
-        if (entry) {
-          window.location.href = buildHref(entry);
-        } else {
-          window.location.href = `${detailPage}/${targetLevel}/`;
+        const targetNum = Number(targetLevel);
+        if (!entry || !Number.isFinite(targetNum) || targetNum > maxLevel) {
+          const fallbackPath = `${detailPage}/${targetLevel}/`;
+          window.location.href = `/404.html?from=${encodeURIComponent(fallbackPath)}`;
+          return;
         }
+        window.location.href = buildHref(entry);
       }
 
       button.addEventListener('click', jump);
@@ -194,13 +196,17 @@
       if (!searchInput) return;
       if (searchError) searchError.style.display = 'none';
       const entry = findEntryByLevel(searchInput.value);
-      if (entry) {
-        if (entry) {
-          window.location.href = buildHref(entry);
-        } else {
-          window.location.href = `${detailPage}/${searchInput.value}/`;
-        }
-      } else if (searchError) {
+      const targetNum = Number(searchInput.value);
+      if (entry && Number.isFinite(targetNum) && targetNum <= maxLevel) {
+        window.location.href = buildHref(entry);
+        return;
+      }
+      if (Number.isFinite(targetNum) && targetNum > maxLevel) {
+        const fallbackPath = `${detailPage}/${searchInput.value}/`;
+        window.location.href = `/404.html?from=${encodeURIComponent(fallbackPath)}`;
+        return;
+      }
+      if (searchError) {
         searchError.style.display = 'block';
       }
     }
