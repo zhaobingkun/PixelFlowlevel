@@ -16,12 +16,17 @@
     return '';
   }
 
+  const maxLevelGlobal = data.reduce((max, entry) => {
+    if (!entry.levelEnd) return max;
+    return entry.levelEnd > max ? entry.levelEnd : max;
+  }, 0) || 550;
+
   const detailPageRaw = (document.body && document.body.dataset.detailPage) || 'level';
   const detailPage = detailPageRaw.endsWith('/') ? detailPageRaw.replace(/\/+$/, '') : detailPageRaw;
 
-  function buildHref(entry) {
+  function buildHref(entry, levelOverride) {
     if (!entry) return '#';
-    const levelNumber = entry.levelStart || entry.levelEnd || 1;
+    const levelNumber = levelOverride || entry.levelStart || entry.levelEnd || 1;
     return `${detailPage}/${levelNumber}/`;
   }
 
@@ -108,12 +113,12 @@
           return;
         }
         const targetNum = Number(targetLevel);
-        if (!entry || !Number.isFinite(targetNum) || targetNum > maxLevel) {
+        if (!entry || !Number.isFinite(targetNum) || targetNum > maxLevelGlobal) {
           const fallbackPath = `${detailPage}/${targetLevel}/`;
           window.location.href = `/404.html?from=${encodeURIComponent(fallbackPath)}`;
           return;
         }
-        window.location.href = buildHref(entry);
+        window.location.href = buildHref(entry, targetNum);
       }
 
       button.addEventListener('click', jump);
@@ -141,16 +146,12 @@
     const searchButton = document.querySelector('[data-level-search-btn]');
     const searchError = document.querySelector('[data-level-search-error]');
 
-    const maxLevel = data.reduce((max, entry) => {
-      return entry.levelEnd && entry.levelEnd > max ? entry.levelEnd : max;
-    }, 0) || 550;
-
     const step = 50;
     const ranges = [];
-    for (let start = 1; start <= maxLevel; start += step) {
-      const end = Math.min(start + step - 1, maxLevel);
-      ranges.push({ start, end, label: `${start}-${end}` });
-    }
+      for (let start = 1; start <= maxLevelGlobal; start += step) {
+        const end = Math.min(start + step - 1, maxLevelGlobal);
+        ranges.push({ start, end, label: `${start}-${end}` });
+      }
 
     function render(list) {
       grid.innerHTML = '';
@@ -197,11 +198,11 @@
       if (searchError) searchError.style.display = 'none';
       const entry = findEntryByLevel(searchInput.value);
       const targetNum = Number(searchInput.value);
-      if (entry && Number.isFinite(targetNum) && targetNum <= maxLevel) {
-        window.location.href = buildHref(entry);
+      if (entry && Number.isFinite(targetNum) && targetNum <= maxLevelGlobal) {
+        window.location.href = buildHref(entry, targetNum);
         return;
       }
-      if (Number.isFinite(targetNum) && targetNum > maxLevel) {
+      if (Number.isFinite(targetNum) && targetNum > maxLevelGlobal) {
         const fallbackPath = `${detailPage}/${searchInput.value}/`;
         window.location.href = `/404.html?from=${encodeURIComponent(fallbackPath)}`;
         return;
