@@ -297,7 +297,85 @@
     related.dataset.moved = 'true';
   }
 
+  function openSharePopup(url, title) {
+    const w = 760;
+    const h = 640;
+    const left = (window.screen.width - w) / 2;
+    const top = (window.screen.height - h) / 2;
+    const win = window.open(
+      url,
+      title || 'Share',
+      `width=${w},height=${h},top=${top},left=${left},noopener,noreferrer`
+    );
+    if (!win || win.closed || typeof win.closed === 'undefined') {
+      // Popup blocked: do nothing so the current page stays as-is.
+      console.warn('Popup blocked. Allow popups to share this level.');
+    } else {
+      try { win.focus(); } catch (e) { /* ignore */ }
+    }
+  }
+
+  function injectShareBox() {
+    const body = document.body;
+    if (!body || body.dataset.detailPage !== '/level') return;
+    const videoFrame = document.querySelector('.video-frame');
+    if (!videoFrame) return;
+    if (videoFrame.nextElementSibling && videoFrame.nextElementSibling.classList.contains('share-box')) return;
+
+    const url = window.location.href;
+    const title = (document.querySelector('h1') || {}).textContent || 'Pixel Flow level guide';
+
+    const share = document.createElement('div');
+    share.className = 'share-box';
+
+    const h = document.createElement('h3');
+    h.textContent = 'Share This Level Guide';
+    const p = document.createElement('p');
+    p.textContent = 'Help other Pixel Flow players by sharing this walkthrough guide.';
+
+    const actions = document.createElement('div');
+    actions.className = 'share-actions';
+
+    const links = [
+      { cls: 'share-facebook', label: 'Facebook', href: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}` },
+      { cls: 'share-twitter', label: 'Twitter', href: `https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}&text=${encodeURIComponent(title)}` },
+      { cls: 'share-reddit', label: 'Reddit', href: `https://www.reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}` },
+      { cls: 'share-whatsapp', label: 'WhatsApp', href: `https://api.whatsapp.com/send?text=${encodeURIComponent(title + ' ' + url)}` },
+    ];
+
+    links.forEach(item => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = `share-btn ${item.cls}`;
+      btn.textContent = item.label;
+      btn.addEventListener('click', () => openSharePopup(item.href, item.label));
+      actions.appendChild(btn);
+    });
+
+    const copyBtn = document.createElement('button');
+    copyBtn.type = 'button';
+    copyBtn.className = 'share-btn share-copy';
+    copyBtn.textContent = 'Copy Link';
+    copyBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(url);
+        copyBtn.textContent = 'Copied!';
+        setTimeout(() => { copyBtn.textContent = 'Copy Link'; }, 1600);
+      } catch (err) {
+        window.prompt('Copy this link', url);
+      }
+    });
+    actions.appendChild(copyBtn);
+
+    share.appendChild(h);
+    share.appendChild(p);
+    share.appendChild(actions);
+
+    videoFrame.insertAdjacentElement('afterend', share);
+  }
+
   convertStaticLevelFrames();
   repositionLevelNavs();
   moveRelatedNextToVideo();
+  injectShareBox();
 })();
