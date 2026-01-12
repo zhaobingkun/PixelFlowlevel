@@ -658,6 +658,117 @@ p {
   transform: translateY(-1px);
 }
 
+.share-box {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 2px solid var(--ink);
+  background: #e9fdf2;
+  box-shadow: var(--shadow-soft);
+}
+
+.share-box h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.share-box p {
+  margin: 0 0 0.75rem;
+  font-family: "VT323", "Courier New", monospace;
+  letter-spacing: 0.02em;
+}
+
+.share-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.5rem 0.9rem;
+  border: 2px solid var(--ink);
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  box-shadow: var(--shadow-soft);
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.share-btn:focus-visible,
+.share-btn:hover {
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+  transform: translateY(-1px);
+}
+
+.share-facebook { background: #1877f2; }
+.share-twitter { background: #1d9bf0; }
+.share-reddit { background: #ff4500; }
+.share-whatsapp { background: #25d366; }
+.share-copy { background: #3b4454; }
+
+.share-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.share-modal {
+  background: #fff;
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  width: min(460px, 90%);
+}
+
+.share-modal h4 {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+}
+
+.share-modal p {
+  margin: 0 0 0.8rem;
+}
+
+.share-modal .link-box {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.share-modal input[type=text] {
+  width: 100%;
+  padding: 0.6rem 0.7rem;
+  border: 2px solid var(--ink);
+  background: #fffdfd;
+}
+
+.share-modal .modal-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.share-modal button {
+  border: 2px solid var(--ink);
+  padding: 0.55rem 0.9rem;
+  background: linear-gradient(135deg, #6df6ff, #ff7adf);
+  color: #0d0b12;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: var(--shadow-soft);
+}
+
 .yt-link {
   display: inline-flex;
   align-items: center;
