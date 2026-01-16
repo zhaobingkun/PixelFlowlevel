@@ -434,6 +434,22 @@ p {
   font-size: 0.9rem;
 }
 
+.notice-box {
+  margin-top: 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  background: #eaf7ef;
+  border: 1px solid #cfe7d7;
+  color: #1f3328;
+}
+.notice-box h3 {
+  margin: 0 0 0.4rem;
+  font-weight: 800;
+}
+.notice-box p {
+  margin: 0.2rem 0;
+}
+
 .level-open {
   margin-top: 0.6rem;
   display: inline-block;
