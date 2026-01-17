@@ -20,6 +20,10 @@
     if (!entry.levelEnd) return max;
     return entry.levelEnd > max ? entry.levelEnd : max;
   }, 0) || 550;
+  const minLevelGlobal = data.reduce((min, entry) => {
+    if (!entry.levelStart) return min;
+    return entry.levelStart < min ? entry.levelStart : min;
+  }, Infinity);
 
   const detailPageRaw = (document.body && document.body.dataset.detailPage) || 'level';
   const detailPage = detailPageRaw.endsWith('/') ? detailPageRaw.replace(/\/+$/, '') : detailPageRaw;
@@ -148,14 +152,34 @@
 
     const step = 50;
     const ranges = [];
-      for (let start = 1; start <= maxLevelGlobal; start += step) {
+    const hasEntriesInRange = (start, end) =>
+      data.some((entry) => {
+        if (!entry.levelStart || !entry.levelEnd) return false;
+        return entry.levelStart <= end && entry.levelEnd >= start;
+      });
+    if (Number.isFinite(minLevelGlobal)) {
+      const firstRangeStart = Math.floor((minLevelGlobal - 1) / step) * step + 1;
+      for (let start = firstRangeStart; start <= maxLevelGlobal; start += step) {
         const end = Math.min(start + step - 1, maxLevelGlobal);
-        ranges.push({ start, end, label: `${start}-${end}` });
+        if (hasEntriesInRange(start, end)) {
+          ranges.push({ start, end, label: `${start}-${end}` });
+        }
       }
+    }
 
     function render(list) {
       grid.innerHTML = '';
-      list.forEach((entry) => grid.appendChild(buildCard(entry)));
+      list
+        .slice()
+        .sort((a, b) => {
+          const aStart = a.levelStart || 0;
+          const bStart = b.levelStart || 0;
+          if (aStart !== bStart) return aStart - bStart;
+          const aEnd = a.levelEnd || aStart;
+          const bEnd = b.levelEnd || bStart;
+          return aEnd - bEnd;
+        })
+        .forEach((entry) => grid.appendChild(buildCard(entry)));
       if (count) count.textContent = `${list.length} walkthroughs`;
       if (empty) empty.style.display = list.length ? 'none' : 'block';
     }
@@ -163,7 +187,7 @@
     function applyRange(start, end) {
       const filtered = data.filter((entry) => {
         if (!entry.levelStart || !entry.levelEnd) return false;
-        return entry.levelStart >= start && entry.levelEnd <= end;
+        return entry.levelStart <= end && entry.levelEnd >= start;
       });
       render(filtered);
     }
