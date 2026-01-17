@@ -24,6 +24,18 @@
     if (!entry.levelStart) return min;
     return entry.levelStart < min ? entry.levelStart : min;
   }, Infinity);
+  const availableLevels = (() => {
+    const set = new Set();
+    data.forEach((entry) => {
+      if (!entry.levelStart || !entry.levelEnd) return;
+      const start = Math.min(entry.levelStart, entry.levelEnd);
+      const end = Math.max(entry.levelStart, entry.levelEnd);
+      for (let lvl = start; lvl <= end; lvl++) {
+        set.add(lvl);
+      }
+    });
+    return Array.from(set).sort((a, b) => a - b);
+  })();
 
   const detailPageRaw = (document.body && document.body.dataset.detailPage) || 'level';
   const detailPage = detailPageRaw.endsWith('/') ? detailPageRaw.replace(/\/+$/, '') : detailPageRaw;
@@ -151,21 +163,8 @@
     const searchError = document.querySelector('[data-level-search-error]');
 
     const step = 50;
-    const ranges = [];
-    const hasEntriesInRange = (start, end) =>
-      data.some((entry) => {
-        if (!entry.levelStart || !entry.levelEnd) return false;
-        return entry.levelStart <= end && entry.levelEnd >= start;
-      });
-    if (Number.isFinite(minLevelGlobal)) {
-      const firstRangeStart = Math.floor((minLevelGlobal - 1) / step) * step + 1;
-      for (let start = firstRangeStart; start <= maxLevelGlobal; start += step) {
-        const end = Math.min(start + step - 1, maxLevelGlobal);
-        if (hasEntriesInRange(start, end)) {
-          ranges.push({ start, end, label: `${start}-${end}` });
-        }
-      }
-    }
+    const ranges = buildRangesFromData(step);
+    const rangeButtons = new Map();
 
     function render(list) {
       grid.innerHTML = '';
@@ -197,9 +196,12 @@
       const allButton = document.createElement('button');
       allButton.className = 'chip active';
       allButton.textContent = 'All Levels';
-      allButton.addEventListener('click', () => {
+      const activate = (button) => {
         filters.querySelectorAll('.chip').forEach((chip) => chip.classList.remove('active'));
-        allButton.classList.add('active');
+        button.classList.add('active');
+      };
+      allButton.addEventListener('click', () => {
+        activate(allButton);
         render(data);
       });
       filters.appendChild(allButton);
@@ -209,12 +211,28 @@
         button.className = 'chip';
         button.textContent = range.label;
         button.addEventListener('click', () => {
-          filters.querySelectorAll('.chip').forEach((chip) => chip.classList.remove('active'));
-          button.classList.add('active');
+          activate(button);
           applyRange(range.start, range.end);
         });
         filters.appendChild(button);
+        rangeButtons.set(`${range.start}-${range.end}`, button);
       });
+
+      const initialRange = getRangeFromQuery(ranges);
+      if (initialRange) {
+        const key = `${initialRange.start}-${initialRange.end}`;
+        const btn = rangeButtons.get(key);
+        if (btn) {
+          activate(btn);
+          applyRange(initialRange.start, initialRange.end);
+        } else {
+          render(data);
+        }
+      } else {
+        render(data);
+      }
+    } else {
+      render(data);
     }
 
     function searchJump() {
@@ -242,8 +260,6 @@
         if (event.key === 'Enter') searchJump();
       });
     }
-
-    render(data);
   }
 
   function setupPreview() {
@@ -341,8 +357,148 @@
     });
   }
 
+  function getCurrentLevelFromUrl() {
+    const match = (window.location.pathname || '').match(/\/level\/(\d+)/);
+    if (match && match[1]) {
+      const num = Number(match[1]);
+      if (Number.isFinite(num)) return num;
+    }
+    return null;
+  }
+
+  function pickNearbyLevels(current, count) {
+    const list = availableLevels;
+    if (!list.length) return [];
+    let anchor = list.indexOf(current);
+    if (anchor === -1) {
+      const nextIdx = list.findIndex((lvl) => lvl > current);
+      anchor = nextIdx === -1 ? list.length - 1 : nextIdx;
+    }
+    const chosen = [];
+    let offset = 0;
+    while (chosen.length < count && (anchor - offset >= 0 || anchor + offset < list.length)) {
+      if (offset === 0 && anchor >= 0) {
+        chosen.push(list[anchor]);
+      } else {
+        if (anchor + offset < list.length) chosen.push(list[anchor + offset]);
+        if (chosen.length >= count) break;
+        if (anchor - offset >= 0) chosen.push(list[anchor - offset]);
+      }
+      offset += 1;
+    }
+    return Array.from(new Set(chosen))
+      .slice(0, count)
+      .sort((a, b) => a - b);
+  }
+
+  function setupDetailQuickLinks() {
+    const grid = document.querySelector('.related-grid');
+    if (!grid) return;
+    const currentLevel = getCurrentLevelFromUrl();
+    if (!Number.isFinite(currentLevel)) return;
+    const nearby = pickNearbyLevels(currentLevel, 30);
+    if (!nearby.length) return;
+
+    const fragment = document.createDocumentFragment();
+    nearby.forEach((lvl) => {
+      const link = document.createElement('a');
+      link.className = 'related-chip';
+      link.href = `/level/${lvl}/`;
+      link.textContent = lvl;
+      fragment.appendChild(link);
+    });
+    grid.innerHTML = '';
+    grid.appendChild(fragment);
+  }
+
+  function buildRangesFromData(step) {
+    const ranges = [];
+    if (!Number.isFinite(minLevelGlobal) || !Number.isFinite(maxLevelGlobal)) return ranges;
+    const hasEntriesInRange = (start, end) =>
+      data.some((entry) => {
+        if (!entry.levelStart || !entry.levelEnd) return false;
+        return entry.levelStart <= end && entry.levelEnd >= start;
+      });
+    const firstRangeStart = Math.floor((minLevelGlobal - 1) / step) * step + 1;
+    for (let start = firstRangeStart; start <= maxLevelGlobal; start += step) {
+      const end = Math.min(start + step - 1, maxLevelGlobal);
+      if (hasEntriesInRange(start, end)) {
+        ranges.push({ start, end, label: `${start}-${end}` });
+      }
+    }
+    return ranges;
+  }
+
+  function getRangeFromQuery(ranges) {
+    if (!Array.isArray(ranges) || !ranges.length) return null;
+    const params = new URLSearchParams(window.location.search || '');
+    const value = params.get('range');
+    if (!value) return null;
+    const match = value.match(/(\d+)\s*-\s*(\d+)/);
+    if (!match) return null;
+    const start = Number(match[1]);
+    const end = Number(match[2]);
+    if (!Number.isFinite(start) || !Number.isFinite(end)) return null;
+    const found = ranges.find((range) => range.start === start && range.end === end);
+    return found || null;
+  }
+
+  function setupDetailRangeFilters() {
+    const related = document.querySelector('.related-levels');
+    if (!related) return;
+    if (document.querySelector('[data-detail-range-filters]')) return;
+    const ranges = buildRangesFromData(50);
+    if (!ranges.length) return;
+
+    const section = document.createElement('section');
+    section.className = 'section';
+    section.style.paddingTop = '2rem';
+    const container = document.createElement('div');
+    container.className = 'container';
+
+    const titleWrap = document.createElement('div');
+    titleWrap.className = 'section-title';
+    const h2 = document.createElement('h2');
+    h2.textContent = 'Filter by level range';
+    const p = document.createElement('p');
+    p.textContent = 'Browse the pixel flow guide in batches or view every level at once.';
+    titleWrap.appendChild(h2);
+    titleWrap.appendChild(p);
+
+    const chips = document.createElement('div');
+    chips.className = 'chips';
+    chips.setAttribute('data-detail-range-filters', '');
+
+    const all = document.createElement('a');
+    all.className = 'chip';
+    all.href = '/levels.html';
+    all.textContent = 'ALL LEVELS';
+    chips.appendChild(all);
+
+    ranges.forEach((range) => {
+      const link = document.createElement('a');
+      link.className = 'chip';
+      link.textContent = range.label;
+      link.href = `/levels.html?range=${range.label}`;
+      chips.appendChild(link);
+    });
+
+    container.appendChild(titleWrap);
+    container.appendChild(chips);
+    section.appendChild(container);
+
+    const heroSection = document.querySelector('.hero');
+    if (heroSection && heroSection.parentNode) {
+      heroSection.insertAdjacentElement('afterend', section);
+    } else {
+      document.querySelector('main')?.insertBefore(section, document.querySelector('main').firstChild || null);
+    }
+  }
+
   setupNavJump();
   setupHomeFeatured();
   setupLevelsPage();
+  setupDetailRangeFilters();
+  setupDetailQuickLinks();
   setupPreview();
 })();

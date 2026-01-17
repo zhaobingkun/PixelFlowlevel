@@ -1,5 +1,15 @@
 (function () {
   const data = window.PIXEL_FLOW_PLAYLIST || [];
+  const availableLevels = (() => {
+    const set = new Set();
+    data.forEach((entry) => {
+      if (!entry.levelStart || !entry.levelEnd) return;
+      const start = Math.min(entry.levelStart, entry.levelEnd);
+      const end = Math.max(entry.levelStart, entry.levelEnd);
+      for (let lvl = start; lvl <= end; lvl++) set.add(lvl);
+    });
+    return Array.from(set).sort((a, b) => a - b);
+  })();
 
   function findEntryByLevel(level) {
     if (!Number.isFinite(level)) return null;
@@ -106,18 +116,42 @@
     if (!grid) return;
     const center = Number(current);
     if (!Number.isFinite(center)) return;
-    const start = Math.max(1, center - 20);
-    const end = center + 20;
+    const nearby = pickNearbyLevels(center, 30);
     const fragment = document.createDocumentFragment();
-    for (let lvl = start; lvl <= end; lvl++) {
+    nearby.forEach((lvl) => {
       const link = document.createElement('a');
       link.className = 'related-chip';
       link.href = `/level/${lvl}/`;
       link.textContent = lvl;
       fragment.appendChild(link);
-    }
+    });
     grid.innerHTML = '';
     grid.appendChild(fragment);
+  }
+
+  function pickNearbyLevels(current, count) {
+    const list = availableLevels;
+    if (!list.length) return [];
+    let anchor = list.indexOf(current);
+    if (anchor === -1) {
+      const nextIdx = list.findIndex((lvl) => lvl > current);
+      anchor = nextIdx === -1 ? list.length - 1 : nextIdx;
+    }
+    const chosen = [];
+    let offset = 0;
+    while (chosen.length < count && (anchor - offset >= 0 || anchor + offset < list.length)) {
+      if (offset === 0 && anchor >= 0) {
+        chosen.push(list[anchor]);
+      } else {
+        if (anchor + offset < list.length) chosen.push(list[anchor + offset]);
+        if (chosen.length >= count) break;
+        if (anchor - offset >= 0) chosen.push(list[anchor - offset]);
+      }
+      offset += 1;
+    }
+    return Array.from(new Set(chosen))
+      .slice(0, count)
+      .sort((a, b) => a - b);
   }
 
   function init() {
