@@ -5166,6 +5166,348 @@ window.PIXEL_FLOW_PLAYLIST = [
     "videoId": "9bdqarS9owg"
   },
   {
+    "title": "Pixel Flow Level 588 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 588 Solution Walkthrough walkthrough video",
+    "href": "https://www.youtube.com/watch?v=oh-GAaxtX9Y",
+    "levelStart": 588,
+    "levelEnd": 588,
+    "slug": "level-588",
+    "videoId": "oh-GAaxtX9Y"
+  },
+  {
+    "title": "Pixel Flow Level 589 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 589 Solution Walkthrough walkthrough video",
+    "href": "https://www.youtube.com/watch?v=FsBq02Tim2c",
+    "levelStart": 589,
+    "levelEnd": 589,
+    "slug": "level-589",
+    "videoId": "FsBq02Tim2c"
+  },
+  {
+    "title": "Pixel Flow Level 590 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 590 Solution Walkthrough walkthrough video",
+    "href": "https://www.youtube.com/watch?v=DKashFIeBmc",
+    "levelStart": 590,
+    "levelEnd": 590,
+    "slug": "level-590",
+    "videoId": "DKashFIeBmc"
+  },
+  {
+    "title": "Pixel Flow Level 591 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 591 Solution Walkthrough walkthrough video",
+    "href": "https://www.youtube.com/watch?v=30w3f5Ms290",
+    "levelStart": 591,
+    "levelEnd": 591,
+    "slug": "level-591",
+    "videoId": "30w3f5Ms290"
+  },
+  {
+    "title": "Pixel Flow Level 592 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 592 Solution Walkthrough walkthrough video",
+    "href": "https://www.youtube.com/watch?v=gmG6icnbuTM",
+    "levelStart": 592,
+    "levelEnd": 592,
+    "slug": "level-592",
+    "videoId": "gmG6icnbuTM"
+  },
+  {
+    "title": "Pixel Flow Level 593 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 593 Solution Walkthrough walkthrough video",
+    "href": "https://www.youtube.com/watch?v=ImWfHP7Q0UU",
+    "levelStart": 593,
+    "levelEnd": 593,
+    "slug": "level-593",
+    "videoId": "ImWfHP7Q0UU"
+  },
+  {
+    "title": "Pixel Flow Level 594 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 594 Solution Walkthrough walkthrough video",
+    "href": "https://www.youtube.com/watch?v=qvZYLlK03pk",
+    "levelStart": 594,
+    "levelEnd": 594,
+    "slug": "level-594",
+    "videoId": "qvZYLlK03pk"
+  },
+  {
+    "title": "Pixel Flow Level 595 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 595 Solution Walkthrough walkthrough video",
+    "href": "https://www.youtube.com/watch?v=_rFC8brH6oE",
+    "levelStart": 595,
+    "levelEnd": 595,
+    "slug": "level-595",
+    "videoId": "_rFC8brH6oE"
+  },
+  {
+    "title": "Pixel Flow Level 596 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 596 Solution Walkthrough walkthrough video",
+    "href": "https://www.youtube.com/watch?v=ZZUutI6ytBw",
+    "levelStart": 596,
+    "levelEnd": 596,
+    "slug": "level-596",
+    "videoId": "ZZUutI6ytBw"
+  },
+  {
+    "title": "Pixel Flow Level 597 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 597 Solution Walkthrough walkthrough video",
+    "href": "https://www.youtube.com/watch?v=KhTTN0CLbpE",
+    "levelStart": 597,
+    "levelEnd": 597,
+    "slug": "level-597",
+    "videoId": "KhTTN0CLbpE"
+  },
+  {
+    "title": "Pixel flow level 671",
+    "subtitle": "Pixel flow level 671 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=UxlS3UHA9h4",
+    "levelStart": 671,
+    "levelEnd": 671,
+    "slug": "level-671",
+    "videoId": "UxlS3UHA9h4"
+  },
+  {
+    "title": "Pixel flow level 672",
+    "subtitle": "Pixel flow level 672 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=SYwS9Ws0OJ4",
+    "levelStart": 672,
+    "levelEnd": 672,
+    "slug": "level-672",
+    "videoId": "SYwS9Ws0OJ4"
+  },
+  {
+    "title": "Pixel flow level 673",
+    "subtitle": "Pixel flow level 673 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=FNhhH3U7PpI",
+    "levelStart": 673,
+    "levelEnd": 673,
+    "slug": "level-673",
+    "videoId": "FNhhH3U7PpI"
+  },
+  {
+    "title": "Pixel flow level 674 hard",
+    "subtitle": "Pixel flow level 674 hard walkthrough video",
+    "href": "https://www.youtube.com/watch?v=lHpbhmHzTSk",
+    "levelStart": 674,
+    "levelEnd": 674,
+    "slug": "level-674",
+    "videoId": "lHpbhmHzTSk"
+  },
+  {
+    "title": "Pixel flow level 675",
+    "subtitle": "Pixel flow level 675 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=C1yF9UaWvPc",
+    "levelStart": 675,
+    "levelEnd": 675,
+    "slug": "level-675",
+    "videoId": "C1yF9UaWvPc"
+  },
+  {
+    "title": "Pixel flow level 676 very hard",
+    "subtitle": "Pixel flow level 676 very hard walkthrough video",
+    "href": "https://www.youtube.com/watch?v=1V6OQUPYwAM",
+    "levelStart": 676,
+    "levelEnd": 676,
+    "slug": "level-676",
+    "videoId": "1V6OQUPYwAM"
+  },
+  {
+    "title": "Pixel flow level 677",
+    "subtitle": "Pixel flow level 677 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=HMVZ0-42EX8",
+    "levelStart": 677,
+    "levelEnd": 677,
+    "slug": "level-677",
+    "videoId": "HMVZ0-42EX8"
+  },
+  {
+    "title": "Pixel flow level 678",
+    "subtitle": "Pixel flow level 678 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=RDm87vKpLfE",
+    "levelStart": 678,
+    "levelEnd": 678,
+    "slug": "level-678",
+    "videoId": "RDm87vKpLfE"
+  },
+  {
+    "title": "Pixel flow level 679",
+    "subtitle": "Pixel flow level 679 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=1bwr-W0ReoU",
+    "levelStart": 679,
+    "levelEnd": 679,
+    "slug": "level-679",
+    "videoId": "1bwr-W0ReoU"
+  },
+  {
+    "title": "Pixel flow level 680 hard",
+    "subtitle": "Pixel flow level 680 hard walkthrough video",
+    "href": "https://www.youtube.com/watch?v=8tv9q_kDZEg",
+    "levelStart": 680,
+    "levelEnd": 680,
+    "slug": "level-680",
+    "videoId": "8tv9q_kDZEg"
+  },
+  {
+    "title": "Pixel flow level 681",
+    "subtitle": "Pixel flow level 681 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=bR4x3Zpk5s8",
+    "levelStart": 681,
+    "levelEnd": 681,
+    "slug": "level-681",
+    "videoId": "bR4x3Zpk5s8"
+  },
+  {
+    "title": "Pixel flow level 682 very hard",
+    "subtitle": "Pixel flow level 682 very hard walkthrough video",
+    "href": "https://www.youtube.com/watch?v=3ExS6zBlDfo",
+    "levelStart": 682,
+    "levelEnd": 682,
+    "slug": "level-682",
+    "videoId": "3ExS6zBlDfo"
+  },
+  {
+    "title": "Pixel flow level 683",
+    "subtitle": "Pixel flow level 683 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=SHvXKjJHzn8",
+    "levelStart": 683,
+    "levelEnd": 683,
+    "slug": "level-683",
+    "videoId": "SHvXKjJHzn8"
+  },
+  {
+    "title": "Pixel flow level 684",
+    "subtitle": "Pixel flow level 684 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=zpYJi7XyISs",
+    "levelStart": 684,
+    "levelEnd": 684,
+    "slug": "level-684",
+    "videoId": "zpYJi7XyISs"
+  },
+  {
+    "title": "Pixel flow level 685",
+    "subtitle": "Pixel flow level 685 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=fUzbNyUVB1o",
+    "levelStart": 685,
+    "levelEnd": 685,
+    "slug": "level-685",
+    "videoId": "fUzbNyUVB1o"
+  },
+  {
+    "title": "Pixel flow level 686 hard",
+    "subtitle": "Pixel flow level 686 hard walkthrough video",
+    "href": "https://www.youtube.com/watch?v=4gM0_4UoKgg",
+    "levelStart": 686,
+    "levelEnd": 686,
+    "slug": "level-686",
+    "videoId": "4gM0_4UoKgg"
+  },
+  {
+    "title": "Pixel flow level 688",
+    "subtitle": "Pixel flow level 688 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=pizG55zL1R0",
+    "levelStart": 688,
+    "levelEnd": 688,
+    "slug": "level-688",
+    "videoId": "pizG55zL1R0"
+  },
+  {
+    "title": "Pixel flow level 689",
+    "subtitle": "Pixel flow level 689 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=-pq7Mjnu24Q",
+    "levelStart": 689,
+    "levelEnd": 689,
+    "slug": "level-689",
+    "videoId": "-pq7Mjnu24Q"
+  },
+  {
+    "title": "Pixel flow level 690",
+    "subtitle": "Pixel flow level 690 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=3Vysp9jYpgk",
+    "levelStart": 690,
+    "levelEnd": 690,
+    "slug": "level-690",
+    "videoId": "3Vysp9jYpgk"
+  },
+  {
+    "title": "Pixel flow level 691",
+    "subtitle": "Pixel flow level 691 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=ZR1eW2B8CY0",
+    "levelStart": 691,
+    "levelEnd": 691,
+    "slug": "level-691",
+    "videoId": "ZR1eW2B8CY0"
+  },
+  {
+    "title": "Pixel flow level 692 hard",
+    "subtitle": "Pixel flow level 692 hard walkthrough video",
+    "href": "https://www.youtube.com/watch?v=gEpN5uzshxQ",
+    "levelStart": 692,
+    "levelEnd": 692,
+    "slug": "level-692",
+    "videoId": "gEpN5uzshxQ"
+  },
+  {
+    "title": "Pixel flow level 693",
+    "subtitle": "Pixel flow level 693 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=B4s0yH40cwA",
+    "levelStart": 693,
+    "levelEnd": 693,
+    "slug": "level-693",
+    "videoId": "B4s0yH40cwA"
+  },
+  {
+    "title": "Pixel flow level 694 very hard",
+    "subtitle": "Pixel flow level 694 very hard walkthrough video",
+    "href": "https://www.youtube.com/watch?v=QMwc3309geE",
+    "levelStart": 694,
+    "levelEnd": 694,
+    "slug": "level-694",
+    "videoId": "QMwc3309geE"
+  },
+  {
+    "title": "Pixel flow level 695",
+    "subtitle": "Pixel flow level 695 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=k1Ls3fb5se4",
+    "levelStart": 695,
+    "levelEnd": 695,
+    "slug": "level-695",
+    "videoId": "k1Ls3fb5se4"
+  },
+  {
+    "title": "Pixel flow level 696",
+    "subtitle": "Pixel flow level 696 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=XhgtksKGV8Y",
+    "levelStart": 696,
+    "levelEnd": 696,
+    "slug": "level-696",
+    "videoId": "XhgtksKGV8Y"
+  },
+  {
+    "title": "Pixel flow level 697",
+    "subtitle": "Pixel flow level 697 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=LbIt6rTRxJs",
+    "levelStart": 697,
+    "levelEnd": 697,
+    "slug": "level-697",
+    "videoId": "LbIt6rTRxJs"
+  },
+  {
+    "title": "Pixel flow level 698",
+    "subtitle": "Pixel flow level 698 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=kRIn9Kxhnww",
+    "levelStart": 698,
+    "levelEnd": 698,
+    "slug": "level-698",
+    "videoId": "kRIn9Kxhnww"
+  },
+  {
+    "title": "Pixel flow level 699",
+    "subtitle": "Pixel flow level 699 walkthrough video",
+    "href": "https://www.youtube.com/watch?v=4PqcKWLnAt4",
+    "levelStart": 699,
+    "levelEnd": 699,
+    "slug": "level-699",
+    "videoId": "4PqcKWLnAt4"
+  },
+  {
     "title": "Pixel Flow Level 921",
     "subtitle": "Pixel Flow Level 921 walkthrough video",
     "href": "https://www.youtube.com/watch?v=hogcrng99IY",
