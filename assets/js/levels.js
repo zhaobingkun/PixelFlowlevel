@@ -40,6 +40,17 @@
   const detailPageRaw = (document.body && document.body.dataset.detailPage) || 'level';
   const detailPage = detailPageRaw.endsWith('/') ? detailPageRaw.replace(/\/+$/, '') : detailPageRaw;
 
+  function syncMaxInputs() {
+    const inputs = document.querySelectorAll('[data-nav-jump-input], [data-level-search-input]');
+    inputs.forEach((input) => {
+      input.max = String(maxLevelGlobal);
+      if (input.placeholder) {
+        input.placeholder = input.placeholder.replace(/1-\d+/, `1-${maxLevelGlobal}`);
+      }
+    });
+  }
+  syncMaxInputs();
+
   function buildHref(entry, levelOverride) {
     if (!entry) return '#';
     const levelNumber = levelOverride || entry.levelStart || entry.levelEnd || 1;
