@@ -61,6 +61,18 @@ def parse_list6_ini(text: str) -> dict[int, LevelVideo]:
     return level_to_video
 
 
+def parse_level_links(text: str) -> dict[int, LevelVideo]:
+    pairs = re.findall(
+        r"\b(\d{1,5})\s+https?://(?:www\.)?youtube\.com/watch\?v=([\w-]{11})\b", text
+    )
+    pairs += re.findall(r"\b(\d{1,5})\s+https?://youtu\.be/([\w-]{11})\b", text)
+    level_to_video: dict[int, LevelVideo] = {}
+    for level_str, vid in pairs:
+        lvl = int(level_str)
+        level_to_video.setdefault(lvl, LevelVideo(level=lvl, video_id=vid, source_title=f"Level {lvl}"))
+    return level_to_video
+
+
 def load_playlist_levels(repo_root: str) -> tuple[set[int], int]:
     playlist_path = os.path.join(repo_root, "assets", "js", "playlist-data.js")
     raw = open(playlist_path, "r", encoding="utf-8", errors="ignore").read()
@@ -372,17 +384,25 @@ def update_sitemap(repo_root: str, added_levels: Iterable[int], lastmod: str, dr
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Sync missing Pixel Flow levels from list6.ini playlist HTML.")
-    parser.add_argument("--ini", required=True, help="Path to list6.ini")
+    parser = argparse.ArgumentParser(description="Sync missing Pixel Flow levels from playlist sources.")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--ini", help="Path to list6.ini (YouTube playlist HTML dump)")
+    group.add_argument("--links", help="Path to a text/rtf file containing: <level> <youtube url> per line")
     parser.add_argument("--repo-root", default=".", help="Repo root containing assets/ and level/")
     parser.add_argument("--dry-run", action="store_true", help="Print what would change without writing")
     args = parser.parse_args()
 
     repo_root = os.path.abspath(args.repo_root)
-    ini_text = open(args.ini, "r", encoding="utf-8", errors="ignore").read()
-    mapping = parse_list6_ini(ini_text)
+    if args.ini:
+        src_text = open(args.ini, "r", encoding="utf-8", errors="ignore").read()
+        mapping = parse_list6_ini(src_text)
+        source_label = "ini"
+    else:
+        src_text = open(args.links, "r", encoding="utf-8", errors="ignore").read()
+        mapping = parse_level_links(src_text)
+        source_label = "links"
     if not mapping:
-        raise RuntimeError("No levels parsed from list6.ini")
+        raise RuntimeError("No levels parsed from source")
 
     covered_levels, playlist_max = load_playlist_levels(repo_root)
     max_level = max(playlist_max, max(mapping))
@@ -399,6 +419,7 @@ def main() -> int:
         dry_run=args.dry_run,
     )
 
+    print(f"Source: {source_label}")
     print(f"Parsed levels: {len(mapping)} (unique)")
     print(f"Playlist max level: {playlist_max}; mapping max level: {max(mapping)}; max: {max_level}")
     print(f"Missing in playlist: {len(missing_for_playlist)}")
@@ -410,4 +431,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
