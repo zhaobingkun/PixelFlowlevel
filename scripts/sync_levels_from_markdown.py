@@ -223,7 +223,6 @@ def build_level_page(level: int, title: str, video_id: str, max_level: int, prev
       <p>{safe_title}</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="/levels.html">Back to all levels</a>
-        <a class="btn btn-secondary" href="{youtube}" target="_blank" rel="noopener">Watch on YouTube</a>
       </div>
     </div>
   </section>
@@ -246,7 +245,6 @@ def build_level_page(level: int, title: str, video_id: str, max_level: int, prev
           <h2>Walkthrough details</h2>
           <p>{safe_title}</p>
           <p>Watch the quick {safe_title} walkthrough and follow along to clear the stage.</p>
-          <a class="btn btn-secondary" href="{youtube}" target="_blank" rel="noopener">Watch on YouTube</a>
         </div>
       </div>
     </div>
@@ -437,4 +435,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
