@@ -22565,38 +22565,38 @@ window.PIXEL_FLOW_PLAYLIST = [
   {
     "title": "Pixel Flow Level 1263",
     "subtitle": "Pixel Flow Level 1263",
-    "href": "https://www.youtube.com/watch?v=dPP_MRxVZRw",
+    "href": "https://www.youtube.com/watch?v=zwc3eE7zL6Y",
     "levelStart": 1263,
     "levelEnd": 1263,
     "slug": "level-1263",
-    "videoId": "dPP_MRxVZRw"
+    "videoId": "zwc3eE7zL6Y"
   },
   {
     "title": "Pixel Flow Level 1265",
     "subtitle": "Pixel Flow Level 1265",
-    "href": "https://www.youtube.com/watch?v=mEOTr2GLFGs",
+    "href": "https://www.youtube.com/watch?v=zwc3eE7zL6Y",
     "levelStart": 1265,
     "levelEnd": 1265,
     "slug": "level-1265",
-    "videoId": "mEOTr2GLFGs"
+    "videoId": "zwc3eE7zL6Y"
   },
   {
     "title": "Pixel Flow Level 1269",
     "subtitle": "Pixel Flow Level 1269",
-    "href": "https://www.youtube.com/watch?v=YNHZFWhBjUc",
+    "href": "https://www.youtube.com/watch?v=zwc3eE7zL6Y",
     "levelStart": 1269,
     "levelEnd": 1269,
     "slug": "level-1269",
-    "videoId": "YNHZFWhBjUc"
+    "videoId": "zwc3eE7zL6Y"
   },
   {
     "title": "Pixel Flow Level 1274",
     "subtitle": "Pixel Flow Level 1274",
-    "href": "https://www.youtube.com/watch?v=yOmRY5yIB04",
+    "href": "https://www.youtube.com/watch?v=CGeq2NnuTR0",
     "levelStart": 1274,
     "levelEnd": 1274,
     "slug": "level-1274",
-    "videoId": "yOmRY5yIB04"
+    "videoId": "CGeq2NnuTR0"
   },
   {
     "title": "Pixel Flow Level 3341",
@@ -24541,5 +24541,239 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1260,
     "slug": "level-1260",
     "videoId": "IhoSGTvcQRM"
+  },
+  {
+    "title": "Pixel Flow Level 3541 Hard - the one with the pirate boat",
+    "subtitle": "Pixel Flow Level 3541 Hard - the one with the pirate boat",
+    "href": "https://www.youtube.com/watch?v=Bh84d2bGHLM",
+    "levelStart": 3541,
+    "levelEnd": 3541,
+    "slug": "level-3541",
+    "videoId": "Bh84d2bGHLM"
+  },
+  {
+    "title": "Pixel Flow Level 3542 - The one with the astronaut",
+    "subtitle": "Pixel Flow Level 3542 - The one with the astronaut",
+    "href": "https://www.youtube.com/watch?v=uFR3LEL9sgU",
+    "levelStart": 3542,
+    "levelEnd": 3542,
+    "slug": "level-3542",
+    "videoId": "uFR3LEL9sgU"
+  },
+  {
+    "title": "Pixel Flow Level 3543 - the one with the treasure cheast",
+    "subtitle": "Pixel Flow Level 3543 - the one with the treasure cheast",
+    "href": "https://www.youtube.com/watch?v=zudVjlI1BDA",
+    "levelStart": 3543,
+    "levelEnd": 3543,
+    "slug": "level-3543",
+    "videoId": "zudVjlI1BDA"
+  },
+  {
+    "title": "Pixel Flow Level 3544 - the one with the black cat on a strawberry",
+    "subtitle": "Pixel Flow Level 3544 - the one with the black cat on a strawberry",
+    "href": "https://www.youtube.com/watch?v=ku-ZvG3ETAs",
+    "levelStart": 3544,
+    "levelEnd": 3544,
+    "slug": "level-3544",
+    "videoId": "ku-ZvG3ETAs"
+  },
+  {
+    "title": "Pixel Flow Level 3545 -The one with the orange cat in a cake",
+    "subtitle": "Pixel Flow Level 3545 -The one with the orange cat in a cake",
+    "href": "https://www.youtube.com/watch?v=UoDJHN4_lgY",
+    "levelStart": 3545,
+    "levelEnd": 3545,
+    "slug": "level-3545",
+    "videoId": "UoDJHN4_lgY"
+  },
+  {
+    "title": "Pixel Flow Level 3546 Hard - the one with the Green blue and purple rosette",
+    "subtitle": "Pixel Flow Level 3546 Hard - the one with the Green blue and purple rosette",
+    "href": "https://www.youtube.com/watch?v=fSYkmwu7b6k",
+    "levelStart": 3546,
+    "levelEnd": 3546,
+    "slug": "level-3546",
+    "videoId": "fSYkmwu7b6k"
+  },
+  {
+    "title": "Pixel Flow Level 3547 Very Hard - The one with the geometric form",
+    "subtitle": "Pixel Flow Level 3547 Very Hard - The one with the geometric form",
+    "href": "https://www.youtube.com/watch?v=BfGlQdIAKcY",
+    "levelStart": 3547,
+    "levelEnd": 3547,
+    "slug": "level-3547",
+    "videoId": "BfGlQdIAKcY"
+  },
+  {
+    "title": "Pixel Flow Level 3548 - The one with the fish under the sea",
+    "subtitle": "Pixel Flow Level 3548 - The one with the fish under the sea",
+    "href": "https://www.youtube.com/watch?v=Z6gt1b8gEqQ",
+    "levelStart": 3548,
+    "levelEnd": 3548,
+    "slug": "level-3548",
+    "videoId": "Z6gt1b8gEqQ"
+  },
+  {
+    "title": "Pixel Flow Level 3549 - the one with the baby Phoenix",
+    "subtitle": "Pixel Flow Level 3549 - the one with the baby Phoenix",
+    "href": "https://www.youtube.com/watch?v=ekqRiSdolrM",
+    "levelStart": 3549,
+    "levelEnd": 3549,
+    "slug": "level-3549",
+    "videoId": "ekqRiSdolrM"
+  },
+  {
+    "title": "Pixel Flow Level 3550 - the one with the sneakers what have wings",
+    "subtitle": "Pixel Flow Level 3550 - the one with the sneakers what have wings",
+    "href": "https://www.youtube.com/watch?v=lefr94Huah8",
+    "levelStart": 3550,
+    "levelEnd": 3550,
+    "slug": "level-3550",
+    "videoId": "lefr94Huah8"
+  },
+  {
+    "title": "Pixel Flow Level 1261",
+    "subtitle": "Pixel Flow Level 1261",
+    "href": "https://www.youtube.com/watch?v=zwc3eE7zL6Y",
+    "levelStart": 1261,
+    "levelEnd": 1261,
+    "slug": "level-1261",
+    "videoId": "zwc3eE7zL6Y"
+  },
+  {
+    "title": "Pixel Flow Level 1262",
+    "subtitle": "Pixel Flow Level 1262",
+    "href": "https://www.youtube.com/watch?v=zwc3eE7zL6Y",
+    "levelStart": 1262,
+    "levelEnd": 1262,
+    "slug": "level-1262",
+    "videoId": "zwc3eE7zL6Y"
+  },
+  {
+    "title": "Pixel Flow Level 1264",
+    "subtitle": "Pixel Flow Level 1264",
+    "href": "https://www.youtube.com/watch?v=zwc3eE7zL6Y",
+    "levelStart": 1264,
+    "levelEnd": 1264,
+    "slug": "level-1264",
+    "videoId": "zwc3eE7zL6Y"
+  },
+  {
+    "title": "Pixel Flow Level 1266",
+    "subtitle": "Pixel Flow Level 1266",
+    "href": "https://www.youtube.com/watch?v=zwc3eE7zL6Y",
+    "levelStart": 1266,
+    "levelEnd": 1266,
+    "slug": "level-1266",
+    "videoId": "zwc3eE7zL6Y"
+  },
+  {
+    "title": "Pixel Flow Level 1267",
+    "subtitle": "Pixel Flow Level 1267",
+    "href": "https://www.youtube.com/watch?v=zwc3eE7zL6Y",
+    "levelStart": 1267,
+    "levelEnd": 1267,
+    "slug": "level-1267",
+    "videoId": "zwc3eE7zL6Y"
+  },
+  {
+    "title": "Pixel Flow Level 1268",
+    "subtitle": "Pixel Flow Level 1268",
+    "href": "https://www.youtube.com/watch?v=zwc3eE7zL6Y",
+    "levelStart": 1268,
+    "levelEnd": 1268,
+    "slug": "level-1268",
+    "videoId": "zwc3eE7zL6Y"
+  },
+  {
+    "title": "Pixel Flow Level 1270",
+    "subtitle": "Pixel Flow Level 1270",
+    "href": "https://www.youtube.com/watch?v=zwc3eE7zL6Y",
+    "levelStart": 1270,
+    "levelEnd": 1270,
+    "slug": "level-1270",
+    "videoId": "zwc3eE7zL6Y"
+  },
+  {
+    "title": "Pixel Flow Level 1271",
+    "subtitle": "Pixel Flow Level 1271",
+    "href": "https://www.youtube.com/watch?v=CGeq2NnuTR0",
+    "levelStart": 1271,
+    "levelEnd": 1271,
+    "slug": "level-1271",
+    "videoId": "CGeq2NnuTR0"
+  },
+  {
+    "title": "Pixel Flow Level 1272",
+    "subtitle": "Pixel Flow Level 1272",
+    "href": "https://www.youtube.com/watch?v=CGeq2NnuTR0",
+    "levelStart": 1272,
+    "levelEnd": 1272,
+    "slug": "level-1272",
+    "videoId": "CGeq2NnuTR0"
+  },
+  {
+    "title": "Pixel Flow Level 1273",
+    "subtitle": "Pixel Flow Level 1273",
+    "href": "https://www.youtube.com/watch?v=CGeq2NnuTR0",
+    "levelStart": 1273,
+    "levelEnd": 1273,
+    "slug": "level-1273",
+    "videoId": "CGeq2NnuTR0"
+  },
+  {
+    "title": "Pixel Flow Level 1275",
+    "subtitle": "Pixel Flow Level 1275",
+    "href": "https://www.youtube.com/watch?v=CGeq2NnuTR0",
+    "levelStart": 1275,
+    "levelEnd": 1275,
+    "slug": "level-1275",
+    "videoId": "CGeq2NnuTR0"
+  },
+  {
+    "title": "Pixel Flow Level 1276",
+    "subtitle": "Pixel Flow Level 1276",
+    "href": "https://www.youtube.com/watch?v=CGeq2NnuTR0",
+    "levelStart": 1276,
+    "levelEnd": 1276,
+    "slug": "level-1276",
+    "videoId": "CGeq2NnuTR0"
+  },
+  {
+    "title": "Pixel Flow Level 1277",
+    "subtitle": "Pixel Flow Level 1277",
+    "href": "https://www.youtube.com/watch?v=CGeq2NnuTR0",
+    "levelStart": 1277,
+    "levelEnd": 1277,
+    "slug": "level-1277",
+    "videoId": "CGeq2NnuTR0"
+  },
+  {
+    "title": "Pixel Flow Level 1278",
+    "subtitle": "Pixel Flow Level 1278",
+    "href": "https://www.youtube.com/watch?v=CGeq2NnuTR0",
+    "levelStart": 1278,
+    "levelEnd": 1278,
+    "slug": "level-1278",
+    "videoId": "CGeq2NnuTR0"
+  },
+  {
+    "title": "Pixel Flow Level 1279",
+    "subtitle": "Pixel Flow Level 1279",
+    "href": "https://www.youtube.com/watch?v=CGeq2NnuTR0",
+    "levelStart": 1279,
+    "levelEnd": 1279,
+    "slug": "level-1279",
+    "videoId": "CGeq2NnuTR0"
+  },
+  {
+    "title": "Pixel Flow Level 1280",
+    "subtitle": "Pixel Flow Level 1280",
+    "href": "https://www.youtube.com/watch?v=CGeq2NnuTR0",
+    "levelStart": 1280,
+    "levelEnd": 1280,
+    "slug": "level-1280",
+    "videoId": "CGeq2NnuTR0"
   }
 ]
