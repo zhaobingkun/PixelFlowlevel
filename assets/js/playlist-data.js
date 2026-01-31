@@ -24775,5 +24775,185 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1280,
     "slug": "level-1280",
     "videoId": "CGeq2NnuTR0"
+  },
+  {
+    "title": "Pixel Flow Level 3551 Hard - The one with the snow globe",
+    "subtitle": "Pixel Flow Level 3551 Hard - The one with the snow globe",
+    "href": "https://www.youtube.com/watch?v=jMrrSHj11is",
+    "levelStart": 3551,
+    "levelEnd": 3551,
+    "slug": "level-3551",
+    "videoId": "jMrrSHj11is"
+  },
+  {
+    "title": "Pixel Flow Level 3552 - The one with the smiling atomic cloud",
+    "subtitle": "Pixel Flow Level 3552 - The one with the smiling atomic cloud",
+    "href": "https://www.youtube.com/watch?v=rZ1xj3nbFVI",
+    "levelStart": 3552,
+    "levelEnd": 3552,
+    "slug": "level-3552",
+    "videoId": "rZ1xj3nbFVI"
+  },
+  {
+    "title": "Pixel Flow Level 3553 - The one with the little girl with blonde pigtails",
+    "subtitle": "Pixel Flow Level 3553 - The one with the little girl with blonde pigtails",
+    "href": "https://www.youtube.com/watch?v=6ZWB8uTw4KA",
+    "levelStart": 3553,
+    "levelEnd": 3553,
+    "slug": "level-3553",
+    "videoId": "6ZWB8uTw4KA"
+  },
+  {
+    "title": "Pixel Flow Level 3554 - The one with the lighthouse in the night",
+    "subtitle": "Pixel Flow Level 3554 - The one with the lighthouse in the night",
+    "href": "https://www.youtube.com/watch?v=SIhoYfApQTs",
+    "levelStart": 3554,
+    "levelEnd": 3554,
+    "slug": "level-3554",
+    "videoId": "SIhoYfApQTs"
+  },
+  {
+    "title": "Pixel Flow Level 3555 Hard - The one with the guitar",
+    "subtitle": "Pixel Flow Level 3555 Hard - The one with the guitar",
+    "href": "https://www.youtube.com/watch?v=SpY_cK0W_fc",
+    "levelStart": 3555,
+    "levelEnd": 3555,
+    "slug": "level-3555",
+    "videoId": "SpY_cK0W_fc"
+  },
+  {
+    "title": "Pixel Flow Level 3556 Very Hard - the one with the dog with the big nose",
+    "subtitle": "Pixel Flow Level 3556 Very Hard - the one with the dog with the big nose",
+    "href": "https://www.youtube.com/watch?v=f_3eNnsXjrE",
+    "levelStart": 3556,
+    "levelEnd": 3556,
+    "slug": "level-3556",
+    "videoId": "f_3eNnsXjrE"
+  },
+  {
+    "title": "Pixel Flow Level 3557 - The one with the landscape with the lake and the sun",
+    "subtitle": "Pixel Flow Level 3557 - The one with the landscape with the lake and the sun",
+    "href": "https://www.youtube.com/watch?v=d8CNgVC8nyk",
+    "levelStart": 3557,
+    "levelEnd": 3557,
+    "slug": "level-3557",
+    "videoId": "d8CNgVC8nyk"
+  },
+  {
+    "title": "Pixel Flow Level 3558 - the one with the Pink fairy animal",
+    "subtitle": "Pixel Flow Level 3558 - the one with the Pink fairy animal",
+    "href": "https://www.youtube.com/watch?v=kASbIUoql1k",
+    "levelStart": 3558,
+    "levelEnd": 3558,
+    "slug": "level-3558",
+    "videoId": "kASbIUoql1k"
+  },
+  {
+    "title": "Pixel Flow Level 3559 - The one with the rainbow-colored pencil",
+    "subtitle": "Pixel Flow Level 3559 - The one with the rainbow-colored pencil",
+    "href": "https://www.youtube.com/watch?v=ifTTBlhCqTg",
+    "levelStart": 3559,
+    "levelEnd": 3559,
+    "slug": "level-3559",
+    "videoId": "ifTTBlhCqTg"
+  },
+  {
+    "title": "Pixel Flow Level 3560 - the one with the motorcyclist on the road",
+    "subtitle": "Pixel Flow Level 3560 - the one with the motorcyclist on the road",
+    "href": "https://www.youtube.com/watch?v=uao5ttgvWaQ",
+    "levelStart": 3560,
+    "levelEnd": 3560,
+    "slug": "level-3560",
+    "videoId": "uao5ttgvWaQ"
+  },
+  {
+    "title": "Pixel Flow Level 1281",
+    "subtitle": "Pixel Flow Level 1281",
+    "href": "https://www.youtube.com/watch?v=SONW2KvnItc",
+    "levelStart": 1281,
+    "levelEnd": 1281,
+    "slug": "level-1281",
+    "videoId": "SONW2KvnItc"
+  },
+  {
+    "title": "Pixel Flow Level 1282",
+    "subtitle": "Pixel Flow Level 1282",
+    "href": "https://www.youtube.com/watch?v=SONW2KvnItc",
+    "levelStart": 1282,
+    "levelEnd": 1282,
+    "slug": "level-1282",
+    "videoId": "SONW2KvnItc"
+  },
+  {
+    "title": "Pixel Flow Level 1283",
+    "subtitle": "Pixel Flow Level 1283",
+    "href": "https://www.youtube.com/watch?v=SONW2KvnItc",
+    "levelStart": 1283,
+    "levelEnd": 1283,
+    "slug": "level-1283",
+    "videoId": "SONW2KvnItc"
+  },
+  {
+    "title": "Pixel Flow Level 1284",
+    "subtitle": "Pixel Flow Level 1284",
+    "href": "https://www.youtube.com/watch?v=SONW2KvnItc",
+    "levelStart": 1284,
+    "levelEnd": 1284,
+    "slug": "level-1284",
+    "videoId": "SONW2KvnItc"
+  },
+  {
+    "title": "Pixel Flow Level 1285",
+    "subtitle": "Pixel Flow Level 1285",
+    "href": "https://www.youtube.com/watch?v=SONW2KvnItc",
+    "levelStart": 1285,
+    "levelEnd": 1285,
+    "slug": "level-1285",
+    "videoId": "SONW2KvnItc"
+  },
+  {
+    "title": "Pixel Flow Level 1286",
+    "subtitle": "Pixel Flow Level 1286",
+    "href": "https://www.youtube.com/watch?v=SONW2KvnItc",
+    "levelStart": 1286,
+    "levelEnd": 1286,
+    "slug": "level-1286",
+    "videoId": "SONW2KvnItc"
+  },
+  {
+    "title": "Pixel Flow Level 1287",
+    "subtitle": "Pixel Flow Level 1287",
+    "href": "https://www.youtube.com/watch?v=SONW2KvnItc",
+    "levelStart": 1287,
+    "levelEnd": 1287,
+    "slug": "level-1287",
+    "videoId": "SONW2KvnItc"
+  },
+  {
+    "title": "Pixel Flow Level 1288",
+    "subtitle": "Pixel Flow Level 1288",
+    "href": "https://www.youtube.com/watch?v=SONW2KvnItc",
+    "levelStart": 1288,
+    "levelEnd": 1288,
+    "slug": "level-1288",
+    "videoId": "SONW2KvnItc"
+  },
+  {
+    "title": "Pixel Flow Level 1289",
+    "subtitle": "Pixel Flow Level 1289",
+    "href": "https://www.youtube.com/watch?v=SONW2KvnItc",
+    "levelStart": 1289,
+    "levelEnd": 1289,
+    "slug": "level-1289",
+    "videoId": "SONW2KvnItc"
+  },
+  {
+    "title": "Pixel Flow Level 1290",
+    "subtitle": "Pixel Flow Level 1290",
+    "href": "https://www.youtube.com/watch?v=SONW2KvnItc",
+    "levelStart": 1290,
+    "levelEnd": 1290,
+    "slug": "level-1290",
+    "videoId": "SONW2KvnItc"
   }
 ]
