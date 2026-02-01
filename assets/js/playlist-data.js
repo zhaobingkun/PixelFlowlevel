@@ -24955,5 +24955,185 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1290,
     "slug": "level-1290",
     "videoId": "SONW2KvnItc"
+  },
+  {
+    "title": "Pixel Flow Level 3561 Very hard- The one with the painting under the fireplace",
+    "subtitle": "Pixel Flow Level 3561 Very hard- The one with the painting under the fireplace",
+    "href": "https://www.youtube.com/watch?v=xZfuzyk1cU4",
+    "levelStart": 3561,
+    "levelEnd": 3561,
+    "slug": "level-3561",
+    "videoId": "xZfuzyk1cU4"
+  },
+  {
+    "title": "Pixel Flow Level 3562 - The one with the blue whale in the ocean",
+    "subtitle": "Pixel Flow Level 3562 - The one with the blue whale in the ocean",
+    "href": "https://www.youtube.com/watch?v=iY8Wua9mcC4",
+    "levelStart": 3562,
+    "levelEnd": 3562,
+    "slug": "level-3562",
+    "videoId": "iY8Wua9mcC4"
+  },
+  {
+    "title": "Pixel Flow Level 3563 - The one with the Pink rabbit Who eat a carot",
+    "subtitle": "Pixel Flow Level 3563 - The one with the Pink rabbit Who eat a carot",
+    "href": "https://www.youtube.com/watch?v=JbIk4M-idK0",
+    "levelStart": 3563,
+    "levelEnd": 3563,
+    "slug": "level-3563",
+    "videoId": "JbIk4M-idK0"
+  },
+  {
+    "title": "Pixel Flow Level 3564 The one with the deer in the forest",
+    "subtitle": "Pixel Flow Level 3564 The one with the deer in the forest",
+    "href": "https://www.youtube.com/watch?v=Og8AsyPdasA",
+    "levelStart": 3564,
+    "levelEnd": 3564,
+    "slug": "level-3564",
+    "videoId": "Og8AsyPdasA"
+  },
+  {
+    "title": "Pixel Flow Level 3565 Hard - the one with the flowers and the sky",
+    "subtitle": "Pixel Flow Level 3565 Hard - the one with the flowers and the sky",
+    "href": "https://www.youtube.com/watch?v=f8gxPT5fDg8",
+    "levelStart": 3565,
+    "levelEnd": 3565,
+    "slug": "level-3565",
+    "videoId": "f8gxPT5fDg8"
+  },
+  {
+    "title": "Pixel Flow Level 3566 - the one with the camera",
+    "subtitle": "Pixel Flow Level 3566 - the one with the camera",
+    "href": "https://www.youtube.com/watch?v=vkiYt9JPvzE",
+    "levelStart": 3566,
+    "levelEnd": 3566,
+    "slug": "level-3566",
+    "videoId": "vkiYt9JPvzE"
+  },
+  {
+    "title": "Pixel Flow Level 3567 Very hard - The one with the rainbow and the cloud",
+    "subtitle": "Pixel Flow Level 3567 Very hard - The one with the rainbow and the cloud",
+    "href": "https://www.youtube.com/watch?v=-KnPEo_BRKk",
+    "levelStart": 3567,
+    "levelEnd": 3567,
+    "slug": "level-3567",
+    "videoId": "-KnPEo_BRKk"
+  },
+  {
+    "title": "Pixel Flow Level 3568 - The one with the magician cat",
+    "subtitle": "Pixel Flow Level 3568 - The one with the magician cat",
+    "href": "https://www.youtube.com/watch?v=ArOmoQL_b7U",
+    "levelStart": 3568,
+    "levelEnd": 3568,
+    "slug": "level-3568",
+    "videoId": "ArOmoQL_b7U"
+  },
+  {
+    "title": "Pixel Flow Level 3569 - The one with the alien ship",
+    "subtitle": "Pixel Flow Level 3569 - The one with the alien ship",
+    "href": "https://www.youtube.com/watch?v=0rm3zTDrP_0",
+    "levelStart": 3569,
+    "levelEnd": 3569,
+    "slug": "level-3569",
+    "videoId": "0rm3zTDrP_0"
+  },
+  {
+    "title": "Pixel Flow Level 3570 - The one with the purple flower",
+    "subtitle": "Pixel Flow Level 3570 - The one with the purple flower",
+    "href": "https://www.youtube.com/watch?v=Opar4LRUeHQ",
+    "levelStart": 3570,
+    "levelEnd": 3570,
+    "slug": "level-3570",
+    "videoId": "Opar4LRUeHQ"
+  },
+  {
+    "title": "Pixel Flow Level 3571 Hard - The one with the smilling milkshake",
+    "subtitle": "Pixel Flow Level 3571 Hard - The one with the smilling milkshake",
+    "href": "https://www.youtube.com/watch?v=Fra-0nfd_zw",
+    "levelStart": 3571,
+    "levelEnd": 3571,
+    "slug": "level-3571",
+    "videoId": "Fra-0nfd_zw"
+  },
+  {
+    "title": "Pixel Flow Level 3572 - The one with the little purple witch",
+    "subtitle": "Pixel Flow Level 3572 - The one with the little purple witch",
+    "href": "https://www.youtube.com/watch?v=QLy96ouZmEM",
+    "levelStart": 3572,
+    "levelEnd": 3572,
+    "slug": "level-3572",
+    "videoId": "QLy96ouZmEM"
+  },
+  {
+    "title": "Pixel Flow Level 3573 - The one with the sunbathing in the forest",
+    "subtitle": "Pixel Flow Level 3573 - The one with the sunbathing in the forest",
+    "href": "https://www.youtube.com/watch?v=UMtteLloZhQ",
+    "levelStart": 3573,
+    "levelEnd": 3573,
+    "slug": "level-3573",
+    "videoId": "UMtteLloZhQ"
+  },
+  {
+    "title": "Pixel Flow Level 3574 - The one with the pink pig in front of the campfire",
+    "subtitle": "Pixel Flow Level 3574 - The one with the pink pig in front of the campfire",
+    "href": "https://www.youtube.com/watch?v=MQOK1OiHlaQ",
+    "levelStart": 3574,
+    "levelEnd": 3574,
+    "slug": "level-3574",
+    "videoId": "MQOK1OiHlaQ"
+  },
+  {
+    "title": "Pixel Flow Level 3575 - The one xith the tulip",
+    "subtitle": "Pixel Flow Level 3575 - The one xith the tulip",
+    "href": "https://www.youtube.com/watch?v=J0fgGZKcTSo",
+    "levelStart": 3575,
+    "levelEnd": 3575,
+    "slug": "level-3575",
+    "videoId": "J0fgGZKcTSo"
+  },
+  {
+    "title": "Pixel Flow Level 3576 Hard - The one with the easter island statues",
+    "subtitle": "Pixel Flow Level 3576 Hard - The one with the easter island statues",
+    "href": "https://www.youtube.com/watch?v=tNbcjE4S_UU",
+    "levelStart": 3576,
+    "levelEnd": 3576,
+    "slug": "level-3576",
+    "videoId": "tNbcjE4S_UU"
+  },
+  {
+    "title": "Pixel Flow Level 3577 Very hard - The one with the geometric forms",
+    "subtitle": "Pixel Flow Level 3577 Very hard - The one with the geometric forms",
+    "href": "https://www.youtube.com/watch?v=ELuVQRyw-gA",
+    "levelStart": 3577,
+    "levelEnd": 3577,
+    "slug": "level-3577",
+    "videoId": "ELuVQRyw-gA"
+  },
+  {
+    "title": "Pixel Flow Level 3578 The one with the Burger",
+    "subtitle": "Pixel Flow Level 3578 The one with the Burger",
+    "href": "https://www.youtube.com/watch?v=cj5ax3lF2DE",
+    "levelStart": 3578,
+    "levelEnd": 3578,
+    "slug": "level-3578",
+    "videoId": "cj5ax3lF2DE"
+  },
+  {
+    "title": "Pixel Flow Level 3579 - The one with the pinguin and the eggs",
+    "subtitle": "Pixel Flow Level 3579 - The one with the pinguin and the eggs",
+    "href": "https://www.youtube.com/watch?v=Eja4oB6SGPA",
+    "levelStart": 3579,
+    "levelEnd": 3579,
+    "slug": "level-3579",
+    "videoId": "Eja4oB6SGPA"
+  },
+  {
+    "title": "Pixel Flow Level 3580 The one with the rabbit and the computer",
+    "subtitle": "Pixel Flow Level 3580 The one with the rabbit and the computer",
+    "href": "https://www.youtube.com/watch?v=4m0y578TRvw",
+    "levelStart": 3580,
+    "levelEnd": 3580,
+    "slug": "level-3580",
+    "videoId": "4m0y578TRvw"
   }
 ]
