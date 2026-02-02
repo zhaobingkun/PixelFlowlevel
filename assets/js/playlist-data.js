@@ -25135,5 +25135,185 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 3580,
     "slug": "level-3580",
     "videoId": "4m0y578TRvw"
+  },
+  {
+    "title": "Pixel Flow Level 3581 Hard - The one with the emblem and the eggs",
+    "subtitle": "Pixel Flow Level 3581 Hard - The one with the emblem and the eggs",
+    "href": "https://www.youtube.com/watch?v=fIdFiQ7F7YM",
+    "levelStart": 3581,
+    "levelEnd": 3581,
+    "slug": "level-3581",
+    "videoId": "fIdFiQ7F7YM"
+  },
+  {
+    "title": "Pixel Flow Level 3582 - The one with the motorcycle helmet",
+    "subtitle": "Pixel Flow Level 3582 - The one with the motorcycle helmet",
+    "href": "https://www.youtube.com/watch?v=Uk0IJ-wz3BM",
+    "levelStart": 3582,
+    "levelEnd": 3582,
+    "slug": "level-3582",
+    "videoId": "Uk0IJ-wz3BM"
+  },
+  {
+    "title": "Pixel Flow Level 3583 - the one with the snail what has wings",
+    "subtitle": "Pixel Flow Level 3583 - the one with the snail what has wings",
+    "href": "https://www.youtube.com/watch?v=ZrEs5ShtUYI",
+    "levelStart": 3583,
+    "levelEnd": 3583,
+    "slug": "level-3583",
+    "videoId": "ZrEs5ShtUYI"
+  },
+  {
+    "title": "Pixel Flow Level 3584 - The one with the polar bear in the night",
+    "subtitle": "Pixel Flow Level 3584 - The one with the polar bear in the night",
+    "href": "https://www.youtube.com/watch?v=Z1f-2w8QElA",
+    "levelStart": 3584,
+    "levelEnd": 3584,
+    "slug": "level-3584",
+    "videoId": "Z1f-2w8QElA"
+  },
+  {
+    "title": "Pixel Flow Level 3585 Hard - The one with the village under the snow and the sun",
+    "subtitle": "Pixel Flow Level 3585 Hard - The one with the village under the snow and the sun",
+    "href": "https://www.youtube.com/watch?v=j5rni-dUQLc",
+    "levelStart": 3585,
+    "levelEnd": 3585,
+    "slug": "level-3585",
+    "videoId": "j5rni-dUQLc"
+  },
+  {
+    "title": "Pixel Flow Level 3586 Very Hard - The one with the milkshake",
+    "subtitle": "Pixel Flow Level 3586 Very Hard - The one with the milkshake",
+    "href": "https://www.youtube.com/watch?v=q2_fkfj4_Qs",
+    "levelStart": 3586,
+    "levelEnd": 3586,
+    "slug": "level-3586",
+    "videoId": "q2_fkfj4_Qs"
+  },
+  {
+    "title": "Pixel Flow Level 3587 - The one with the record player",
+    "subtitle": "Pixel Flow Level 3587 - The one with the record player",
+    "href": "https://www.youtube.com/watch?v=2diO5Anqqtk",
+    "levelStart": 3587,
+    "levelEnd": 3587,
+    "slug": "level-3587",
+    "videoId": "2diO5Anqqtk"
+  },
+  {
+    "title": "Pixel Flow Level 3588 - The one with the two girls",
+    "subtitle": "Pixel Flow Level 3588 - The one with the two girls",
+    "href": "https://www.youtube.com/watch?v=qreiap0fphw",
+    "levelStart": 3588,
+    "levelEnd": 3588,
+    "slug": "level-3588",
+    "videoId": "qreiap0fphw"
+  },
+  {
+    "title": "Pixel Flow Level 3589 - The one with the house on the island",
+    "subtitle": "Pixel Flow Level 3589 - The one with the house on the island",
+    "href": "https://www.youtube.com/watch?v=wg8S-6ed3YU",
+    "levelStart": 3589,
+    "levelEnd": 3589,
+    "slug": "level-3589",
+    "videoId": "wg8S-6ed3YU"
+  },
+  {
+    "title": "Pixel Flow Level 3590- the one with the car on the road",
+    "subtitle": "Pixel Flow Level 3590- the one with the car on the road",
+    "href": "https://www.youtube.com/watch?v=I_BwrmtRkig",
+    "levelStart": 3590,
+    "levelEnd": 3590,
+    "slug": "level-3590",
+    "videoId": "I_BwrmtRkig"
+  },
+  {
+    "title": "Pixel Flow Level 3591 Very Hard - The one with the yellow cat",
+    "subtitle": "Pixel Flow Level 3591 Very Hard - The one with the yellow cat",
+    "href": "https://www.youtube.com/watch?v=Ut18WrdQcNc",
+    "levelStart": 3591,
+    "levelEnd": 3591,
+    "slug": "level-3591",
+    "videoId": "Ut18WrdQcNc"
+  },
+  {
+    "title": "Pixel Flow Level 3592 - The one with the blue and pink fox",
+    "subtitle": "Pixel Flow Level 3592 - The one with the blue and pink fox",
+    "href": "https://www.youtube.com/watch?v=Na8_prj98oU",
+    "levelStart": 3592,
+    "levelEnd": 3592,
+    "slug": "level-3592",
+    "videoId": "Na8_prj98oU"
+  },
+  {
+    "title": "Pixel Flow Level 3593 - The one with the front of the shop",
+    "subtitle": "Pixel Flow Level 3593 - The one with the front of the shop",
+    "href": "https://www.youtube.com/watch?v=a25FnSWVeq8",
+    "levelStart": 3593,
+    "levelEnd": 3593,
+    "slug": "level-3593",
+    "videoId": "a25FnSWVeq8"
+  },
+  {
+    "title": "Pixel Flow Level 3594 - the one withh the  fried egg",
+    "subtitle": "Pixel Flow Level 3594 - the one withh the  fried egg",
+    "href": "https://www.youtube.com/watch?v=4wng8GUmo8A",
+    "levelStart": 3594,
+    "levelEnd": 3594,
+    "slug": "level-3594",
+    "videoId": "4wng8GUmo8A"
+  },
+  {
+    "title": "Pixel Flow Level 3595 Hard - The one with big ben",
+    "subtitle": "Pixel Flow Level 3595 Hard - The one with big ben",
+    "href": "https://www.youtube.com/watch?v=LC8u0elhRG0",
+    "levelStart": 3595,
+    "levelEnd": 3595,
+    "slug": "level-3595",
+    "videoId": "LC8u0elhRG0"
+  },
+  {
+    "title": "Pixel Flow Level 3596 - The one with the sleeping yellow cat",
+    "subtitle": "Pixel Flow Level 3596 - The one with the sleeping yellow cat",
+    "href": "https://www.youtube.com/watch?v=jc7sJvW2aT0",
+    "levelStart": 3596,
+    "levelEnd": 3596,
+    "slug": "level-3596",
+    "videoId": "jc7sJvW2aT0"
+  },
+  {
+    "title": "Pixel Flow Level 3597 Very Hard - The one with the house and its fireplace under the snow",
+    "subtitle": "Pixel Flow Level 3597 Very Hard - The one with the house and its fireplace under the snow",
+    "href": "https://www.youtube.com/watch?v=3CHlw1XmUQk",
+    "levelStart": 3597,
+    "levelEnd": 3597,
+    "slug": "level-3597",
+    "videoId": "3CHlw1XmUQk"
+  },
+  {
+    "title": "Pixel Flow Level 3598 - The one with the bird of prey in the Grand Canyon",
+    "subtitle": "Pixel Flow Level 3598 - The one with the bird of prey in the Grand Canyon",
+    "href": "https://www.youtube.com/watch?v=ieP6pvUSVDY",
+    "levelStart": 3598,
+    "levelEnd": 3598,
+    "slug": "level-3598",
+    "videoId": "ieP6pvUSVDY"
+  },
+  {
+    "title": "Pixel Flow Level 3599 - The one with the hidden flowers",
+    "subtitle": "Pixel Flow Level 3599 - The one with the hidden flowers",
+    "href": "https://www.youtube.com/watch?v=xIU9xIDQbgk",
+    "levelStart": 3599,
+    "levelEnd": 3599,
+    "slug": "level-3599",
+    "videoId": "xIU9xIDQbgk"
+  },
+  {
+    "title": "Pixel Flow Level 3600 - The one with the DJ rabbit",
+    "subtitle": "Pixel Flow Level 3600 - The one with the DJ rabbit",
+    "href": "https://www.youtube.com/watch?v=9y9oARgZ9qU",
+    "levelStart": 3600,
+    "levelEnd": 3600,
+    "slug": "level-3600",
+    "videoId": "9y9oARgZ9qU"
   }
 ]
