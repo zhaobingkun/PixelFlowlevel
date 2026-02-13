@@ -27187,5 +27187,185 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1470,
     "slug": "level-1470",
     "videoId": "pKsRMCACuC0"
+  },
+  {
+    "title": "Pixel Flow Level 1471",
+    "subtitle": "Pixel Flow Level 1471",
+    "href": "https://www.youtube.com/watch?v=6_QHLdAboUQ",
+    "levelStart": 1471,
+    "levelEnd": 1471,
+    "slug": "level-1471",
+    "videoId": "6_QHLdAboUQ"
+  },
+  {
+    "title": "Pixel Flow Level 1472",
+    "subtitle": "Pixel Flow Level 1472",
+    "href": "https://www.youtube.com/watch?v=6_QHLdAboUQ",
+    "levelStart": 1472,
+    "levelEnd": 1472,
+    "slug": "level-1472",
+    "videoId": "6_QHLdAboUQ"
+  },
+  {
+    "title": "Pixel Flow Level 1473",
+    "subtitle": "Pixel Flow Level 1473",
+    "href": "https://www.youtube.com/watch?v=6_QHLdAboUQ",
+    "levelStart": 1473,
+    "levelEnd": 1473,
+    "slug": "level-1473",
+    "videoId": "6_QHLdAboUQ"
+  },
+  {
+    "title": "Pixel Flow Level 1474",
+    "subtitle": "Pixel Flow Level 1474",
+    "href": "https://www.youtube.com/watch?v=6_QHLdAboUQ",
+    "levelStart": 1474,
+    "levelEnd": 1474,
+    "slug": "level-1474",
+    "videoId": "6_QHLdAboUQ"
+  },
+  {
+    "title": "Pixel Flow Level 1475",
+    "subtitle": "Pixel Flow Level 1475",
+    "href": "https://www.youtube.com/watch?v=6_QHLdAboUQ",
+    "levelStart": 1475,
+    "levelEnd": 1475,
+    "slug": "level-1475",
+    "videoId": "6_QHLdAboUQ"
+  },
+  {
+    "title": "Pixel Flow Level 1476",
+    "subtitle": "Pixel Flow Level 1476",
+    "href": "https://www.youtube.com/watch?v=6_QHLdAboUQ",
+    "levelStart": 1476,
+    "levelEnd": 1476,
+    "slug": "level-1476",
+    "videoId": "6_QHLdAboUQ"
+  },
+  {
+    "title": "Pixel Flow Level 1477",
+    "subtitle": "Pixel Flow Level 1477",
+    "href": "https://www.youtube.com/watch?v=6_QHLdAboUQ",
+    "levelStart": 1477,
+    "levelEnd": 1477,
+    "slug": "level-1477",
+    "videoId": "6_QHLdAboUQ"
+  },
+  {
+    "title": "Pixel Flow Level 1478",
+    "subtitle": "Pixel Flow Level 1478",
+    "href": "https://www.youtube.com/watch?v=6_QHLdAboUQ",
+    "levelStart": 1478,
+    "levelEnd": 1478,
+    "slug": "level-1478",
+    "videoId": "6_QHLdAboUQ"
+  },
+  {
+    "title": "Pixel Flow Level 1479",
+    "subtitle": "Pixel Flow Level 1479",
+    "href": "https://www.youtube.com/watch?v=6_QHLdAboUQ",
+    "levelStart": 1479,
+    "levelEnd": 1479,
+    "slug": "level-1479",
+    "videoId": "6_QHLdAboUQ"
+  },
+  {
+    "title": "Pixel Flow Level 1480",
+    "subtitle": "Pixel Flow Level 1480",
+    "href": "https://www.youtube.com/watch?v=6_QHLdAboUQ",
+    "levelStart": 1480,
+    "levelEnd": 1480,
+    "slug": "level-1480",
+    "videoId": "6_QHLdAboUQ"
+  },
+  {
+    "title": "Pixel Flow Level 1481",
+    "subtitle": "Pixel Flow Level 1481",
+    "href": "https://www.youtube.com/watch?v=zTk9_tVvUm0",
+    "levelStart": 1481,
+    "levelEnd": 1481,
+    "slug": "level-1481",
+    "videoId": "zTk9_tVvUm0"
+  },
+  {
+    "title": "Pixel Flow Level 1482",
+    "subtitle": "Pixel Flow Level 1482",
+    "href": "https://www.youtube.com/watch?v=zTk9_tVvUm0",
+    "levelStart": 1482,
+    "levelEnd": 1482,
+    "slug": "level-1482",
+    "videoId": "zTk9_tVvUm0"
+  },
+  {
+    "title": "Pixel Flow Level 1483",
+    "subtitle": "Pixel Flow Level 1483",
+    "href": "https://www.youtube.com/watch?v=zTk9_tVvUm0",
+    "levelStart": 1483,
+    "levelEnd": 1483,
+    "slug": "level-1483",
+    "videoId": "zTk9_tVvUm0"
+  },
+  {
+    "title": "Pixel Flow Level 1484",
+    "subtitle": "Pixel Flow Level 1484",
+    "href": "https://www.youtube.com/watch?v=zTk9_tVvUm0",
+    "levelStart": 1484,
+    "levelEnd": 1484,
+    "slug": "level-1484",
+    "videoId": "zTk9_tVvUm0"
+  },
+  {
+    "title": "Pixel Flow Level 1485",
+    "subtitle": "Pixel Flow Level 1485",
+    "href": "https://www.youtube.com/watch?v=zTk9_tVvUm0",
+    "levelStart": 1485,
+    "levelEnd": 1485,
+    "slug": "level-1485",
+    "videoId": "zTk9_tVvUm0"
+  },
+  {
+    "title": "Pixel Flow Level 1486",
+    "subtitle": "Pixel Flow Level 1486",
+    "href": "https://www.youtube.com/watch?v=zTk9_tVvUm0",
+    "levelStart": 1486,
+    "levelEnd": 1486,
+    "slug": "level-1486",
+    "videoId": "zTk9_tVvUm0"
+  },
+  {
+    "title": "Pixel Flow Level 1487",
+    "subtitle": "Pixel Flow Level 1487",
+    "href": "https://www.youtube.com/watch?v=zTk9_tVvUm0",
+    "levelStart": 1487,
+    "levelEnd": 1487,
+    "slug": "level-1487",
+    "videoId": "zTk9_tVvUm0"
+  },
+  {
+    "title": "Pixel Flow Level 1488",
+    "subtitle": "Pixel Flow Level 1488",
+    "href": "https://www.youtube.com/watch?v=zTk9_tVvUm0",
+    "levelStart": 1488,
+    "levelEnd": 1488,
+    "slug": "level-1488",
+    "videoId": "zTk9_tVvUm0"
+  },
+  {
+    "title": "Pixel Flow Level 1489",
+    "subtitle": "Pixel Flow Level 1489",
+    "href": "https://www.youtube.com/watch?v=zTk9_tVvUm0",
+    "levelStart": 1489,
+    "levelEnd": 1489,
+    "slug": "level-1489",
+    "videoId": "zTk9_tVvUm0"
+  },
+  {
+    "title": "Pixel Flow Level 1490",
+    "subtitle": "Pixel Flow Level 1490",
+    "href": "https://www.youtube.com/watch?v=zTk9_tVvUm0",
+    "levelStart": 1490,
+    "levelEnd": 1490,
+    "slug": "level-1490",
+    "videoId": "zTk9_tVvUm0"
   }
 ]
