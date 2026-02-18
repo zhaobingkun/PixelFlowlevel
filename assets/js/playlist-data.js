@@ -27637,5 +27637,185 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1520,
     "slug": "level-1520",
     "videoId": "RQSntr-qjKk"
+  },
+  {
+    "title": "Pixel Flow Level 1521",
+    "subtitle": "Pixel Flow Level 1521",
+    "href": "https://www.youtube.com/watch?v=y_EOPMFqT4Y",
+    "levelStart": 1521,
+    "levelEnd": 1521,
+    "slug": "level-1521",
+    "videoId": "y_EOPMFqT4Y"
+  },
+  {
+    "title": "Pixel Flow Level 1522",
+    "subtitle": "Pixel Flow Level 1522",
+    "href": "https://www.youtube.com/watch?v=y_EOPMFqT4Y",
+    "levelStart": 1522,
+    "levelEnd": 1522,
+    "slug": "level-1522",
+    "videoId": "y_EOPMFqT4Y"
+  },
+  {
+    "title": "Pixel Flow Level 1523",
+    "subtitle": "Pixel Flow Level 1523",
+    "href": "https://www.youtube.com/watch?v=y_EOPMFqT4Y",
+    "levelStart": 1523,
+    "levelEnd": 1523,
+    "slug": "level-1523",
+    "videoId": "y_EOPMFqT4Y"
+  },
+  {
+    "title": "Pixel Flow Level 1524",
+    "subtitle": "Pixel Flow Level 1524",
+    "href": "https://www.youtube.com/watch?v=y_EOPMFqT4Y",
+    "levelStart": 1524,
+    "levelEnd": 1524,
+    "slug": "level-1524",
+    "videoId": "y_EOPMFqT4Y"
+  },
+  {
+    "title": "Pixel Flow Level 1525",
+    "subtitle": "Pixel Flow Level 1525",
+    "href": "https://www.youtube.com/watch?v=y_EOPMFqT4Y",
+    "levelStart": 1525,
+    "levelEnd": 1525,
+    "slug": "level-1525",
+    "videoId": "y_EOPMFqT4Y"
+  },
+  {
+    "title": "Pixel Flow Level 1526",
+    "subtitle": "Pixel Flow Level 1526",
+    "href": "https://www.youtube.com/watch?v=y_EOPMFqT4Y",
+    "levelStart": 1526,
+    "levelEnd": 1526,
+    "slug": "level-1526",
+    "videoId": "y_EOPMFqT4Y"
+  },
+  {
+    "title": "Pixel Flow Level 1527",
+    "subtitle": "Pixel Flow Level 1527",
+    "href": "https://www.youtube.com/watch?v=y_EOPMFqT4Y",
+    "levelStart": 1527,
+    "levelEnd": 1527,
+    "slug": "level-1527",
+    "videoId": "y_EOPMFqT4Y"
+  },
+  {
+    "title": "Pixel Flow Level 1528",
+    "subtitle": "Pixel Flow Level 1528",
+    "href": "https://www.youtube.com/watch?v=y_EOPMFqT4Y",
+    "levelStart": 1528,
+    "levelEnd": 1528,
+    "slug": "level-1528",
+    "videoId": "y_EOPMFqT4Y"
+  },
+  {
+    "title": "Pixel Flow Level 1529",
+    "subtitle": "Pixel Flow Level 1529",
+    "href": "https://www.youtube.com/watch?v=y_EOPMFqT4Y",
+    "levelStart": 1529,
+    "levelEnd": 1529,
+    "slug": "level-1529",
+    "videoId": "y_EOPMFqT4Y"
+  },
+  {
+    "title": "Pixel Flow Level 1530",
+    "subtitle": "Pixel Flow Level 1530",
+    "href": "https://www.youtube.com/watch?v=y_EOPMFqT4Y",
+    "levelStart": 1530,
+    "levelEnd": 1530,
+    "slug": "level-1530",
+    "videoId": "y_EOPMFqT4Y"
+  },
+  {
+    "title": "Pixel Flow Level 3621 Very Hard",
+    "subtitle": "Pixel Flow Level 3621 Very Hard",
+    "href": "https://www.youtube.com/watch?v=9oWaEFKmUbM",
+    "levelStart": 3621,
+    "levelEnd": 3621,
+    "slug": "level-3621",
+    "videoId": "9oWaEFKmUbM"
+  },
+  {
+    "title": "Pixel Flow Level 3622",
+    "subtitle": "Pixel Flow Level 3622",
+    "href": "https://www.youtube.com/watch?v=goGVypZQDM0",
+    "levelStart": 3622,
+    "levelEnd": 3622,
+    "slug": "level-3622",
+    "videoId": "goGVypZQDM0"
+  },
+  {
+    "title": "Pixel Flow Level 3623",
+    "subtitle": "Pixel Flow Level 3623",
+    "href": "https://www.youtube.com/watch?v=gXu-1UuyJic",
+    "levelStart": 3623,
+    "levelEnd": 3623,
+    "slug": "level-3623",
+    "videoId": "gXu-1UuyJic"
+  },
+  {
+    "title": "Pixel Flow Level 3625 Hard",
+    "subtitle": "Pixel Flow Level 3625 Hard",
+    "href": "https://www.youtube.com/watch?v=FpWtNgcnmq0",
+    "levelStart": 3625,
+    "levelEnd": 3625,
+    "slug": "level-3625",
+    "videoId": "FpWtNgcnmq0"
+  },
+  {
+    "title": "Pixel Flow Level 3626",
+    "subtitle": "Pixel Flow Level 3626",
+    "href": "https://www.youtube.com/watch?v=uBd7QS8xIQw",
+    "levelStart": 3626,
+    "levelEnd": 3626,
+    "slug": "level-3626",
+    "videoId": "uBd7QS8xIQw"
+  },
+  {
+    "title": "Pixel Flow Level 3627 Hard",
+    "subtitle": "Pixel Flow Level 3627 Hard",
+    "href": "https://www.youtube.com/watch?v=ZquUXpnZWvU",
+    "levelStart": 3627,
+    "levelEnd": 3627,
+    "slug": "level-3627",
+    "videoId": "ZquUXpnZWvU"
+  },
+  {
+    "title": "Pixel Flow Level 3628",
+    "subtitle": "Pixel Flow Level 3628",
+    "href": "https://www.youtube.com/watch?v=Sn9rRYnH3eA",
+    "levelStart": 3628,
+    "levelEnd": 3628,
+    "slug": "level-3628",
+    "videoId": "Sn9rRYnH3eA"
+  },
+  {
+    "title": "Pixel Flow Level 3629",
+    "subtitle": "Pixel Flow Level 3629",
+    "href": "https://www.youtube.com/watch?v=omAk7GLMCD4",
+    "levelStart": 3629,
+    "levelEnd": 3629,
+    "slug": "level-3629",
+    "videoId": "omAk7GLMCD4"
+  },
+  {
+    "title": "Pixel Flow Level 3630 Very Hard",
+    "subtitle": "Pixel Flow Level 3630 Very Hard",
+    "href": "https://www.youtube.com/watch?v=QpOUr7zpRfw",
+    "levelStart": 3630,
+    "levelEnd": 3630,
+    "slug": "level-3630",
+    "videoId": "QpOUr7zpRfw"
+  },
+  {
+    "title": "Pixel Flow Level 3634",
+    "subtitle": "Pixel Flow Level 3634",
+    "href": "https://www.youtube.com/watch?v=zGlv4Sct_ag",
+    "levelStart": 3634,
+    "levelEnd": 3634,
+    "slug": "level-3634",
+    "videoId": "zGlv4Sct_ag"
   }
 ]
