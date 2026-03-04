@@ -28,6 +28,22 @@
   <p>If not, <a id="fallback" href="/">click here</a> to return home.</p>
   <script>
     (function () {
+      var params = new URLSearchParams(window.location.search || '');
+      var from = params.get('from');
+      if (from) {
+        if (!from.startsWith('/')) {
+          from = '/' + from;
+        }
+        if (!/^\/[A-Za-z0-9/_-]*$/.test(from)) {
+          from = '';
+        }
+      }
+      if (from) {
+        document.getElementById('fallback').setAttribute('href', from);
+        window.location.replace(from);
+        return;
+      }
+
       var path = window.location.pathname || '';
       var match = path.match(/\/level\/(\d+)/);
       if (match && match[1]) {
