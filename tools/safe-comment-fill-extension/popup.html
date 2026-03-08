@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Safe Comment Filler</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="app">
+    <h1>Safe Comment Filler</h1>
+    <p class="hint">Excel files should be saved as <strong>CSV UTF-8</strong> before import.</p>
+
+    <section class="card">
+      <label for="csvFile">Import CSV</label>
+      <input id="csvFile" type="file" accept=".csv,text/csv,.txt">
+      <button id="importBtn" type="button">Import Rows</button>
+      <a class="sample-link" href="sample-comments.csv" download>Download sample CSV</a>
+      <p id="importResult" class="muted"></p>
+    </section>
+
+    <section class="card">
+      <label for="domains">Approved Domains (one per line)</label>
+      <textarea id="domains" rows="6" placeholder="example.com"></textarea>
+      <button id="saveDomainsBtn" type="button">Save Approved Domains</button>
+    </section>
+
+    <section class="card">
+      <div class="stats">
+        <div>Rows: <strong id="rowsCount">0</strong></div>
+        <div>Batch: <strong id="batchState">idle</strong></div>
+      </div>
+      <div class="actions">
+        <button id="fillCurrentBtn" type="button">Fill Current Page</button>
+        <button id="startBatchBtn" type="button">Start Batch</button>
+        <button id="nextRowBtn" type="button">Next Row</button>
+        <button id="stopBatchBtn" type="button">Stop</button>
+      </div>
+      <p class="warning">No auto-submit: review each page and submit manually.</p>
+      <p id="status" class="status"></p>
+    </section>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>
