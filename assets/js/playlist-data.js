@@ -30337,5 +30337,95 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1710,
     "slug": "level-1710",
     "videoId": "NrUeZHHNFKA"
+  },
+  {
+    "title": "Pixel Flow - Level 1711",
+    "subtitle": "Pixel Flow - Level 1711",
+    "href": "https://www.youtube.com/watch?v=8-vauGBdOY8",
+    "levelStart": 1711,
+    "levelEnd": 1711,
+    "slug": "level-1711",
+    "videoId": "8-vauGBdOY8"
+  },
+  {
+    "title": "Pixel Flow - Level 1712",
+    "subtitle": "Pixel Flow - Level 1712",
+    "href": "https://www.youtube.com/watch?v=8-vauGBdOY8",
+    "levelStart": 1712,
+    "levelEnd": 1712,
+    "slug": "level-1712",
+    "videoId": "8-vauGBdOY8"
+  },
+  {
+    "title": "Pixel Flow - Level 1713",
+    "subtitle": "Pixel Flow - Level 1713",
+    "href": "https://www.youtube.com/watch?v=8-vauGBdOY8",
+    "levelStart": 1713,
+    "levelEnd": 1713,
+    "slug": "level-1713",
+    "videoId": "8-vauGBdOY8"
+  },
+  {
+    "title": "Pixel Flow - Level 1714",
+    "subtitle": "Pixel Flow - Level 1714",
+    "href": "https://www.youtube.com/watch?v=8-vauGBdOY8",
+    "levelStart": 1714,
+    "levelEnd": 1714,
+    "slug": "level-1714",
+    "videoId": "8-vauGBdOY8"
+  },
+  {
+    "title": "Pixel Flow - Level 1715",
+    "subtitle": "Pixel Flow - Level 1715",
+    "href": "https://www.youtube.com/watch?v=8-vauGBdOY8",
+    "levelStart": 1715,
+    "levelEnd": 1715,
+    "slug": "level-1715",
+    "videoId": "8-vauGBdOY8"
+  },
+  {
+    "title": "Pixel Flow - Level 1716",
+    "subtitle": "Pixel Flow - Level 1716",
+    "href": "https://www.youtube.com/watch?v=8-vauGBdOY8",
+    "levelStart": 1716,
+    "levelEnd": 1716,
+    "slug": "level-1716",
+    "videoId": "8-vauGBdOY8"
+  },
+  {
+    "title": "Pixel Flow - Level 1717",
+    "subtitle": "Pixel Flow - Level 1717",
+    "href": "https://www.youtube.com/watch?v=8-vauGBdOY8",
+    "levelStart": 1717,
+    "levelEnd": 1717,
+    "slug": "level-1717",
+    "videoId": "8-vauGBdOY8"
+  },
+  {
+    "title": "Pixel Flow - Level 1718",
+    "subtitle": "Pixel Flow - Level 1718",
+    "href": "https://www.youtube.com/watch?v=8-vauGBdOY8",
+    "levelStart": 1718,
+    "levelEnd": 1718,
+    "slug": "level-1718",
+    "videoId": "8-vauGBdOY8"
+  },
+  {
+    "title": "Pixel Flow - Level 1719",
+    "subtitle": "Pixel Flow - Level 1719",
+    "href": "https://www.youtube.com/watch?v=8-vauGBdOY8",
+    "levelStart": 1719,
+    "levelEnd": 1719,
+    "slug": "level-1719",
+    "videoId": "8-vauGBdOY8"
+  },
+  {
+    "title": "Pixel Flow - Level 1720",
+    "subtitle": "Pixel Flow - Level 1720",
+    "href": "https://www.youtube.com/watch?v=8-vauGBdOY8",
+    "levelStart": 1720,
+    "levelEnd": 1720,
+    "slug": "level-1720",
+    "videoId": "8-vauGBdOY8"
   }
 ]
