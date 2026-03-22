@@ -398,8 +398,54 @@
     videoFrame.insertAdjacentElement('afterend', share);
   }
 
+  function computeMissingTo4000() {
+    const max = 4000;
+    const covered = new Uint8Array(max + 1);
+    const list = Array.isArray(window.PIXEL_FLOW_PLAYLIST) ? window.PIXEL_FLOW_PLAYLIST : [];
+    list.forEach((item) => {
+      const a = Number(item && item.levelStart);
+      const b = Number(item && item.levelEnd);
+      if (!Number.isFinite(a) || !Number.isFinite(b)) return;
+      const lo = Math.max(1, Math.min(a, b));
+      const hi = Math.min(max, Math.max(a, b));
+      for (let i = lo; i <= hi; i += 1) covered[i] = 1;
+    });
+    let missing = 0;
+    for (let i = 1; i <= max; i += 1) {
+      if (covered[i] === 0) missing += 1;
+    }
+    return missing;
+  }
+
+  function renderMissingTo4000() {
+    const targets = Array.from(document.querySelectorAll('[data-missing-to-4000]'));
+    if (!targets.length) return;
+    const missing = computeMissingTo4000();
+    targets.forEach((el) => {
+      el.textContent = String(missing);
+    });
+  }
+
+  function initMissingTo4000() {
+    const targets = document.querySelectorAll('[data-missing-to-4000]');
+    if (!targets.length) return;
+    let attempts = 0;
+    const tryRender = () => {
+      if (Array.isArray(window.PIXEL_FLOW_PLAYLIST)) {
+        renderMissingTo4000();
+        return;
+      }
+      attempts += 1;
+      if (attempts <= 40) {
+        window.setTimeout(tryRender, 120);
+      }
+    };
+    tryRender();
+  }
+
   convertStaticLevelFrames();
   repositionLevelNavs();
   moveRelatedNextToVideo();
   injectShareBox();
+  initMissingTo4000();
 })();

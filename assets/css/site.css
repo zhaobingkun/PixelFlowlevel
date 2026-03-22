@@ -259,6 +259,31 @@ p {
   text-transform: uppercase;
 }
 
+.missing-levels-box {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  margin-top: 1rem;
+  padding: 0.45rem 0.75rem;
+  border: 2px solid var(--ink);
+  background: #7cf9ff;
+  box-shadow: var(--shadow-soft);
+}
+
+.missing-levels-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.missing-levels-number {
+  font-family: "Press Start 2P", "Courier New", monospace;
+  font-size: 1.35rem;
+  line-height: 1;
+  color: var(--brand-900);
+}
+
 .hero h1 {
   font-size: clamp(2.2rem, 3.6vw, 3.4rem);
 }
