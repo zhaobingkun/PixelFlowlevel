@@ -426,18 +426,47 @@
     });
   }
 
+  function setMissingTo4000Value(value) {
+    const targets = Array.from(document.querySelectorAll('[data-missing-to-4000]'));
+    if (!targets.length) return;
+    targets.forEach((el) => {
+      el.textContent = String(value);
+    });
+  }
+
+  async function renderMissingTo4000FromFile() {
+    try {
+      const res = await fetch('/missing_levels_1-4000.txt', { cache: 'no-store' });
+      if (!res.ok) return false;
+      const text = await res.text();
+      const count = text
+        .split(/\r?\n/)
+        .map((x) => x.trim())
+        .filter((x) => /^\d+$/.test(x)).length;
+      if (count > 0 || text.includes('\n')) {
+        setMissingTo4000Value(count);
+        return true;
+      }
+    } catch (err) {
+      return false;
+    }
+    return false;
+  }
+
   function initMissingTo4000() {
     const targets = document.querySelectorAll('[data-missing-to-4000]');
     if (!targets.length) return;
     let attempts = 0;
-    const tryRender = () => {
-      if (Array.isArray(window.PIXEL_FLOW_PLAYLIST)) {
+    const tryRender = async () => {
+      if (Array.isArray(window.PIXEL_FLOW_PLAYLIST) && window.PIXEL_FLOW_PLAYLIST.length) {
         renderMissingTo4000();
         return;
       }
       attempts += 1;
-      if (attempts <= 40) {
+      if (attempts <= 80) {
         window.setTimeout(tryRender, 120);
+      } else {
+        await renderMissingTo4000FromFile();
       }
     };
     tryRender();
