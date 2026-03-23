@@ -506,10 +506,34 @@
     }
   }
 
+  function setupHomeRangeFilters() {
+    const chips = document.querySelector('[data-home-range-filters]');
+    if (!chips) return;
+    const ranges = buildRangesFromData(50);
+    if (!ranges.length) return;
+
+    chips.innerHTML = '';
+
+    const all = document.createElement('a');
+    all.className = 'chip active';
+    all.href = '/levels.html';
+    all.textContent = 'ALL LEVELS';
+    chips.appendChild(all);
+
+    ranges.forEach((range) => {
+      const link = document.createElement('a');
+      link.className = 'chip';
+      link.textContent = range.label;
+      link.href = `/levels.html?range=${range.label}`;
+      chips.appendChild(link);
+    });
+  }
+
   setupNavJump();
   setupHomeFeatured();
   setupLevelsPage();
   setupDetailRangeFilters();
+  setupHomeRangeFilters();
   setupDetailQuickLinks();
   setupPreview();
 })();

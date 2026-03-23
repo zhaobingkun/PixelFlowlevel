@@ -32470,5 +32470,41 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 3924,
     "slug": "level-3924",
     "videoId": "eVLP3RFytAw"
+  },
+  {
+    "title": "Pixel Flow - Level 3925",
+    "subtitle": "Pixel Flow - Level 3925",
+    "href": "https://www.youtube.com/watch?v=znjsCc0KhyI",
+    "levelStart": 3925,
+    "levelEnd": 3925,
+    "slug": "level-3925",
+    "videoId": "znjsCc0KhyI"
+  },
+  {
+    "title": "Pixel Flow - Level 3926",
+    "subtitle": "Pixel Flow - Level 3926",
+    "href": "https://www.youtube.com/watch?v=GjnPXXRdRfY",
+    "levelStart": 3926,
+    "levelEnd": 3926,
+    "slug": "level-3926",
+    "videoId": "GjnPXXRdRfY"
+  },
+  {
+    "title": "Pixel Flow - Level 3927",
+    "subtitle": "Pixel Flow - Level 3927",
+    "href": "https://www.youtube.com/watch?v=BPp52216k4c",
+    "levelStart": 3927,
+    "levelEnd": 3927,
+    "slug": "level-3927",
+    "videoId": "BPp52216k4c"
+  },
+  {
+    "title": "Pixel Flow - Level 3928",
+    "subtitle": "Pixel Flow - Level 3928",
+    "href": "https://www.youtube.com/watch?v=-e2Jzh7B88w",
+    "levelStart": 3928,
+    "levelEnd": 3928,
+    "slug": "level-3928",
+    "videoId": "-e2Jzh7B88w"
   }
 ]
