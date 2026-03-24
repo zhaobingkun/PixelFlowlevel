@@ -32506,5 +32506,122 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 3928,
     "slug": "level-3928",
     "videoId": "-e2Jzh7B88w"
+  },
+  {
+    "title": "Pixel Flow - Level 3929",
+    "subtitle": "Pixel Flow - Level 3929",
+    "href": "https://www.youtube.com/watch?v=5LlqYv5bd60",
+    "levelStart": 3929,
+    "levelEnd": 3929,
+    "slug": "level-3929",
+    "videoId": "5LlqYv5bd60"
+  },
+  {
+    "title": "Pixel Flow - Level 3930",
+    "subtitle": "Pixel Flow - Level 3930",
+    "href": "https://www.youtube.com/watch?v=2u0AOw9SlLI",
+    "levelStart": 3930,
+    "levelEnd": 3930,
+    "slug": "level-3930",
+    "videoId": "2u0AOw9SlLI"
+  },
+  {
+    "title": "Pixel Flow - Level 3931",
+    "subtitle": "Pixel Flow - Level 3931",
+    "href": "https://www.youtube.com/watch?v=I16qzXycJUM",
+    "levelStart": 3931,
+    "levelEnd": 3931,
+    "slug": "level-3931",
+    "videoId": "I16qzXycJUM"
+  },
+  {
+    "title": "Pixel Flow - Level 3932",
+    "subtitle": "Pixel Flow - Level 3932",
+    "href": "https://www.youtube.com/watch?v=kvLTIDAxL4I",
+    "levelStart": 3932,
+    "levelEnd": 3932,
+    "slug": "level-3932",
+    "videoId": "kvLTIDAxL4I"
+  },
+  {
+    "title": "Pixel Flow - Level 3933",
+    "subtitle": "Pixel Flow - Level 3933",
+    "href": "https://www.youtube.com/watch?v=GfyZdclU1U0",
+    "levelStart": 3933,
+    "levelEnd": 3933,
+    "slug": "level-3933",
+    "videoId": "GfyZdclU1U0"
+  },
+  {
+    "title": "Pixel Flow - Level 3934",
+    "subtitle": "Pixel Flow - Level 3934",
+    "href": "https://www.youtube.com/watch?v=fMjbsbLu4TY",
+    "levelStart": 3934,
+    "levelEnd": 3934,
+    "slug": "level-3934",
+    "videoId": "fMjbsbLu4TY"
+  },
+  {
+    "title": "Pixel Flow - Level 3935",
+    "subtitle": "Pixel Flow - Level 3935",
+    "href": "https://www.youtube.com/watch?v=O4_eeDXNKE0",
+    "levelStart": 3935,
+    "levelEnd": 3935,
+    "slug": "level-3935",
+    "videoId": "O4_eeDXNKE0"
+  },
+  {
+    "title": "Pixel Flow - Level 3936",
+    "subtitle": "Pixel Flow - Level 3936",
+    "href": "https://www.youtube.com/watch?v=5tiXx7iPlbY",
+    "levelStart": 3936,
+    "levelEnd": 3936,
+    "slug": "level-3936",
+    "videoId": "5tiXx7iPlbY"
+  },
+  {
+    "title": "Pixel Flow - Level 3937",
+    "subtitle": "Pixel Flow - Level 3937",
+    "href": "https://www.youtube.com/watch?v=0mdF7OKZwpo",
+    "levelStart": 3937,
+    "levelEnd": 3937,
+    "slug": "level-3937",
+    "videoId": "0mdF7OKZwpo"
+  },
+  {
+    "title": "Pixel Flow - Level 3938",
+    "subtitle": "Pixel Flow - Level 3938",
+    "href": "https://www.youtube.com/watch?v=3y9U9fLcrz4",
+    "levelStart": 3938,
+    "levelEnd": 3938,
+    "slug": "level-3938",
+    "videoId": "3y9U9fLcrz4"
+  },
+  {
+    "title": "Pixel Flow - Level 3939",
+    "subtitle": "Pixel Flow - Level 3939",
+    "href": "https://www.youtube.com/watch?v=lKtg5equbIs",
+    "levelStart": 3939,
+    "levelEnd": 3939,
+    "slug": "level-3939",
+    "videoId": "lKtg5equbIs"
+  },
+  {
+    "title": "Pixel Flow - Level 3940",
+    "subtitle": "Pixel Flow - Level 3940",
+    "href": "https://www.youtube.com/watch?v=_JVh1QqbA_M",
+    "levelStart": 3940,
+    "levelEnd": 3940,
+    "slug": "level-3940",
+    "videoId": "_JVh1QqbA_M"
+  },
+  {
+    "title": "Pixel Flow - Level 3941",
+    "subtitle": "Pixel Flow - Level 3941",
+    "href": "https://www.youtube.com/watch?v=zGe5Ez0XFOI",
+    "levelStart": 3941,
+    "levelEnd": 3941,
+    "slug": "level-3941",
+    "videoId": "zGe5Ez0XFOI"
   }
 ]
