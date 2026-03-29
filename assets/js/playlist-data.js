@@ -33343,5 +33343,77 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4025,
     "slug": "level-4025",
     "videoId": "9k_BGvh0VDA"
+  },
+  {
+    "title": "Pixel Flow - Level 4026",
+    "subtitle": "Pixel Flow - Level 4026",
+    "href": "https://www.youtube.com/watch?v=KDrypJt5k18",
+    "levelStart": 4026,
+    "levelEnd": 4026,
+    "slug": "level-4026",
+    "videoId": "KDrypJt5k18"
+  },
+  {
+    "title": "Pixel Flow - Level 4027",
+    "subtitle": "Pixel Flow - Level 4027",
+    "href": "https://www.youtube.com/watch?v=pdegKeXHH_k",
+    "levelStart": 4027,
+    "levelEnd": 4027,
+    "slug": "level-4027",
+    "videoId": "pdegKeXHH_k"
+  },
+  {
+    "title": "Pixel Flow - Level 4028",
+    "subtitle": "Pixel Flow - Level 4028",
+    "href": "https://www.youtube.com/watch?v=uzKFLw4hIDo",
+    "levelStart": 4028,
+    "levelEnd": 4028,
+    "slug": "level-4028",
+    "videoId": "uzKFLw4hIDo"
+  },
+  {
+    "title": "Pixel Flow - Level 4029",
+    "subtitle": "Pixel Flow - Level 4029",
+    "href": "https://www.youtube.com/watch?v=g96bdJopc5Q",
+    "levelStart": 4029,
+    "levelEnd": 4029,
+    "slug": "level-4029",
+    "videoId": "g96bdJopc5Q"
+  },
+  {
+    "title": "Pixel Flow - Level 4030",
+    "subtitle": "Pixel Flow - Level 4030",
+    "href": "https://www.youtube.com/watch?v=ty9nfnnPvPk",
+    "levelStart": 4030,
+    "levelEnd": 4030,
+    "slug": "level-4030",
+    "videoId": "ty9nfnnPvPk"
+  },
+  {
+    "title": "Pixel Flow - Level 4031",
+    "subtitle": "Pixel Flow - Level 4031",
+    "href": "https://www.youtube.com/watch?v=75dQE9Td9lk",
+    "levelStart": 4031,
+    "levelEnd": 4031,
+    "slug": "level-4031",
+    "videoId": "75dQE9Td9lk"
+  },
+  {
+    "title": "Pixel Flow - Level 4032",
+    "subtitle": "Pixel Flow - Level 4032",
+    "href": "https://www.youtube.com/watch?v=ny6l105BEH8",
+    "levelStart": 4032,
+    "levelEnd": 4032,
+    "slug": "level-4032",
+    "videoId": "ny6l105BEH8"
+  },
+  {
+    "title": "Pixel Flow - Level 4033",
+    "subtitle": "Pixel Flow - Level 4033",
+    "href": "https://www.youtube.com/watch?v=G06gyMYlkSk",
+    "levelStart": 4033,
+    "levelEnd": 4033,
+    "slug": "level-4033",
+    "videoId": "G06gyMYlkSk"
   }
 ]
