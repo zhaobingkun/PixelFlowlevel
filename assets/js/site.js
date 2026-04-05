@@ -12,30 +12,6 @@
   if (yearTarget) {
     yearTarget.textContent = new Date().getFullYear();
   }
-  const preconnectOrigins = [
-    'https://fonts.googleapis.com',
-    'https://fonts.gstatic.com',
-    'https://i.ytimg.com',
-    'https://www.youtube.com',
-    'https://www.youtube-nocookie.com',
-    'https://pagead2.googlesyndication.com',
-    'https://googleads.g.doubleclick.net',
-    'https://www.google-analytics.com',
-  ];
-  function ensurePreconnects() {
-    const head = document.head;
-    if (!head) return;
-    preconnectOrigins.forEach((href) => {
-      if (head.querySelector(`link[rel="preconnect"][href="${href}"]`)) return;
-      const link = document.createElement('link');
-      link.rel = 'preconnect';
-      link.href = href;
-      if (href.includes('gstatic')) link.crossOrigin = 'anonymous';
-      head.appendChild(link);
-    });
-  }
-  ensurePreconnects();
-
   document.querySelectorAll('[data-faq-toggle]').forEach((button) => {
     button.addEventListener('click', () => {
       const parent = button.closest('.faq-item');
@@ -456,6 +432,10 @@
   function initMissingTo4000() {
     const targets = document.querySelectorAll('[data-missing-to-4000]');
     if (!targets.length) return;
+    if (!Array.isArray(window.PIXEL_FLOW_PLAYLIST) || !window.PIXEL_FLOW_PLAYLIST.length) {
+      renderMissingTo4000FromFile();
+      return;
+    }
     let attempts = 0;
     const tryRender = async () => {
       if (Array.isArray(window.PIXEL_FLOW_PLAYLIST) && window.PIXEL_FLOW_PLAYLIST.length) {

@@ -46,7 +46,8 @@
   <link rel="canonical" href="https://pixelflowlevel.app/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet"></noscript>
   <link rel="stylesheet" href="assets/css/site.css">
 </head>
 
@@ -145,7 +146,7 @@
         <div>
           <div class="video-frame" data-level-preview>
             <a class="video-fallback visible" href="https://www.youtube.com/watch?v=W_ILad-El9w" target="_blank" rel="noopener">
-              <img src="https://img.youtube.com/vi/W_ILad-El9w/hqdefault.jpg" alt="Pixel Flow walkthrough preview">
+              <img src="https://img.youtube.com/vi/W_ILad-El9w/hqdefault.jpg" alt="Pixel Flow walkthrough preview" width="480" height="360" fetchpriority="high" decoding="async">
               <span>点击播放 / YouTube</span>
             </a>
           </div>
@@ -362,7 +363,7 @@
           <li><a href="https://share.evernote.com/note/41ad1776-3ba7-4ad0-861e-36b84fbf4810" target="_blank" rel="noopener">evernote</a></li>
           <li><a href="https://startupfa.me/s/pixel-flow-level?utm_source=www.pixel-flow-level.com" target="_blank" rel="noopener">Startup Fame</a></li>
           <li><a href="https://www.showmysites.com" target="_blank" rel="noopener">ShowMySites Badge</a></li>
-          <li><a href="https://www.justsimple.tools" target="_blank" rel="noopener noreferrer"><img src="https://www.justsimple.tools/badge.svg" width="150"  alt="Listed on JustSimple Tools" /></a></li>
+          <li><a href="https://www.justsimple.tools" target="_blank" rel="noopener noreferrer"><img src="https://www.justsimple.tools/badge.svg" width="150" height="40" loading="lazy" decoding="async" alt="Listed on JustSimple Tools" /></a></li>
           <li><a href="https://deeplaunch.io" target="_blank" rel="noopener">DeepLaunch.io</a></li>
         </ul>
       </div>
@@ -372,7 +373,7 @@
 </footer>
 
 <script src="assets/js/site.js"></script>
-<script src="assets/js/playlist-data.js"></script>
-<script src="assets/js/levels.js"></script>
+<script src="assets/js/home-data.js"></script>
+<script src="assets/js/home.js"></script>
 </body>
 </html>
