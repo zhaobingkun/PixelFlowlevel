@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube Link Checker</title>
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <style>
+    .checker-wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .checker-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      align-items: end;
+      margin: 1.2rem 0 1.5rem;
+    }
+
+    .checker-field {
+      display: grid;
+      gap: 0.35rem;
+    }
+
+    .checker-field input {
+      width: 160px;
+      padding: 0.75rem;
+      border: 2px solid var(--ink);
+      background: #fff;
+      font: inherit;
+    }
+
+    .checker-summary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin: 1rem 0 1.5rem;
+    }
+
+    .checker-chip {
+      border: 2px solid var(--ink);
+      background: #fff;
+      padding: 0.55rem 0.8rem;
+      box-shadow: var(--shadow-soft);
+      font-size: 0.95rem;
+    }
+
+    .checker-log {
+      margin: 1rem 0;
+      color: var(--muted);
+      min-height: 1.5rem;
+    }
+
+    .checker-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .checker-table th,
+    .checker-table td {
+      border: 2px solid var(--ink);
+      padding: 0.7rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .checker-table th {
+      background: #7cf9ff;
+    }
+
+    .checker-table code {
+      font-size: 0.9rem;
+    }
+
+    .checker-empty {
+      padding: 1rem;
+      border: 2px dashed var(--ink);
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <main class="checker-wrap">
+    <span class="hero-kicker">Tools</span>
+    <h1>YouTube Range Checker</h1>
+    <p>Check a range of Pixel Flow levels against YouTube oEmbed and list entries that are missing, removed, private, or otherwise unavailable.</p>
+
+    <div class="checker-controls">
+      <label class="checker-field">
+        <span>Start level</span>
+        <input type="number" min="1" value="571" data-start-level>
+      </label>
+      <label class="checker-field">
+        <span>End level</span>
+        <input type="number" min="1" value="950" data-end-level>
+      </label>
+      <button class="btn btn-primary" type="button" data-run-check>Run check</button>
+      <button class="btn btn-secondary" type="button" data-copy-results>Copy results</button>
+    </div>
+
+    <div class="checker-summary">
+      <div class="checker-chip">Checked: <strong data-total-count>0</strong></div>
+      <div class="checker-chip">Failures: <strong data-failure-count>0</strong></div>
+      <div class="checker-chip">Local missing: <strong data-local-missing-count>0</strong></div>
+    </div>
+
+    <div class="checker-log" data-checker-log>Ready.</div>
+
+    <div class="checker-empty" data-empty-state>No failures yet.</div>
+
+    <table class="checker-table" data-results-table hidden>
+      <thead>
+        <tr>
+          <th>Level</th>
+          <th>Status</th>
+          <th>Video ID</th>
+          <th>Link</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      <tbody data-results-body></tbody>
+    </table>
+  </main>
+
+  <script src="/assets/js/playlist-data.js"></script>
+  <script>
+    (function () {
+      const playlist = window.PIXEL_FLOW_PLAYLIST || [];
+      const startInput = document.querySelector('[data-start-level]');
+      const endInput = document.querySelector('[data-end-level]');
+      const runBtn = document.querySelector('[data-run-check]');
+      const copyBtn = document.querySelector('[data-copy-results]');
+      const log = document.querySelector('[data-checker-log]');
+      const body = document.querySelector('[data-results-body]');
+      const table = document.querySelector('[data-results-table]');
+      const empty = document.querySelector('[data-empty-state]');
+      const totalCount = document.querySelector('[data-total-count]');
+      const failureCount = document.querySelector('[data-failure-count]');
+      const localMissingCount = document.querySelector('[data-local-missing-count]');
+      let lastFailures = [];
+
+      function setLog(message) {
+        log.textContent = message;
+      }
+
+      function normalizeEntries(start, end) {
+        const rows = [];
+        playlist.forEach((entry) => {
+          const levelStart = entry.levelStart;
+          const levelEnd = entry.levelEnd;
+          if (!Number.isInteger(levelStart) || !Number.isInteger(levelEnd)) return;
+          if (levelEnd < start || levelStart > end) return;
+          for (let level = Math.max(levelStart, start); level <= Math.min(levelEnd, end); level += 1) {
+            rows.push({
+              level,
+              videoId: entry.videoId || '',
+              href: entry.href || '',
+              title: entry.title || ''
+            });
+          }
+        });
+        rows.sort((a, b) => a.level - b.level);
+        return rows;
+      }
+
+      async function checkOne(row) {
+        if (!row.videoId || !row.href) {
+          return { ...row, status: 'LOCAL_MISSING' };
+        }
+
+        const watchUrl = 'https://www.youtube.com/watch?v=' + row.videoId;
+        const oembed = 'https://www.youtube.com/oembed?url=' + encodeURIComponent(watchUrl) + '&format=json';
+        try {
+          const response = await fetch(oembed, { mode: 'cors' });
+          if (response.ok) {
+            return { ...row, status: 'OK' };
+          }
+          return { ...row, status: 'HTTP_' + response.status };
+        } catch (error) {
+          return { ...row, status: 'FETCH_ERROR', error: String(error) };
+        }
+      }
+
+      async function runBatch(rows, concurrency) {
+        const results = [];
+        let index = 0;
+
+        async function worker() {
+          while (index < rows.length) {
+            const current = rows[index];
+            index += 1;
+            const result = await checkOne(current);
+            results.push(result);
+            setLog('Checking level ' + current.level + ' of ' + rows[rows.length - 1].level + ' ...');
+          }
+        }
+
+        const workers = [];
+        for (let i = 0; i < concurrency; i += 1) {
+          workers.push(worker());
+        }
+        await Promise.all(workers);
+        results.sort((a, b) => a.level - b.level);
+        return results;
+      }
+
+      function renderFailures(failures, total) {
+        lastFailures = failures.slice();
+        totalCount.textContent = String(total);
+        failureCount.textContent = String(failures.length);
+        localMissingCount.textContent = String(failures.filter((item) => item.status === 'LOCAL_MISSING').length);
+
+        body.innerHTML = '';
+        if (!failures.length) {
+          table.hidden = true;
+          empty.hidden = false;
+          empty.textContent = 'No failures found in this range.';
+          setLog('Check complete. No failures found.');
+          return;
+        }
+
+        failures.forEach((item) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = [
+            '<td>' + item.level + '</td>',
+            '<td>' + item.status + '</td>',
+            '<td><code>' + (item.videoId || '-') + '</code></td>',
+            '<td>' + (item.href ? '<a href="' + item.href + '" target="_blank" rel="noopener">' + item.href + '</a>' : '-') + '</td>',
+            '<td>' + (item.title || '-') + '</td>'
+          ].join('');
+          body.appendChild(tr);
+        });
+
+        empty.hidden = true;
+        table.hidden = false;
+        setLog('Check complete. Found ' + failures.length + ' failures.');
+      }
+
+      async function run() {
+        const start = Number(startInput.value);
+        const end = Number(endInput.value);
+        if (!Number.isInteger(start) || !Number.isInteger(end) || start <= 0 || end < start) {
+          setLog('Invalid range.');
+          return;
+        }
+        const rows = normalizeEntries(start, end);
+        if (!rows.length) {
+          renderFailures([], 0);
+          setLog('No entries found for this range.');
+          return;
+        }
+        runBtn.disabled = true;
+        setLog('Starting check for levels ' + start + '-' + end + ' ...');
+        const results = await runBatch(rows, 6);
+        const failures = results.filter((item) => item.status !== 'OK');
+        renderFailures(failures, results.length);
+        runBtn.disabled = false;
+      }
+
+      copyBtn.addEventListener('click', async function () {
+        const text = lastFailures.map((item) => [item.level, item.status, item.videoId || '-', item.href || '-', item.title || '-'].join('\t')).join('\n');
+        try {
+          await navigator.clipboard.writeText(text);
+          setLog('Failure list copied to clipboard.');
+        } catch (error) {
+          setLog('Copy failed. You can still select the table manually.');
+        }
+      });
+
+      runBtn.addEventListener('click', run);
+    })();
+  </script>
+</body>
+</html>

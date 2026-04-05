@@ -134,6 +134,7 @@ def append_playlist_entries(repo_root: str, items: Iterable[LevelVideo], dry_run
 
 def build_level_page(level: int, title: str, video_id: str, max_level: int, prev_level: int | None, next_level: int | None) -> str:
     safe_title = html_escape(title)
+    keyword_heading = html_escape(f"pixel flow {level}")
     description = html_escape(f"{title} walkthrough video and guide.")
     canonical = f"https://pixelflowlevel.app/level/{level}/"
     youtube = f"https://www.youtube.com/watch?v={video_id}"
@@ -225,6 +226,7 @@ def build_level_page(level: int, title: str, video_id: str, max_level: int, prev
     <div class="container">
       <span class="hero-kicker">Pixel flow level</span>
       <h1>{safe_title}</h1>
+      <h2 class="level-keyword-title">{keyword_heading}</h2>
       <p>{safe_title}</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="/levels.html">Back to all levels</a>

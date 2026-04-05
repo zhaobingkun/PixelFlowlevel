@@ -67,6 +67,7 @@
 
     setText('[data-detail-title]', titleText);
     setText('[data-detail-title-secondary]', titleText);
+    setText('[data-detail-keyword]', `pixel flow ${levelNumber || entry.levelStart || entry.levelEnd}`);
     setText('[data-detail-subtitle]', subtitleText);
     setText('[data-detail-meta]', subtitleText);
     setText('[data-detail-label]', label);

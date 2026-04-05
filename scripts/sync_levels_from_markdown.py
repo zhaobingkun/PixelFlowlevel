@@ -69,6 +69,42 @@ def parse_links_markdown(md_text: str) -> dict[int, LinkEntry]:
     return by_level
 
 
+def parse_links_json(json_text: str) -> dict[int, LinkEntry]:
+    payload = json.loads(json_text)
+    items = payload.get("found", payload) if isinstance(payload, dict) else payload
+    if not isinstance(items, list):
+        raise RuntimeError("JSON source must be a list or an object with a 'found' array.")
+
+    by_level: dict[int, LinkEntry] = {}
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        level = item.get("level")
+        title = item.get("title")
+        video_id = item.get("video_id")
+        published_at = item.get("publishedAt") or item.get("published_at") or ""
+        if not isinstance(level, int) or not isinstance(title, str) or not title.strip():
+            continue
+        if not isinstance(video_id, str) or not video_id.strip():
+            url = item.get("url")
+            if isinstance(url, str):
+                match = re.search(r"[?&]v=([\w-]+)", url)
+                if match:
+                    video_id = match.group(1)
+        if not isinstance(video_id, str) or not video_id.strip():
+            continue
+
+        existing = by_level.get(level)
+        if existing is None or published_at > existing.published_at:
+            by_level[level] = LinkEntry(
+                level=level,
+                video_id=video_id.strip(),
+                title=title.strip(),
+                published_at=published_at.strip(),
+            )
+    return by_level
+
+
 def load_playlist_levels(repo_root: str) -> tuple[set[int], int]:
     playlist_path = os.path.join(repo_root, "assets", "js", "playlist-data.js")
     raw = open(playlist_path, "r", encoding="utf-8", errors="ignore").read()
@@ -129,6 +165,7 @@ def append_playlist_entries(repo_root: str, entries: Iterable[LinkEntry], dry_ru
 
 def build_level_page(level: int, title: str, video_id: str, max_level: int, prev_level: int | None, next_level: int | None) -> str:
     safe_title = html_escape(title)
+    keyword_heading = html_escape(f"pixel flow {level}")
     description = html_escape(f"{title} walkthrough video and guide.")
     canonical = f"https://pixelflowlevel.app/level/{level}/"
     youtube = f"https://www.youtube.com/watch?v={video_id}"
@@ -220,6 +257,7 @@ def build_level_page(level: int, title: str, video_id: str, max_level: int, prev
     <div class="container">
       <span class="hero-kicker">Pixel flow level</span>
       <h1>{safe_title}</h1>
+      <h2 class="level-keyword-title">{keyword_heading}</h2>
       <p>{safe_title}</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="/levels.html">Back to all levels</a>
@@ -397,15 +435,23 @@ def main() -> int:
         default="/Users/zhaobingkun/dev/Python/spider/pixel_flow_level_links.md",
         help="Path to pixel_flow_level_links.md",
     )
+    parser.add_argument(
+        "--links-json",
+        help="Path to a JSON file containing found level entries",
+    )
     parser.add_argument("--repo-root", default=".", help="Repo root containing assets/ and level/")
     parser.add_argument("--dry-run", action="store_true", help="Print what would change without writing")
     args = parser.parse_args()
 
     repo_root = os.path.abspath(args.repo_root)
-    md_text = open(args.links_md, "r", encoding="utf-8", errors="ignore").read()
-    entries_by_level = parse_links_markdown(md_text)
+    if args.links_json:
+        raw_text = open(args.links_json, "r", encoding="utf-8", errors="ignore").read()
+        entries_by_level = parse_links_json(raw_text)
+    else:
+        md_text = open(args.links_md, "r", encoding="utf-8", errors="ignore").read()
+        entries_by_level = parse_links_markdown(md_text)
     if not entries_by_level:
-        raise RuntimeError("No entries parsed from markdown file.")
+        raise RuntimeError("No entries parsed from input file.")
 
     covered_levels, playlist_max = load_playlist_levels(repo_root)
     link_max = max(entries_by_level)
