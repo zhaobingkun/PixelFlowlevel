@@ -432,8 +432,18 @@
   function initMissingTo4000() {
     const targets = document.querySelectorAll('[data-missing-to-4000]');
     if (!targets.length) return;
+    const homeData = window.PIXEL_FLOW_HOME || null;
+    if (homeData && Number.isFinite(Number(homeData.missingTo4000))) {
+      setMissingTo4000Value(Number(homeData.missingTo4000));
+      return;
+    }
     if (!Array.isArray(window.PIXEL_FLOW_PLAYLIST) || !window.PIXEL_FLOW_PLAYLIST.length) {
-      renderMissingTo4000FromFile();
+      const defer = () => { renderMissingTo4000FromFile(); };
+      if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(defer, { timeout: 4000 });
+      } else {
+        window.setTimeout(defer, 2500);
+      }
       return;
     }
     let attempts = 0;

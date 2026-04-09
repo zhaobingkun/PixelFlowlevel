@@ -15,12 +15,17 @@ def main() -> int:
     data = json.loads(raw[len(prefix):])
 
     max_level = 0
+    covered_to_4000: set[int] = set()
     featured = []
     for entry in data:
         start = entry.get("levelStart")
         end = entry.get("levelEnd")
         if isinstance(start, int) and isinstance(end, int):
             max_level = max(max_level, start, end)
+            lo = max(1, min(start, end))
+            hi = min(4000, max(start, end))
+            if lo <= hi:
+                covered_to_4000.update(range(lo, hi + 1))
         if len(featured) < 8 and entry.get("videoId"):
             featured.append({
                 "title": entry.get("title"),
@@ -37,7 +42,12 @@ def main() -> int:
         end = min(start + 49, max_level)
         ranges.append({"start": start, "end": end, "label": f"{start}-{end}"})
 
-    payload = {"maxLevel": max_level, "featured": featured, "ranges": ranges}
+    payload = {
+        "maxLevel": max_level,
+        "featured": featured,
+        "ranges": ranges,
+        "missingTo4000": max(0, 4000 - len(covered_to_4000)),
+    }
     output_path.write_text(
         "window.PIXEL_FLOW_HOME = " + json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + ";\n",
         encoding="utf-8",

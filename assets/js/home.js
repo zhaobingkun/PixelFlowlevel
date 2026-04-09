@@ -4,6 +4,10 @@
   const maxLevel = Number(homeData.maxLevel) || 0;
   const ranges = Array.isArray(homeData.ranges) ? homeData.ranges : [];
 
+  function thumbUrl(videoId) {
+    return videoId ? `https://img.youtube.com/vi/${videoId}/mqdefault.jpg` : '';
+  }
+
   function syncMaxInputs() {
     document.querySelectorAll('[data-nav-jump-input]').forEach((input) => {
       if (!maxLevel) return;
@@ -47,12 +51,12 @@
     art.className = 'level-thumb';
 
     const img = document.createElement('img');
-    img.src = entry.videoId ? `https://img.youtube.com/vi/${entry.videoId}/hqdefault.jpg` : '';
+    img.src = thumbUrl(entry.videoId);
     img.alt = card.dataset.title;
     img.loading = 'lazy';
     img.decoding = 'async';
-    img.width = 480;
-    img.height = 360;
+    img.width = 320;
+    img.height = 180;
     art.appendChild(img);
 
     const thumbLabel = document.createElement('span');
@@ -121,10 +125,10 @@
       fallback.href = `https://www.youtube.com/watch?v=${entry.videoId}`;
       const img = fallback.querySelector('img');
       if (img) {
-        img.src = `https://img.youtube.com/vi/${entry.videoId}/hqdefault.jpg`;
+        img.src = thumbUrl(entry.videoId);
         img.alt = entry.title || 'Pixel Flow walkthrough preview';
-        img.width = 480;
-        img.height = 360;
+        img.width = 320;
+        img.height = 180;
       }
     }
 
