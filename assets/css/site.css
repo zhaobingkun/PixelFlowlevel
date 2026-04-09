@@ -682,6 +682,40 @@ body[data-detail-page="/level"] .video-frame::after {
   font-size: 1rem;
 }
 
+.level-guide-copy {
+  padding-top: 0;
+}
+
+.guide-copy-card {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(255, 237, 251, 0.96)),
+    #fff;
+}
+
+.guide-copy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.guide-copy-mini {
+  border: 2px solid var(--ink);
+  background: #fff8fe;
+  padding: 1rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.guide-copy-mini h3 {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.guide-copy-mini p,
+.guide-copy-card p {
+  color: var(--muted);
+}
+
 .related-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
