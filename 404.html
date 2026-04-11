@@ -20,14 +20,111 @@
     :root { color-scheme: dark; }
     body { font-family: Arial, sans-serif; padding: 2rem; background: #0b0014; color: #fefefe; text-align: center; }
     a { color: #ff7adf; }
+    .actions { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; margin-top: 1.25rem; }
+    .section { max-width: 860px; margin: 1.5rem auto 0; }
+    .section h2 { margin-bottom: 0.75rem; }
+    .chips { display: flex; gap: 0.6rem; flex-wrap: wrap; justify-content: center; }
+    .chip {
+      display: inline-block;
+      padding: 0.65rem 0.9rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 122, 223, 0.28);
+      background: rgba(255, 122, 223, 0.08);
+      color: #fefefe;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .search-box {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+    .search-box input {
+      min-width: 240px;
+      padding: 0.8rem 0.9rem;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      background: rgba(255, 255, 255, 0.06);
+      color: #fefefe;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.8rem 1rem;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 122, 223, 0.4);
+      background: rgba(255, 122, 223, 0.12);
+      color: #fefefe;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .btn-secondary {
+      border-color: rgba(255, 255, 255, 0.18);
+      background: rgba(255, 255, 255, 0.06);
+    }
+    .small { color: rgba(255,255,255,0.7); }
   </style>
 </head>
 <body>
   <h1>404 - Page not found</h1>
-  <p>We can't find that Pixel Flow page. You will be redirected shortly.</p>
-  <p>If not, <a id="fallback" href="/">click here</a> to return home.</p>
+  <p>We can't find that Pixel Flow page.</p>
+  <p class="small">Stay here and choose the next step instead of being redirected away.</p>
+  <div class="actions">
+    <a id="fallback" class="btn" href="/">Go to homepage</a>
+    <a class="btn btn-secondary" href="/levels.html">Browse all levels</a>
+  </div>
+  <section class="section">
+    <h2>Search a level</h2>
+    <p class="small">Jump straight to a level number if you already know it.</p>
+    <div class="search-box">
+      <input id="level-search-input" type="number" min="1" max="4139" placeholder="Enter level number (1-4139)">
+      <button id="level-search-btn" class="btn" type="button">Find level</button>
+    </div>
+  </section>
+  <section class="section">
+    <h2>Popular ranges</h2>
+    <div class="chips">
+      <a class="chip" href="/levels.html?range=1-50">1-50</a>
+      <a class="chip" href="/levels.html?range=551-600">551-600</a>
+      <a class="chip" href="/levels.html?range=901-950">901-950</a>
+      <a class="chip" href="/levels.html?range=2001-2050">2001-2050</a>
+      <a class="chip" href="/levels.html?range=3301-3340">3301-3340</a>
+    </div>
+  </section>
+  <section class="section">
+    <h2>Latest levels</h2>
+    <div class="chips">
+      <a class="chip" href="/level/4139">Level 4139</a>
+      <a class="chip" href="/level/4138">Level 4138</a>
+      <a class="chip" href="/level/4137">Level 4137</a>
+      <a class="chip" href="/level/4136">Level 4136</a>
+      <a class="chip" href="/level/4135">Level 4135</a>
+    </div>
+  </section>
   <script>
     (function () {
+      var maxLevel = 4139;
+      var searchInput = document.getElementById('level-search-input');
+      var searchBtn = document.getElementById('level-search-btn');
+
+      function jumpToLevel() {
+        if (!searchInput) return;
+        var value = Number(searchInput.value);
+        if (!Number.isInteger(value) || value < 1 || value > maxLevel) {
+          searchInput.focus();
+          return;
+        }
+        window.location.href = '/level/' + value;
+      }
+
+      if (searchBtn) searchBtn.addEventListener('click', jumpToLevel);
+      if (searchInput) {
+        searchInput.addEventListener('keypress', function (event) {
+          if (event.key === 'Enter') jumpToLevel();
+        });
+      }
+
       var params = new URLSearchParams(window.location.search || '');
       var from = params.get('from');
       if (from) {
@@ -40,7 +137,7 @@
       }
       if (from) {
         document.getElementById('fallback').setAttribute('href', from);
-        window.location.replace(from);
+        document.getElementById('fallback').textContent = 'Try suggested page';
         return;
       }
 
@@ -49,10 +146,9 @@
       if (match && match[1]) {
         var target = '/level/' + match[1];
         document.getElementById('fallback').setAttribute('href', target);
-        window.location.replace(target);
+        document.getElementById('fallback').textContent = 'Try level ' + match[1];
         return;
       }
-      setTimeout(function () { window.location.replace('/'); }, 3000);
     })();
   </script>
 </body>
