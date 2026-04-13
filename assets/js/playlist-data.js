@@ -33973,5 +33973,77 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4139,
     "slug": "level-4139",
     "videoId": "6rBGFcNSpYo"
+  },
+  {
+    "title": "Pixel Flow Level 4140 - The one with the moon and the owl",
+    "subtitle": "Pixel Flow Level 4140 - The one with the moon and the owl",
+    "href": "https://www.youtube.com/watch?v=WyvbwlFbNgY",
+    "levelStart": 4140,
+    "levelEnd": 4140,
+    "slug": "level-4140",
+    "videoId": "WyvbwlFbNgY"
+  },
+  {
+    "title": "Pixel Flow Level 4141 - The one with the strange humanoid in the forest",
+    "subtitle": "Pixel Flow Level 4141 - The one with the strange humanoid in the forest",
+    "href": "https://www.youtube.com/watch?v=7sbjxPwQkmQ",
+    "levelStart": 4141,
+    "levelEnd": 4141,
+    "slug": "level-4141",
+    "videoId": "7sbjxPwQkmQ"
+  },
+  {
+    "title": "Pixel Flow Level 4142 - The one with yoda",
+    "subtitle": "Pixel Flow Level 4142 - The one with yoda",
+    "href": "https://www.youtube.com/watch?v=tK_hNAm-Dbk",
+    "levelStart": 4142,
+    "levelEnd": 4142,
+    "slug": "level-4142",
+    "videoId": "tK_hNAm-Dbk"
+  },
+  {
+    "title": "Pixel Flow Level 4143- The one with the slide",
+    "subtitle": "Pixel Flow Level 4143- The one with the slide",
+    "href": "https://www.youtube.com/watch?v=lo9svFl45As",
+    "levelStart": 4143,
+    "levelEnd": 4143,
+    "slug": "level-4143",
+    "videoId": "lo9svFl45As"
+  },
+  {
+    "title": "Pixel Flow Level 4144 Hard - The one with the cooking bear",
+    "subtitle": "Pixel Flow Level 4144 Hard - The one with the cooking bear",
+    "href": "https://www.youtube.com/watch?v=8JGExPgDoiw",
+    "levelStart": 4144,
+    "levelEnd": 4144,
+    "slug": "level-4144",
+    "videoId": "8JGExPgDoiw"
+  },
+  {
+    "title": "Pixel Flow Level 4145 - The one with the alien hairdresser",
+    "subtitle": "Pixel Flow Level 4145 - The one with the alien hairdresser",
+    "href": "https://www.youtube.com/watch?v=2pvVCV4yv48",
+    "levelStart": 4145,
+    "levelEnd": 4145,
+    "slug": "level-4145",
+    "videoId": "2pvVCV4yv48"
+  },
+  {
+    "title": "Pixel Flow Level 4146 - The one with the brown door",
+    "subtitle": "Pixel Flow Level 4146 - The one with the brown door",
+    "href": "https://www.youtube.com/watch?v=QcT-zuTP-Ls",
+    "levelStart": 4146,
+    "levelEnd": 4146,
+    "slug": "level-4146",
+    "videoId": "QcT-zuTP-Ls"
+  },
+  {
+    "title": "Pixel Flow Level 4147- The one with the multicolored snake and the eggs",
+    "subtitle": "Pixel Flow Level 4147- The one with the multicolored snake and the eggs",
+    "href": "https://www.youtube.com/watch?v=EtmOVHgEuFc",
+    "levelStart": 4147,
+    "levelEnd": 4147,
+    "slug": "level-4147",
+    "videoId": "EtmOVHgEuFc"
   }
 ]
