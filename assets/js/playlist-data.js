@@ -34144,5 +34144,113 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4159,
     "slug": "level-4159",
     "videoId": "UtMOcreYWGU"
+  },
+  {
+    "title": "Pixel Flow Level 4148 Hard",
+    "subtitle": "Pixel Flow Level 4148 Hard",
+    "href": "https://www.youtube.com/watch?v=B1GRcrBkDkE",
+    "levelStart": 4148,
+    "levelEnd": 4148,
+    "slug": "level-4148",
+    "videoId": "B1GRcrBkDkE"
+  },
+  {
+    "title": "Pixel Flow Level 4160 - The one in white with the blue, red and purple snake",
+    "subtitle": "Pixel Flow Level 4160 - The one in white with the blue, red and purple snake",
+    "href": "https://www.youtube.com/watch?v=O8FyF4mF4Bw",
+    "levelStart": 4160,
+    "levelEnd": 4160,
+    "slug": "level-4160",
+    "videoId": "O8FyF4mF4Bw"
+  },
+  {
+    "title": "Pixel Flow Level 4161 - The one with the catstronaut",
+    "subtitle": "Pixel Flow Level 4161 - The one with the catstronaut",
+    "href": "https://www.youtube.com/watch?v=KlDIZ_tdeto",
+    "levelStart": 4161,
+    "levelEnd": 4161,
+    "slug": "level-4161",
+    "videoId": "KlDIZ_tdeto"
+  },
+  {
+    "title": "Pixel Flow Level 4162 - The one with the turtle",
+    "subtitle": "Pixel Flow Level 4162 - The one with the turtle",
+    "href": "https://www.youtube.com/watch?v=Zs6e5u_zblI",
+    "levelStart": 4162,
+    "levelEnd": 4162,
+    "slug": "level-4162",
+    "videoId": "Zs6e5u_zblI"
+  },
+  {
+    "title": "Pixel Flow Level 4163 - The one with the multicolored labyrinthe and the multicolored snakes",
+    "subtitle": "Pixel Flow Level 4163 - The one with the multicolored labyrinthe and the multicolored snakes",
+    "href": "https://www.youtube.com/watch?v=AQpdkqLnebY",
+    "levelStart": 4163,
+    "levelEnd": 4163,
+    "slug": "level-4163",
+    "videoId": "AQpdkqLnebY"
+  },
+  {
+    "title": "Pixel Flow Level 4164 Hard - The one with the blue lake and mountains with the multicolored snake",
+    "subtitle": "Pixel Flow Level 4164 Hard - The one with the blue lake and mountains with the multicolored snake",
+    "href": "https://www.youtube.com/watch?v=_WuICfqO4nQ",
+    "levelStart": 4164,
+    "levelEnd": 4164,
+    "slug": "level-4164",
+    "videoId": "_WuICfqO4nQ"
+  },
+  {
+    "title": "Pixel Flow Level 4165 - The one with the orange thing",
+    "subtitle": "Pixel Flow Level 4165 - The one with the orange thing",
+    "href": "https://www.youtube.com/watch?v=5s1tnJaYIl0",
+    "levelStart": 4165,
+    "levelEnd": 4165,
+    "slug": "level-4165",
+    "videoId": "5s1tnJaYIl0"
+  },
+  {
+    "title": "Pixel Flow Level 4166 - The one with the three pink pigs in the lake",
+    "subtitle": "Pixel Flow Level 4166 - The one with the three pink pigs in the lake",
+    "href": "https://www.youtube.com/watch?v=ls-4O9YLNUA",
+    "levelStart": 4166,
+    "levelEnd": 4166,
+    "slug": "level-4166",
+    "videoId": "ls-4O9YLNUA"
+  },
+  {
+    "title": "Pixel Flow Level 4167 - The one with the pinguin",
+    "subtitle": "Pixel Flow Level 4167 - The one with the pinguin",
+    "href": "https://www.youtube.com/watch?v=viUYFYFv4P0",
+    "levelStart": 4167,
+    "levelEnd": 4167,
+    "slug": "level-4167",
+    "videoId": "viUYFYFv4P0"
+  },
+  {
+    "title": "Pixel Flow Level 4168 Hard - the one with the woman with a purple hood",
+    "subtitle": "Pixel Flow Level 4168 Hard - the one with the woman with a purple hood",
+    "href": "https://www.youtube.com/watch?v=pS1WbZuZFXU",
+    "levelStart": 4168,
+    "levelEnd": 4168,
+    "slug": "level-4168",
+    "videoId": "pS1WbZuZFXU"
+  },
+  {
+    "title": "Pixel Flow Level 4169 Very Hard - The one with the juke-box or the door",
+    "subtitle": "Pixel Flow Level 4169 Very Hard - The one with the juke-box or the door",
+    "href": "https://www.youtube.com/watch?v=tZBJ8g8_yZw",
+    "levelStart": 4169,
+    "levelEnd": 4169,
+    "slug": "level-4169",
+    "videoId": "tZBJ8g8_yZw"
+  },
+  {
+    "title": "Pixel Flow Level 4170 - The man in black on a blue and purple scene with pink and green snakes",
+    "subtitle": "Pixel Flow Level 4170 - The man in black on a blue and purple scene with pink and green snakes",
+    "href": "https://www.youtube.com/watch?v=-kf63UdNnF0",
+    "levelStart": 4170,
+    "levelEnd": 4170,
+    "slug": "level-4170",
+    "videoId": "-kf63UdNnF0"
   }
 ]
