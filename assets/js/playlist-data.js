@@ -34252,5 +34252,95 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4170,
     "slug": "level-4170",
     "videoId": "-kf63UdNnF0"
+  },
+  {
+    "title": "Pixel Flow Level 4171 - The one with the mouse",
+    "subtitle": "Pixel Flow Level 4171 - The one with the mouse",
+    "href": "https://www.youtube.com/watch?v=Us3DVECD7ro",
+    "levelStart": 4171,
+    "levelEnd": 4171,
+    "slug": "level-4171",
+    "videoId": "Us3DVECD7ro"
+  },
+  {
+    "title": "Pixel Flow Level 4172 - The one with the painting cat",
+    "subtitle": "Pixel Flow Level 4172 - The one with the painting cat",
+    "href": "https://www.youtube.com/watch?v=KP_3ujh53b4",
+    "levelStart": 4172,
+    "levelEnd": 4172,
+    "slug": "level-4172",
+    "videoId": "KP_3ujh53b4"
+  },
+  {
+    "title": "Pixel Flow Level 4173 - The one with the arcad game",
+    "subtitle": "Pixel Flow Level 4173 - The one with the arcad game",
+    "href": "https://www.youtube.com/watch?v=klJVPe4tdFY",
+    "levelStart": 4173,
+    "levelEnd": 4173,
+    "slug": "level-4173",
+    "videoId": "klJVPe4tdFY"
+  },
+  {
+    "title": "Pixel Flow Level 4174 Hard - The one with the multicolored wolf",
+    "subtitle": "Pixel Flow Level 4174 Hard - The one with the multicolored wolf",
+    "href": "https://www.youtube.com/watch?v=YMkpo9VfqCY",
+    "levelStart": 4174,
+    "levelEnd": 4174,
+    "slug": "level-4174",
+    "videoId": "YMkpo9VfqCY"
+  },
+  {
+    "title": "Pixel Flow Level 4175 - The one with the owl wearing glasses",
+    "subtitle": "Pixel Flow Level 4175 - The one with the owl wearing glasses",
+    "href": "https://www.youtube.com/watch?v=2jnPG6bSMXQ",
+    "levelStart": 4175,
+    "levelEnd": 4175,
+    "slug": "level-4175",
+    "videoId": "2jnPG6bSMXQ"
+  },
+  {
+    "title": "Pixel Flow Level 4176 - The one with the heart, the triangle and the rainbow",
+    "subtitle": "Pixel Flow Level 4176 - The one with the heart, the triangle and the rainbow",
+    "href": "https://www.youtube.com/watch?v=nnerpyMIc1o",
+    "levelStart": 4176,
+    "levelEnd": 4176,
+    "slug": "level-4176",
+    "videoId": "nnerpyMIc1o"
+  },
+  {
+    "title": "Pixel Flow Level 4177 - The one with the devil cat",
+    "subtitle": "Pixel Flow Level 4177 - The one with the devil cat",
+    "href": "https://www.youtube.com/watch?v=k7HmOTXftIc",
+    "levelStart": 4177,
+    "levelEnd": 4177,
+    "slug": "level-4177",
+    "videoId": "k7HmOTXftIc"
+  },
+  {
+    "title": "Pixel Flow Level 4178 - The one with the worms",
+    "subtitle": "Pixel Flow Level 4178 - The one with the worms",
+    "href": "https://www.youtube.com/watch?v=_VTaA4f5_Do",
+    "levelStart": 4178,
+    "levelEnd": 4178,
+    "slug": "level-4178",
+    "videoId": "_VTaA4f5_Do"
+  },
+  {
+    "title": "Pixel Flow Level 4179 Very Hard - The one with the fighter",
+    "subtitle": "Pixel Flow Level 4179 Very Hard - The one with the fighter",
+    "href": "https://www.youtube.com/watch?v=ZZ3wylymYWo",
+    "levelStart": 4179,
+    "levelEnd": 4179,
+    "slug": "level-4179",
+    "videoId": "ZZ3wylymYWo"
+  },
+  {
+    "title": "Pixel Flow Level 4180 - The one with the kangaroo",
+    "subtitle": "Pixel Flow Level 4180 - The one with the kangaroo",
+    "href": "https://www.youtube.com/watch?v=lfl17P3bcjo",
+    "levelStart": 4180,
+    "levelEnd": 4180,
+    "slug": "level-4180",
+    "videoId": "lfl17P3bcjo"
   }
 ]
