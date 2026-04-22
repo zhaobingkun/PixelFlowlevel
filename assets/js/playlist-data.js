@@ -35224,5 +35224,59 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4278,
     "slug": "level-4278",
     "videoId": "eqXK-xdA8CM"
+  },
+  {
+    "title": "Pixel Flow - Level 4279",
+    "subtitle": "Pixel Flow - Level 4279",
+    "href": "https://www.youtube.com/watch?v=RAdBVzXvcUw",
+    "levelStart": 4279,
+    "levelEnd": 4279,
+    "slug": "level-4279",
+    "videoId": "RAdBVzXvcUw"
+  },
+  {
+    "title": "Pixel Flow - Level 4280",
+    "subtitle": "Pixel Flow - Level 4280",
+    "href": "https://www.youtube.com/watch?v=2U740YOWx2Q",
+    "levelStart": 4280,
+    "levelEnd": 4280,
+    "slug": "level-4280",
+    "videoId": "2U740YOWx2Q"
+  },
+  {
+    "title": "Pixel Flow - Level 4281",
+    "subtitle": "Pixel Flow - Level 4281",
+    "href": "https://www.youtube.com/watch?v=_Eu6PIAPbjw",
+    "levelStart": 4281,
+    "levelEnd": 4281,
+    "slug": "level-4281",
+    "videoId": "_Eu6PIAPbjw"
+  },
+  {
+    "title": "Pixel Flow - Level 4282",
+    "subtitle": "Pixel Flow - Level 4282",
+    "href": "https://www.youtube.com/watch?v=mG0XAKEGJvI",
+    "levelStart": 4282,
+    "levelEnd": 4282,
+    "slug": "level-4282",
+    "videoId": "mG0XAKEGJvI"
+  },
+  {
+    "title": "Pixel Flow - Level 4283",
+    "subtitle": "Pixel Flow - Level 4283",
+    "href": "https://www.youtube.com/watch?v=0px2uXdvKUs",
+    "levelStart": 4283,
+    "levelEnd": 4283,
+    "slug": "level-4283",
+    "videoId": "0px2uXdvKUs"
+  },
+  {
+    "title": "Pixel Flow - Level 4284",
+    "subtitle": "Pixel Flow - Level 4284",
+    "href": "https://www.youtube.com/watch?v=ghCjcX4y6pY",
+    "levelStart": 4284,
+    "levelEnd": 4284,
+    "slug": "level-4284",
+    "videoId": "ghCjcX4y6pY"
   }
 ]
