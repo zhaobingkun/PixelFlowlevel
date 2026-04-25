@@ -35512,5 +35512,176 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4311,
     "slug": "level-4311",
     "videoId": "bglAEcbW8ac"
+  },
+  {
+    "title": "Pixel Flow Level 4312 Very Hard - The one with the bottle",
+    "subtitle": "Pixel Flow Level 4312 Very Hard - The one with the bottle",
+    "href": "https://www.youtube.com/watch?v=aX7JF1lUXQs",
+    "levelStart": 4312,
+    "levelEnd": 4312,
+    "slug": "level-4312",
+    "videoId": "aX7JF1lUXQs"
+  },
+  {
+    "title": "Pixel Flow Level 4313 - The one with the ballerina bear",
+    "subtitle": "Pixel Flow Level 4313 - The one with the ballerina bear",
+    "href": "https://www.youtube.com/watch?v=PQ2MPYlN4IQ",
+    "levelStart": 4313,
+    "levelEnd": 4313,
+    "slug": "level-4313",
+    "videoId": "PQ2MPYlN4IQ"
+  },
+  {
+    "title": "Pixel Flow Level 4314 - the one with the gameboy",
+    "subtitle": "Pixel Flow Level 4314 - the one with the gameboy",
+    "href": "https://www.youtube.com/watch?v=UaRXohNa8AQ",
+    "levelStart": 4314,
+    "levelEnd": 4314,
+    "slug": "level-4314",
+    "videoId": "UaRXohNa8AQ"
+  },
+  {
+    "title": "Pixel Flow Level 4315 - The one with the pink and purple planet",
+    "subtitle": "Pixel Flow Level 4315 - The one with the pink and purple planet",
+    "href": "https://www.youtube.com/watch?v=gUeT1uFfoFo",
+    "levelStart": 4315,
+    "levelEnd": 4315,
+    "slug": "level-4315",
+    "videoId": "gUeT1uFfoFo"
+  },
+  {
+    "title": "Pixel Flow Level 4316 - The one with magician with a sword",
+    "subtitle": "Pixel Flow Level 4316 - The one with magician with a sword",
+    "href": "https://www.youtube.com/watch?v=quQNY3hldqo",
+    "levelStart": 4316,
+    "levelEnd": 4316,
+    "slug": "level-4316",
+    "videoId": "quQNY3hldqo"
+  },
+  {
+    "title": "Pixel Flow Level 4317 - Hard - The one with the giant lizard and the person sitting on subway",
+    "subtitle": "Pixel Flow Level 4317 - Hard - The one with the giant lizard and the person sitting on subway",
+    "href": "https://www.youtube.com/watch?v=6ucdU9Su57o",
+    "levelStart": 4317,
+    "levelEnd": 4317,
+    "slug": "level-4317",
+    "videoId": "6ucdU9Su57o"
+  },
+  {
+    "title": "Pixel Flow Level 4318 - The one with the devil Phoenix",
+    "subtitle": "Pixel Flow Level 4318 - The one with the devil Phoenix",
+    "href": "https://www.youtube.com/watch?v=rTdyu_W3gP0",
+    "levelStart": 4318,
+    "levelEnd": 4318,
+    "slug": "level-4318",
+    "videoId": "rTdyu_W3gP0"
+  },
+  {
+    "title": "Pixel Flow Level 4319 - The one with the bear piannist",
+    "subtitle": "Pixel Flow Level 4319 - The one with the bear piannist",
+    "href": "https://www.youtube.com/watch?v=dWyJ9xpwc08",
+    "levelStart": 4319,
+    "levelEnd": 4319,
+    "slug": "level-4319",
+    "videoId": "dWyJ9xpwc08"
+  },
+  {
+    "title": "Pixel Flow Level 4320 - The one with the man in the street during the night",
+    "subtitle": "Pixel Flow Level 4320 - The one with the man in the street during the night",
+    "href": "https://www.youtube.com/watch?v=Nt1Tw9YPyDQ",
+    "levelStart": 4320,
+    "levelEnd": 4320,
+    "slug": "level-4320",
+    "videoId": "Nt1Tw9YPyDQ"
+  },
+  {
+    "title": "Pixel Flow Level 4321 Hard - The one with the cat listening music",
+    "subtitle": "Pixel Flow Level 4321 Hard - The one with the cat listening music",
+    "href": "https://www.youtube.com/watch?v=XtVWQTyQEr0",
+    "levelStart": 4321,
+    "levelEnd": 4321,
+    "slug": "level-4321",
+    "videoId": "XtVWQTyQEr0"
+  },
+  {
+    "title": "Pixel Flow Level 4322 Very Hard - The one with the geisha",
+    "subtitle": "Pixel Flow Level 4322 Very Hard - The one with the geisha",
+    "href": "https://www.youtube.com/watch?v=QSriEuOjfeI",
+    "levelStart": 4322,
+    "levelEnd": 4322,
+    "slug": "level-4322",
+    "videoId": "QSriEuOjfeI"
+  },
+  {
+    "title": "Pixel Flow Level 4323 - The one with the white racing car and multicolored snake",
+    "subtitle": "Pixel Flow Level 4323 - The one with the white racing car and multicolored snake",
+    "href": "https://www.youtube.com/watch?v=IRykzEdauwQ",
+    "levelStart": 4323,
+    "levelEnd": 4323,
+    "slug": "level-4323",
+    "videoId": "IRykzEdauwQ"
+  },
+  {
+    "title": "Pixel Flow Level 4324 - The one with the butterfly and the multicolored snake",
+    "subtitle": "Pixel Flow Level 4324 - The one with the butterfly and the multicolored snake",
+    "href": "https://www.youtube.com/watch?v=vfEPV7Susqk",
+    "levelStart": 4324,
+    "levelEnd": 4324,
+    "slug": "level-4324",
+    "videoId": "vfEPV7Susqk"
+  },
+  {
+    "title": "Pixel Flow Level 4325 - The one with the tsunami and the multicolored snake",
+    "subtitle": "Pixel Flow Level 4325 - The one with the tsunami and the multicolored snake",
+    "href": "https://www.youtube.com/watch?v=KZ7O5PvTh_Q",
+    "levelStart": 4325,
+    "levelEnd": 4325,
+    "slug": "level-4325",
+    "videoId": "KZ7O5PvTh_Q"
+  },
+  {
+    "title": "Pixel Flow Level 4326 - The one with the godzilla and the multicolored snake",
+    "subtitle": "Pixel Flow Level 4326 - The one with the godzilla and the multicolored snake",
+    "href": "https://www.youtube.com/watch?v=NxTcz5DhivE",
+    "levelStart": 4326,
+    "levelEnd": 4326,
+    "slug": "level-4326",
+    "videoId": "NxTcz5DhivE"
+  },
+  {
+    "title": "Pixel Flow Level 4327 - The one with the Phoenix",
+    "subtitle": "Pixel Flow Level 4327 - The one with the Phoenix",
+    "href": "https://www.youtube.com/watch?v=N199uQqzrQk",
+    "levelStart": 4327,
+    "levelEnd": 4327,
+    "slug": "level-4327",
+    "videoId": "N199uQqzrQk"
+  },
+  {
+    "title": "Pixel Flow Level 4328 - The one with the fire dragon",
+    "subtitle": "Pixel Flow Level 4328 - The one with the fire dragon",
+    "href": "https://www.youtube.com/watch?v=jBqv22JPnBw",
+    "levelStart": 4328,
+    "levelEnd": 4328,
+    "slug": "level-4328",
+    "videoId": "jBqv22JPnBw"
+  },
+  {
+    "title": "Pixel Flow Level 4329 - The one with the dark castle",
+    "subtitle": "Pixel Flow Level 4329 - The one with the dark castle",
+    "href": "https://www.youtube.com/watch?v=TXkPAXuiC7M",
+    "levelStart": 4329,
+    "levelEnd": 4329,
+    "slug": "level-4329",
+    "videoId": "TXkPAXuiC7M"
+  },
+  {
+    "title": "Pixel Flow Level 4330 Hard - The one with the fighting chick",
+    "subtitle": "Pixel Flow Level 4330 Hard - The one with the fighting chick",
+    "href": "https://www.youtube.com/watch?v=VaPDPjexpTM",
+    "levelStart": 4330,
+    "levelEnd": 4330,
+    "slug": "level-4330",
+    "videoId": "VaPDPjexpTM"
   }
 ]
