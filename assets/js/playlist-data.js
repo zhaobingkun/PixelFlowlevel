@@ -35683,5 +35683,95 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4330,
     "slug": "level-4330",
     "videoId": "VaPDPjexpTM"
+  },
+  {
+    "title": "Pixel Flow Level 4331 Very hard - The one with the balloon and the multicolored snake",
+    "subtitle": "Pixel Flow Level 4331 Very hard - The one with the balloon and the multicolored snake",
+    "href": "https://www.youtube.com/watch?v=IMia1xnmL3g",
+    "levelStart": 4331,
+    "levelEnd": 4331,
+    "slug": "level-4331",
+    "videoId": "IMia1xnmL3g"
+  },
+  {
+    "title": "Pixel Flow Level 4332",
+    "subtitle": "Pixel Flow Level 4332",
+    "href": "https://www.youtube.com/watch?v=yrsCm_Fq3iU",
+    "levelStart": 4332,
+    "levelEnd": 4332,
+    "slug": "level-4332",
+    "videoId": "yrsCm_Fq3iU"
+  },
+  {
+    "title": "Pixel Flow Level 4333 - The one with the reading lizard",
+    "subtitle": "Pixel Flow Level 4333 - The one with the reading lizard",
+    "href": "https://www.youtube.com/watch?v=swJCCU2tebY",
+    "levelStart": 4333,
+    "levelEnd": 4333,
+    "slug": "level-4333",
+    "videoId": "swJCCU2tebY"
+  },
+  {
+    "title": "Pixel Flow Level 4334 - The one with the hungry pig",
+    "subtitle": "Pixel Flow Level 4334 - The one with the hungry pig",
+    "href": "https://www.youtube.com/watch?v=WVpt8XkqdZY",
+    "levelStart": 4334,
+    "levelEnd": 4334,
+    "slug": "level-4334",
+    "videoId": "WVpt8XkqdZY"
+  },
+  {
+    "title": "Pixel Flow Level 4335 - The one with the pink cabriolet",
+    "subtitle": "Pixel Flow Level 4335 - The one with the pink cabriolet",
+    "href": "https://www.youtube.com/watch?v=bW7ovplyc6c",
+    "levelStart": 4335,
+    "levelEnd": 4335,
+    "slug": "level-4335",
+    "videoId": "bW7ovplyc6c"
+  },
+  {
+    "title": "Pixel Flow Level 4336 Hard - The one with the green animal playing piano",
+    "subtitle": "Pixel Flow Level 4336 Hard - The one with the green animal playing piano",
+    "href": "https://www.youtube.com/watch?v=DwtsG8ByBts",
+    "levelStart": 4336,
+    "levelEnd": 4336,
+    "slug": "level-4336",
+    "videoId": "DwtsG8ByBts"
+  },
+  {
+    "title": "Pixel Flow Level 4337 - The one with the ice cream truck",
+    "subtitle": "Pixel Flow Level 4337 - The one with the ice cream truck",
+    "href": "https://www.youtube.com/watch?v=GDI3vCStWEs",
+    "levelStart": 4337,
+    "levelEnd": 4337,
+    "slug": "level-4337",
+    "videoId": "GDI3vCStWEs"
+  },
+  {
+    "title": "Pixel Flow Level 4338 - The one with the green dragon",
+    "subtitle": "Pixel Flow Level 4338 - The one with the green dragon",
+    "href": "https://www.youtube.com/watch?v=-pLxrM4MdYo",
+    "levelStart": 4338,
+    "levelEnd": 4338,
+    "slug": "level-4338",
+    "videoId": "-pLxrM4MdYo"
+  },
+  {
+    "title": "Pixel Flow Level 4339- The one with the carrousel horse",
+    "subtitle": "Pixel Flow Level 4339- The one with the carrousel horse",
+    "href": "https://www.youtube.com/watch?v=g04rRZmHzRg",
+    "levelStart": 4339,
+    "levelEnd": 4339,
+    "slug": "level-4339",
+    "videoId": "g04rRZmHzRg"
+  },
+  {
+    "title": "Pixel Flow Level 4340 Hard - The one with the woman on the computer in the park .",
+    "subtitle": "Pixel Flow Level 4340 Hard - The one with the woman on the computer in the park .",
+    "href": "https://www.youtube.com/watch?v=o09wq05mwZs",
+    "levelStart": 4340,
+    "levelEnd": 4340,
+    "slug": "level-4340",
+    "videoId": "o09wq05mwZs"
   }
 ]
