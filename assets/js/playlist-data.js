@@ -35773,5 +35773,86 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4340,
     "slug": "level-4340",
     "videoId": "o09wq05mwZs"
+  },
+  {
+    "title": "Pixel Flow Level 4342",
+    "subtitle": "Pixel Flow Level 4342",
+    "href": "https://www.youtube.com/watch?v=_HtcJesIEDI",
+    "levelStart": 4342,
+    "levelEnd": 4342,
+    "slug": "level-4342",
+    "videoId": "_HtcJesIEDI"
+  },
+  {
+    "title": "Pixel Flow Level 4343",
+    "subtitle": "Pixel Flow Level 4343",
+    "href": "https://www.youtube.com/watch?v=hWiGcH78ikM",
+    "levelStart": 4343,
+    "levelEnd": 4343,
+    "slug": "level-4343",
+    "videoId": "hWiGcH78ikM"
+  },
+  {
+    "title": "Pixel Flow Level 4344",
+    "subtitle": "Pixel Flow Level 4344",
+    "href": "https://www.youtube.com/watch?v=u-NjilqF_dM",
+    "levelStart": 4344,
+    "levelEnd": 4344,
+    "slug": "level-4344",
+    "videoId": "u-NjilqF_dM"
+  },
+  {
+    "title": "Pixel Flow Level 4345",
+    "subtitle": "Pixel Flow Level 4345",
+    "href": "https://www.youtube.com/watch?v=_vAIeln22gE",
+    "levelStart": 4345,
+    "levelEnd": 4345,
+    "slug": "level-4345",
+    "videoId": "_vAIeln22gE"
+  },
+  {
+    "title": "Pixel Flow Level 4346 Hard",
+    "subtitle": "Pixel Flow Level 4346 Hard",
+    "href": "https://www.youtube.com/watch?v=Q05XLcp-45Q",
+    "levelStart": 4346,
+    "levelEnd": 4346,
+    "slug": "level-4346",
+    "videoId": "Q05XLcp-45Q"
+  },
+  {
+    "title": "Pixel Flow Level 4347",
+    "subtitle": "Pixel Flow Level 4347",
+    "href": "https://www.youtube.com/watch?v=Sn_Z4B0bzPE",
+    "levelStart": 4347,
+    "levelEnd": 4347,
+    "slug": "level-4347",
+    "videoId": "Sn_Z4B0bzPE"
+  },
+  {
+    "title": "Pixel Flow Level 4348",
+    "subtitle": "Pixel Flow Level 4348",
+    "href": "https://www.youtube.com/watch?v=YGx86YxWtkY",
+    "levelStart": 4348,
+    "levelEnd": 4348,
+    "slug": "level-4348",
+    "videoId": "YGx86YxWtkY"
+  },
+  {
+    "title": "Pixel Flow Level 4349",
+    "subtitle": "Pixel Flow Level 4349",
+    "href": "https://www.youtube.com/watch?v=MUTQ4LObZLo",
+    "levelStart": 4349,
+    "levelEnd": 4349,
+    "slug": "level-4349",
+    "videoId": "MUTQ4LObZLo"
+  },
+  {
+    "title": "Pixel Flow Level 4350 Hard",
+    "subtitle": "Pixel Flow Level 4350 Hard",
+    "href": "https://www.youtube.com/watch?v=uFDiw2IF7Do",
+    "levelStart": 4350,
+    "levelEnd": 4350,
+    "slug": "level-4350",
+    "videoId": "uFDiw2IF7Do"
   }
 ]
