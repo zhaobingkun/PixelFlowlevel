@@ -36124,5 +36124,176 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4380,
     "slug": "level-4380",
     "videoId": "N5du5mB7qP0"
+  },
+  {
+    "title": "Pixel Flow Level 4381 Hard",
+    "subtitle": "Pixel Flow Level 4381 Hard",
+    "href": "https://www.youtube.com/watch?v=O9lc0N2wfeg",
+    "levelStart": 4381,
+    "levelEnd": 4381,
+    "slug": "level-4381",
+    "videoId": "O9lc0N2wfeg"
+  },
+  {
+    "title": "Pixel Flow Level 4382",
+    "subtitle": "Pixel Flow Level 4382",
+    "href": "https://www.youtube.com/watch?v=bIQFseY6Et0",
+    "levelStart": 4382,
+    "levelEnd": 4382,
+    "slug": "level-4382",
+    "videoId": "bIQFseY6Et0"
+  },
+  {
+    "title": "Pixel Flow Level 4383 - The one with the dragon with the egg",
+    "subtitle": "Pixel Flow Level 4383 - The one with the dragon with the egg",
+    "href": "https://www.youtube.com/watch?v=CaVRVO7q7KI",
+    "levelStart": 4383,
+    "levelEnd": 4383,
+    "slug": "level-4383",
+    "videoId": "CaVRVO7q7KI"
+  },
+  {
+    "title": "Pixel Flow Level 4384",
+    "subtitle": "Pixel Flow Level 4384",
+    "href": "https://www.youtube.com/watch?v=bzefptLhADQ",
+    "levelStart": 4384,
+    "levelEnd": 4384,
+    "slug": "level-4384",
+    "videoId": "bzefptLhADQ"
+  },
+  {
+    "title": "Pixel Flow Level 4385 Hard- The one with the elephant in the river",
+    "subtitle": "Pixel Flow Level 4385 Hard- The one with the elephant in the river",
+    "href": "https://www.youtube.com/watch?v=y_vgjVH7Zi4",
+    "levelStart": 4385,
+    "levelEnd": 4385,
+    "slug": "level-4385",
+    "videoId": "y_vgjVH7Zi4"
+  },
+  {
+    "title": "Pixel Flow Level 4386 Very Hard - The one with the hot air balloon",
+    "subtitle": "Pixel Flow Level 4386 Very Hard - The one with the hot air balloon",
+    "href": "https://www.youtube.com/watch?v=-MR2quxwDPc",
+    "levelStart": 4386,
+    "levelEnd": 4386,
+    "slug": "level-4386",
+    "videoId": "-MR2quxwDPc"
+  },
+  {
+    "title": "Pixel Flow Level 4387 - The one with the crab wearing a hat",
+    "subtitle": "Pixel Flow Level 4387 - The one with the crab wearing a hat",
+    "href": "https://www.youtube.com/watch?v=qjF1gbnGEzs",
+    "levelStart": 4387,
+    "levelEnd": 4387,
+    "slug": "level-4387",
+    "videoId": "qjF1gbnGEzs"
+  },
+  {
+    "title": "Pixel Flow Level 4388 - The one with the seahorse",
+    "subtitle": "Pixel Flow Level 4388 - The one with the seahorse",
+    "href": "https://www.youtube.com/watch?v=foJ2kfOuvms",
+    "levelStart": 4388,
+    "levelEnd": 4388,
+    "slug": "level-4388",
+    "videoId": "foJ2kfOuvms"
+  },
+  {
+    "title": "Pixel Flow Level 4389 - The one with the cloud sticking its tongue out",
+    "subtitle": "Pixel Flow Level 4389 - The one with the cloud sticking its tongue out",
+    "href": "https://www.youtube.com/watch?v=vyBrk55SCEI",
+    "levelStart": 4389,
+    "levelEnd": 4389,
+    "slug": "level-4389",
+    "videoId": "vyBrk55SCEI"
+  },
+  {
+    "title": "Pixel Flow Level 4390 - The one with the green animal and the gummies",
+    "subtitle": "Pixel Flow Level 4390 - The one with the green animal and the gummies",
+    "href": "https://www.youtube.com/watch?v=d-I2J-uxTZ8",
+    "levelStart": 4390,
+    "levelEnd": 4390,
+    "slug": "level-4390",
+    "videoId": "d-I2J-uxTZ8"
+  },
+  {
+    "title": "Pixel Flow Level 4391 Hard - The one with the kitty on a bike",
+    "subtitle": "Pixel Flow Level 4391 Hard - The one with the kitty on a bike",
+    "href": "https://www.youtube.com/watch?v=NNayhoofPlU",
+    "levelStart": 4391,
+    "levelEnd": 4391,
+    "slug": "level-4391",
+    "videoId": "NNayhoofPlU"
+  },
+  {
+    "title": "Pixel Flow Level 4392 - The one with the cut animal in the hammock",
+    "subtitle": "Pixel Flow Level 4392 - The one with the cut animal in the hammock",
+    "href": "https://www.youtube.com/watch?v=FhFtMDE1v1w",
+    "levelStart": 4392,
+    "levelEnd": 4392,
+    "slug": "level-4392",
+    "videoId": "FhFtMDE1v1w"
+  },
+  {
+    "title": "Pixel Flow Level 4393 - The one with the lizard in the bath",
+    "subtitle": "Pixel Flow Level 4393 - The one with the lizard in the bath",
+    "href": "https://www.youtube.com/watch?v=o2EszB6W09Q",
+    "levelStart": 4393,
+    "levelEnd": 4393,
+    "slug": "level-4393",
+    "videoId": "o2EszB6W09Q"
+  },
+  {
+    "title": "Pixel Flow Level 4394 - The one with the devil in the camping car",
+    "subtitle": "Pixel Flow Level 4394 - The one with the devil in the camping car",
+    "href": "https://www.youtube.com/watch?v=5fC2HR3nKKs",
+    "levelStart": 4394,
+    "levelEnd": 4394,
+    "slug": "level-4394",
+    "videoId": "5fC2HR3nKKs"
+  },
+  {
+    "title": "Pixel Flow Level 4395 Hard - The one with thecootage and  red snake and yellow and pink snake",
+    "subtitle": "Pixel Flow Level 4395 Hard - The one with thecootage and  red snake and yellow and pink snake",
+    "href": "https://www.youtube.com/watch?v=qeha4xhfdHs",
+    "levelStart": 4395,
+    "levelEnd": 4395,
+    "slug": "level-4395",
+    "videoId": "qeha4xhfdHs"
+  },
+  {
+    "title": "Pixel Flow Level 4396 Very Hard - The one with the writing bear",
+    "subtitle": "Pixel Flow Level 4396 Very Hard - The one with the writing bear",
+    "href": "https://www.youtube.com/watch?v=TdEhdvVxerk",
+    "levelStart": 4396,
+    "levelEnd": 4396,
+    "slug": "level-4396",
+    "videoId": "TdEhdvVxerk"
+  },
+  {
+    "title": "Pixel Flow Level 4397 - The one with the pirat cat on a boat",
+    "subtitle": "Pixel Flow Level 4397 - The one with the pirat cat on a boat",
+    "href": "https://www.youtube.com/watch?v=FcmM72wgjqw",
+    "levelStart": 4397,
+    "levelEnd": 4397,
+    "slug": "level-4397",
+    "videoId": "FcmM72wgjqw"
+  },
+  {
+    "title": "Pixel Flow Level 4398 - The one with the snowman at beach",
+    "subtitle": "Pixel Flow Level 4398 - The one with the snowman at beach",
+    "href": "https://www.youtube.com/watch?v=kLmqSc0y160",
+    "levelStart": 4398,
+    "levelEnd": 4398,
+    "slug": "level-4398",
+    "videoId": "kLmqSc0y160"
+  },
+  {
+    "title": "Pixel Flow Level 4399 - The one with the magic mushroom forest",
+    "subtitle": "Pixel Flow Level 4399 - The one with the magic mushroom forest",
+    "href": "https://www.youtube.com/watch?v=78gtHk-pM1Y",
+    "levelStart": 4399,
+    "levelEnd": 4399,
+    "slug": "level-4399",
+    "videoId": "78gtHk-pM1Y"
   }
 ]
