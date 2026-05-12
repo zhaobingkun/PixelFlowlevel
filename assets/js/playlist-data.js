@@ -36655,5 +36655,59 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4440,
     "slug": "level-4440",
     "videoId": "W1AxnCYhHic"
+  },
+  {
+    "title": "Pixel Flow Level 4441 Hard - The one with the bedroom",
+    "subtitle": "Pixel Flow Level 4441 Hard - The one with the bedroom",
+    "href": "https://www.youtube.com/watch?v=dk3eQlK-SwQ",
+    "levelStart": 4441,
+    "levelEnd": 4441,
+    "slug": "level-4441",
+    "videoId": "dk3eQlK-SwQ"
+  },
+  {
+    "title": "Pixel Flow Level 4442 - The one with the clock tower",
+    "subtitle": "Pixel Flow Level 4442 - The one with the clock tower",
+    "href": "https://www.youtube.com/watch?v=0SWQNaX7fEg",
+    "levelStart": 4442,
+    "levelEnd": 4442,
+    "slug": "level-4442",
+    "videoId": "0SWQNaX7fEg"
+  },
+  {
+    "title": "Pixel Flow Level 4443 - The one with the hedgehog with a pink blanket",
+    "subtitle": "Pixel Flow Level 4443 - The one with the hedgehog with a pink blanket",
+    "href": "https://www.youtube.com/watch?v=5Dk00axVKuc",
+    "levelStart": 4443,
+    "levelEnd": 4443,
+    "slug": "level-4443",
+    "videoId": "5Dk00axVKuc"
+  },
+  {
+    "title": "Pixel Flow Level 4444 - The one with the bunny wearing a pink dress",
+    "subtitle": "Pixel Flow Level 4444 - The one with the bunny wearing a pink dress",
+    "href": "https://www.youtube.com/watch?v=qqCzj6CdH0U",
+    "levelStart": 4444,
+    "levelEnd": 4444,
+    "slug": "level-4444",
+    "videoId": "qqCzj6CdH0U"
+  },
+  {
+    "title": "Pixel Flow Level 4445 Hard - The one with the kitten",
+    "subtitle": "Pixel Flow Level 4445 Hard - The one with the kitten",
+    "href": "https://www.youtube.com/watch?v=4-hrz2B4trs",
+    "levelStart": 4445,
+    "levelEnd": 4445,
+    "slug": "level-4445",
+    "videoId": "4-hrz2B4trs"
+  },
+  {
+    "title": "Pixel Flow Level 4446 Very Hard - The one with the elephant looks like Dumbo",
+    "subtitle": "Pixel Flow Level 4446 Very Hard - The one with the elephant looks like Dumbo",
+    "href": "https://www.youtube.com/watch?v=PQTXkcHiRk0",
+    "levelStart": 4446,
+    "levelEnd": 4446,
+    "slug": "level-4446",
+    "videoId": "PQTXkcHiRk0"
   }
 ]
