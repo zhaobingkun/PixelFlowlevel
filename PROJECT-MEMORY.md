@@ -9,11 +9,11 @@
 
 ## Current State
 
-- Current covered level page directories: `3997`
-- Current maximum level in site data: `4350`
-- Current homepage tracked-count text: `3997 levels tracked`
-- Homepage `New:` marker currently points to: `4350`
-- Current `missingTo5000` in `assets/js/home-data.js`: `1003`
+- Current covered level page directories: `4121`
+- Current maximum level in site data: `4475`
+- Current homepage tracked-count text: `4121 levels tracked`
+- Homepage `New:` marker currently points to: `4475`
+- Current `missingTo5000` in `assets/js/home-data.js`: `879`
 
 ## Main Files
 
@@ -77,8 +77,8 @@ External working copy:
 - `/Users/zhaobingkun/dev/Python/spider/missing_levels_1-5000.txt`
 
 Current external missing file status:
-- covered: `3997`
-- missing: `1003`
+- covered: `4121`
+- missing: `879`
 - important current gaps confirmed:
   - `4341` is still missing
   - `4351` is still missing
@@ -86,18 +86,18 @@ Current external missing file status:
 ## Recent Level Sync History
 
 Recent confirmed state after latest sync:
-- JSON produced new data up to `4350`
+- JSON produced new data up to `4475`
 - Site added:
-  - `4342-4350`
+  - `4447-4475`
 - `4341` remains missing
 
 After the latest update:
-- `playlist-data.js` now includes levels through `4350`
+- `playlist-data.js` now includes levels through `4475`
 - `home-data.js` now has:
-  - `maxLevel: 4350`
-  - `missingTo5000: 1003`
-- homepage and levels page inputs were updated to `4350`
-- several static pages were also normalized to `4350`
+  - `maxLevel: 4475`
+  - `missingTo5000: 879`
+- homepage and levels page inputs were updated to `4475`
+- several static pages were also normalized to `4475`
 
 ## Static Pages With Hardcoded Level Limits
 
@@ -128,7 +128,7 @@ Reason:
 - when there is a numeric gap, previous level pages may not get a `Next` link if the next literal level is missing
 
 Example:
-- after adding up to `4350`, `level/4340/` still has no `Next` because `4341` is missing
+- after adding up to `4475`, `level/4340/` still has no `Next` because `4341` is missing
 
 ## SEO / Site Shape
 
