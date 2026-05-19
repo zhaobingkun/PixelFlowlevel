@@ -37042,5 +37042,131 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4483,
     "slug": "level-4483",
     "videoId": "YL-_JqTIrmg"
+  },
+  {
+    "title": "Pixel Flow Level 1751 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1751 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=rEKpvovtHB8",
+    "levelStart": 1751,
+    "levelEnd": 1751,
+    "slug": "level-1751",
+    "videoId": "rEKpvovtHB8"
+  },
+  {
+    "title": "Pixel Flow Level 1752 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1752 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=wNzK5oDDerM",
+    "levelStart": 1752,
+    "levelEnd": 1752,
+    "slug": "level-1752",
+    "videoId": "wNzK5oDDerM"
+  },
+  {
+    "title": "Pixel Flow Level 1753 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1753 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=NKrDohttDXE",
+    "levelStart": 1753,
+    "levelEnd": 1753,
+    "slug": "level-1753",
+    "videoId": "NKrDohttDXE"
+  },
+  {
+    "title": "Pixel Flow Level 1754 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1754 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=Hm2N3ZoYETQ",
+    "levelStart": 1754,
+    "levelEnd": 1754,
+    "slug": "level-1754",
+    "videoId": "Hm2N3ZoYETQ"
+  },
+  {
+    "title": "Pixel Flow Level 1755 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1755 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=wQZ1pEeyZQ0",
+    "levelStart": 1755,
+    "levelEnd": 1755,
+    "slug": "level-1755",
+    "videoId": "wQZ1pEeyZQ0"
+  },
+  {
+    "title": "Pixel Flow Level 1756 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1756 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=3E3MBt3Kveo",
+    "levelStart": 1756,
+    "levelEnd": 1756,
+    "slug": "level-1756",
+    "videoId": "3E3MBt3Kveo"
+  },
+  {
+    "title": "Pixel Flow Level 1757 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1757 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=CvyfbS-JLSA",
+    "levelStart": 1757,
+    "levelEnd": 1757,
+    "slug": "level-1757",
+    "videoId": "CvyfbS-JLSA"
+  },
+  {
+    "title": "Pixel Flow Level 1758 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1758 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=vuq374XsiNM",
+    "levelStart": 1758,
+    "levelEnd": 1758,
+    "slug": "level-1758",
+    "videoId": "vuq374XsiNM"
+  },
+  {
+    "title": "Pixel Flow Level 1759 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1759 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=YfYlePp3ZKw",
+    "levelStart": 1759,
+    "levelEnd": 1759,
+    "slug": "level-1759",
+    "videoId": "YfYlePp3ZKw"
+  },
+  {
+    "title": "Pixel Flow Level 1760 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1760 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=rRVsPIjpuDo",
+    "levelStart": 1760,
+    "levelEnd": 1760,
+    "slug": "level-1760",
+    "videoId": "rRVsPIjpuDo"
+  },
+  {
+    "title": "Pixel Flow Level 1761 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1761 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=OXa9nwcOaH8",
+    "levelStart": 1761,
+    "levelEnd": 1761,
+    "slug": "level-1761",
+    "videoId": "OXa9nwcOaH8"
+  },
+  {
+    "title": "Pixel Flow Level 1762 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1762 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=Z4VrHiXHDH8",
+    "levelStart": 1762,
+    "levelEnd": 1762,
+    "slug": "level-1762",
+    "videoId": "Z4VrHiXHDH8"
+  },
+  {
+    "title": "Pixel Flow Level 1763 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1763 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=uEPyvVFr7D4",
+    "levelStart": 1763,
+    "levelEnd": 1763,
+    "slug": "level-1763",
+    "videoId": "uEPyvVFr7D4"
+  },
+  {
+    "title": "Pixel Flow Level 1764 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1764 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=KVj5E6P_Nv4",
+    "levelStart": 1764,
+    "levelEnd": 1764,
+    "slug": "level-1764",
+    "videoId": "KVj5E6P_Nv4"
   }
 ]

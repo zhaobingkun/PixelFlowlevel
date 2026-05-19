@@ -9,11 +9,11 @@
 
 ## Current State
 
-- Current covered level page directories: `4129`
+- Current covered level page directories: `4143`
 - Current maximum level in site data: `4483`
-- Current homepage tracked-count text: `4129 levels tracked`
+- Current homepage tracked-count text: `4143 levels tracked`
 - Homepage `New:` marker currently points to: `4483`
-- Current `missingTo5000` in `assets/js/home-data.js`: `871`
+- Current `missingTo5000` in `assets/js/home-data.js`: `857`
 
 ## Main Files
 
@@ -77,8 +77,8 @@ External working copy:
 - `/Users/zhaobingkun/dev/Python/spider/missing_levels_1-5000.txt`
 
 Current external missing file status:
-- covered: `4129`
-- missing: `871`
+- covered: `4143`
+- missing: `857`
 - important current gaps confirmed:
   - `4341` is still missing
   - `4351` is still missing
@@ -86,18 +86,19 @@ Current external missing file status:
 ## Recent Level Sync History
 
 Recent confirmed state after latest sync:
-- JSON produced new data up to `4483`
+- JSON backfilled historical missing levels through `1764`
 - Site added:
-  - `4476-4483`
+  - `1751-1764`
+- highest site level remains `4483`
 - `4341` remains missing
 
 After the latest update:
 - `playlist-data.js` now includes levels through `4483`
 - `home-data.js` now has:
   - `maxLevel: 4483`
-  - `missingTo5000: 871`
-- homepage and levels page inputs were updated to `4483`
-- several static pages were also normalized to `4483`
+  - `missingTo5000: 857`
+- homepage and levels page inputs remain `4483`
+- homepage tracked-count text is now `4143 levels tracked`
 
 ## Static Pages With Hardcoded Level Limits
 
