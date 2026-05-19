@@ -36970,5 +36970,77 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4475,
     "slug": "level-4475",
     "videoId": "rbOkJurbUeg"
+  },
+  {
+    "title": "Pixel Flow Level 4476 - The one with the hamster and the volcano",
+    "subtitle": "Pixel Flow Level 4476 - The one with the hamster and the volcano",
+    "href": "https://www.youtube.com/watch?v=zeBnMyNamoM",
+    "levelStart": 4476,
+    "levelEnd": 4476,
+    "slug": "level-4476",
+    "videoId": "zeBnMyNamoM"
+  },
+  {
+    "title": "Pixel Flow Level 4477 Hard - The one with the multicolored circles",
+    "subtitle": "Pixel Flow Level 4477 Hard - The one with the multicolored circles",
+    "href": "https://www.youtube.com/watch?v=jSEXzGuSIic",
+    "levelStart": 4477,
+    "levelEnd": 4477,
+    "slug": "level-4477",
+    "videoId": "jSEXzGuSIic"
+  },
+  {
+    "title": "Pixel Flow Level 4478 Very Hard - The one with the little Temple in the orange and purple forest",
+    "subtitle": "Pixel Flow Level 4478 Very Hard - The one with the little Temple in the orange and purple forest",
+    "href": "https://www.youtube.com/watch?v=wY-NN7i76eE",
+    "levelStart": 4478,
+    "levelEnd": 4478,
+    "slug": "level-4478",
+    "videoId": "wY-NN7i76eE"
+  },
+  {
+    "title": "Pixel Flow Level 4479 - The one with the scissors",
+    "subtitle": "Pixel Flow Level 4479 - The one with the scissors",
+    "href": "https://www.youtube.com/watch?v=M-ph0M7xhWo",
+    "levelStart": 4479,
+    "levelEnd": 4479,
+    "slug": "level-4479",
+    "videoId": "M-ph0M7xhWo"
+  },
+  {
+    "title": "Pixel Flow Level 4480 - The one with the rasperries",
+    "subtitle": "Pixel Flow Level 4480 - The one with the rasperries",
+    "href": "https://www.youtube.com/watch?v=vI9nDe43pLU",
+    "levelStart": 4480,
+    "levelEnd": 4480,
+    "slug": "level-4480",
+    "videoId": "vI9nDe43pLU"
+  },
+  {
+    "title": "Pixel Flow Level 4481- The one with the pink river and the multicolored snake",
+    "subtitle": "Pixel Flow Level 4481- The one with the pink river and the multicolored snake",
+    "href": "https://www.youtube.com/watch?v=cn5fGGgZLy4",
+    "levelStart": 4481,
+    "levelEnd": 4481,
+    "slug": "level-4481",
+    "videoId": "cn5fGGgZLy4"
+  },
+  {
+    "title": "Pixel Flow Level 4482 - The one with the mouse",
+    "subtitle": "Pixel Flow Level 4482 - The one with the mouse",
+    "href": "https://www.youtube.com/watch?v=a9iGYG3RjSo",
+    "levelStart": 4482,
+    "levelEnd": 4482,
+    "slug": "level-4482",
+    "videoId": "a9iGYG3RjSo"
+  },
+  {
+    "title": "Pixel Flow Level 4483 Hard - The one with the parchment",
+    "subtitle": "Pixel Flow Level 4483 Hard - The one with the parchment",
+    "href": "https://www.youtube.com/watch?v=YL-_JqTIrmg",
+    "levelStart": 4483,
+    "levelEnd": 4483,
+    "slug": "level-4483",
+    "videoId": "YL-_JqTIrmg"
   }
 ]
