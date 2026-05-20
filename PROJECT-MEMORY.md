@@ -9,11 +9,11 @@
 
 ## Current State
 
-- Current covered level page directories: `4143`
-- Current maximum level in site data: `4483`
-- Current homepage tracked-count text: `4143 levels tracked`
-- Homepage `New:` marker currently points to: `4483`
-- Current `missingTo5000` in `assets/js/home-data.js`: `857`
+- Current covered level page directories: `4160`
+- Current maximum level in site data: `4500`
+- Current homepage tracked-count text: `4160 levels tracked`
+- Homepage `New:` marker currently points to: `4500`
+- Current `missingTo5000` in `assets/js/home-data.js`: `840`
 
 ## Main Files
 
@@ -77,8 +77,8 @@ External working copy:
 - `/Users/zhaobingkun/dev/Python/spider/missing_levels_1-5000.txt`
 
 Current external missing file status:
-- covered: `4143`
-- missing: `857`
+- covered: `4160`
+- missing: `840`
 - important current gaps confirmed:
   - `4341` is still missing
   - `4351` is still missing
@@ -86,19 +86,19 @@ Current external missing file status:
 ## Recent Level Sync History
 
 Recent confirmed state after latest sync:
-- JSON backfilled historical missing levels through `1764`
+- JSON added new high-level guides through `4500`
 - Site added:
-  - `1751-1764`
-- highest site level remains `4483`
+  - `4484-4500`
+- highest site level is now `4500`
 - `4341` remains missing
 
 After the latest update:
-- `playlist-data.js` now includes levels through `4483`
+- `playlist-data.js` now includes levels through `4500`
 - `home-data.js` now has:
-  - `maxLevel: 4483`
-  - `missingTo5000: 857`
-- homepage and levels page inputs remain `4483`
-- homepage tracked-count text is now `4143 levels tracked`
+  - `maxLevel: 4500`
+  - `missingTo5000: 840`
+- homepage and levels page inputs now use `4500`
+- homepage tracked-count text is now `4160 levels tracked`
 
 ## Static Pages With Hardcoded Level Limits
 
@@ -129,7 +129,7 @@ Reason:
 - when there is a numeric gap, previous level pages may not get a `Next` link if the next literal level is missing
 
 Example:
-- after adding up to `4483`, `level/4340/` still has no `Next` because `4341` is missing
+- after adding up to `4500`, `level/4340/` still has no `Next` because `4341` is missing
 
 ## SEO / Site Shape
 
