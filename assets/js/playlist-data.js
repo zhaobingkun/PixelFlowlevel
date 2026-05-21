@@ -37321,5 +37321,68 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4500,
     "slug": "level-4500",
     "videoId": "GEgEOz9tjds"
+  },
+  {
+    "title": "Pixel Flow Level 1765 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1765 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=RU_atzzpIfI",
+    "levelStart": 1765,
+    "levelEnd": 1765,
+    "slug": "level-1765",
+    "videoId": "RU_atzzpIfI"
+  },
+  {
+    "title": "Pixel Flow Level 1766 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1766 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=RRAdkq8gMjs",
+    "levelStart": 1766,
+    "levelEnd": 1766,
+    "slug": "level-1766",
+    "videoId": "RRAdkq8gMjs"
+  },
+  {
+    "title": "Pixel Flow Level 1767 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1767 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=N2-4CaLnMtA",
+    "levelStart": 1767,
+    "levelEnd": 1767,
+    "slug": "level-1767",
+    "videoId": "N2-4CaLnMtA"
+  },
+  {
+    "title": "Pixel Flow Level 1768 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1768 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=gAS6zP0ivl8",
+    "levelStart": 1768,
+    "levelEnd": 1768,
+    "slug": "level-1768",
+    "videoId": "gAS6zP0ivl8"
+  },
+  {
+    "title": "Pixel Flow Level 1769 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1769 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=uFnGnBayyL8",
+    "levelStart": 1769,
+    "levelEnd": 1769,
+    "slug": "level-1769",
+    "videoId": "uFnGnBayyL8"
+  },
+  {
+    "title": "Pixel Flow Level 1770 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1770 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=-5kkF93OLWs",
+    "levelStart": 1770,
+    "levelEnd": 1770,
+    "slug": "level-1770",
+    "videoId": "-5kkF93OLWs"
+  },
+  {
+    "title": "Pixel Flow Level 1771 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1771 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=hnDb4JEks4Y",
+    "levelStart": 1771,
+    "levelEnd": 1771,
+    "slug": "level-1771",
+    "videoId": "hnDb4JEks4Y"
   }
 ]
