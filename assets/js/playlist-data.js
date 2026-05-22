@@ -37384,5 +37384,59 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1771,
     "slug": "level-1771",
     "videoId": "hnDb4JEks4Y"
+  },
+  {
+    "title": "Pixel Flow Level 1772 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1772 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=3QFW5JK9eQU",
+    "levelStart": 1772,
+    "levelEnd": 1772,
+    "slug": "level-1772",
+    "videoId": "3QFW5JK9eQU"
+  },
+  {
+    "title": "Pixel Flow Level 1773 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1773 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=j28eLyWKO4I",
+    "levelStart": 1773,
+    "levelEnd": 1773,
+    "slug": "level-1773",
+    "videoId": "j28eLyWKO4I"
+  },
+  {
+    "title": "Pixel Flow Level 1774 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1774 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=p6E24BUzapg",
+    "levelStart": 1774,
+    "levelEnd": 1774,
+    "slug": "level-1774",
+    "videoId": "p6E24BUzapg"
+  },
+  {
+    "title": "Pixel Flow Level 1775 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1775 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=1_OcHIRFdm4",
+    "levelStart": 1775,
+    "levelEnd": 1775,
+    "slug": "level-1775",
+    "videoId": "1_OcHIRFdm4"
+  },
+  {
+    "title": "Pixel Flow Level 1776 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1776 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=rJ-Yfh053z0",
+    "levelStart": 1776,
+    "levelEnd": 1776,
+    "slug": "level-1776",
+    "videoId": "rJ-Yfh053z0"
+  },
+  {
+    "title": "Pixel Flow Level 1777 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1777 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=uSZjqelj5rI",
+    "levelStart": 1777,
+    "levelEnd": 1777,
+    "slug": "level-1777",
+    "videoId": "uSZjqelj5rI"
   }
 ]
