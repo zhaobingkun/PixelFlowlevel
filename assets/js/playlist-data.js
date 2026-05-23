@@ -37438,5 +37438,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1777,
     "slug": "level-1777",
     "videoId": "uSZjqelj5rI"
+  },
+  {
+    "title": "Pixel Flow Level 4501 - The one with the caroussel",
+    "subtitle": "Pixel Flow Level 4501 - The one with the caroussel",
+    "href": "https://www.youtube.com/watch?v=lKjeIj1hHxs",
+    "levelStart": 4501,
+    "levelEnd": 4501,
+    "slug": "level-4501",
+    "videoId": "lKjeIj1hHxs"
+  },
+  {
+    "title": "Pixel Flow Level 4502 - The one with the two animals on the bridge",
+    "subtitle": "Pixel Flow Level 4502 - The one with the two animals on the bridge",
+    "href": "https://www.youtube.com/watch?v=7NspcxMf6Kw",
+    "levelStart": 4502,
+    "levelEnd": 4502,
+    "slug": "level-4502",
+    "videoId": "7NspcxMf6Kw"
+  },
+  {
+    "title": "Pixel Flow Level 4503 - The one with the red panda",
+    "subtitle": "Pixel Flow Level 4503 - The one with the red panda",
+    "href": "https://www.youtube.com/watch?v=DC1SE0rmKbU",
+    "levelStart": 4503,
+    "levelEnd": 4503,
+    "slug": "level-4503",
+    "videoId": "DC1SE0rmKbU"
+  },
+  {
+    "title": "Pixel Flow Level 4504 - The one with the yellow boxer",
+    "subtitle": "Pixel Flow Level 4504 - The one with the yellow boxer",
+    "href": "https://www.youtube.com/watch?v=f6ZaFZb9CvU",
+    "levelStart": 4504,
+    "levelEnd": 4504,
+    "slug": "level-4504",
+    "videoId": "f6ZaFZb9CvU"
+  },
+  {
+    "title": "Pixel Flow Level 4505 - The one with the red panda and the rainbow",
+    "subtitle": "Pixel Flow Level 4505 - The one with the red panda and the rainbow",
+    "href": "https://www.youtube.com/watch?v=xdcamIlVmQE",
+    "levelStart": 4505,
+    "levelEnd": 4505,
+    "slug": "level-4505",
+    "videoId": "xdcamIlVmQE"
   }
 ]
