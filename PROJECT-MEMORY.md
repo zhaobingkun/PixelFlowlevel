@@ -9,11 +9,11 @@
 
 ## Current State
 
-- Current covered level page directories: `4178`
+- Current covered level page directories: `4182`
 - Current maximum level in site data: `4505`
-- Current homepage tracked-count text: `4178 levels tracked`
+- Current homepage tracked-count text: `4182 levels tracked`
 - Homepage `New:` marker currently points to: `4505`
-- Current `missingTo5000` in `assets/js/home-data.js`: `822`
+- Current `missingTo5000` in `assets/js/home-data.js`: `818`
 
 ## Main Files
 
@@ -51,6 +51,7 @@
 
 Typical source file:
 - `/Users/zhaobingkun/dev/Python/spider/cherie_found_levels_1.json`
+- `/Users/zhaobingkun/dev/Python/spider/cherie_found_levels_2.json`
 
 Standard flow:
 1. Dry run:
@@ -77,28 +78,27 @@ External working copy:
 - `/Users/zhaobingkun/dev/Python/spider/missing_levels_1-5000.txt`
 
 Current external missing file status:
-- covered: `4178`
-- missing: `822`
+- covered: `4182`
+- missing: `818`
 - important current gaps confirmed:
   - `4341` is still missing
-  - `4351` is still missing
 
 ## Recent Level Sync History
 
 Recent confirmed state after latest sync:
-- JSON added highest-level pages through `4505`
+- JSON added historical backfill pages through `1781`
 - Site added:
-  - `4501-4505`
-- highest site level is now `4505`
+  - `1778-1781`
+- highest site level is still `4505`
 - `4341` remains missing
 
 After the latest update:
-- `playlist-data.js` now includes levels through `4505`
+- `playlist-data.js` now includes backfilled levels `1778-1781`
 - `home-data.js` now has:
   - `maxLevel: 4505`
-  - `missingTo5000: 822`
-- homepage and levels page inputs now use `4505`
-- homepage tracked-count text is now `4178 levels tracked`
+  - `missingTo5000: 818`
+- homepage and levels page inputs still use `4505`
+- homepage tracked-count text is now `4182 levels tracked`
 
 ## Static Pages With Hardcoded Level Limits
 
@@ -130,6 +130,7 @@ Reason:
 
 Example:
 - after adding up to `4505`, `level/4340/` still has no `Next` because `4341` is missing
+- after backfilling `1778-1781`, `level/1781/` jumps to `1923` because `1782-1922` are still missing
 
 ## SEO / Site Shape
 
@@ -168,6 +169,7 @@ Example:
   - [levels.html](/Users/zhaobingkun/dev/PixelFlowlevel/pixelflow/PixelFlowlevel/levels.html)
   - current external JSON:
     - `/Users/zhaobingkun/dev/Python/spider/cherie_found_levels_1.json`
+    - `/Users/zhaobingkun/dev/Python/spider/cherie_found_levels_2.json`
 
 ## Immediate Next-Step Pattern
 
