@@ -37591,5 +37591,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1789,
     "slug": "level-1789",
     "videoId": "cgG3MkpClj4"
+  },
+  {
+    "title": "Pixel Flow Level 1790 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1790 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=4wRz-s_2ywI",
+    "levelStart": 1790,
+    "levelEnd": 1790,
+    "slug": "level-1790",
+    "videoId": "4wRz-s_2ywI"
+  },
+  {
+    "title": "Pixel Flow Level 1791 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1791 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=dsN6uMiK-ug",
+    "levelStart": 1791,
+    "levelEnd": 1791,
+    "slug": "level-1791",
+    "videoId": "dsN6uMiK-ug"
+  },
+  {
+    "title": "Pixel Flow Level 1792 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1792 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=y3WEbQ2WEgw",
+    "levelStart": 1792,
+    "levelEnd": 1792,
+    "slug": "level-1792",
+    "videoId": "y3WEbQ2WEgw"
+  },
+  {
+    "title": "Pixel Flow Level 1793 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1793 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=vNs2sJN01L4",
+    "levelStart": 1793,
+    "levelEnd": 1793,
+    "slug": "level-1793",
+    "videoId": "vNs2sJN01L4"
+  },
+  {
+    "title": "Pixel Flow Level 1794 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1794 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=orowH59Y50M",
+    "levelStart": 1794,
+    "levelEnd": 1794,
+    "slug": "level-1794",
+    "videoId": "orowH59Y50M"
   }
 ]
