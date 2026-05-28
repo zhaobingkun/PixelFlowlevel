@@ -9,11 +9,11 @@
 
 ## Current State
 
-- Current covered level page directories: `4195`
+- Current covered level page directories: `4204`
 - Current maximum level in site data: `4505`
-- Current homepage tracked-count text: `4195 levels tracked`
+- Current homepage tracked-count text: `4204 levels tracked`
 - Homepage `New:` marker currently points to: `4505`
-- Current `missingTo5000` in `assets/js/home-data.js`: `805`
+- Current `missingTo5000` in `assets/js/home-data.js`: `796`
 
 ## Main Files
 
@@ -78,27 +78,27 @@ External working copy:
 - `/Users/zhaobingkun/dev/Python/spider/missing_levels_1-5000.txt`
 
 Current external missing file status:
-- covered: `4195`
-- missing: `805`
+- covered: `4204`
+- missing: `796`
 - important current gaps confirmed:
   - `4341` is still missing
 
 ## Recent Level Sync History
 
 Recent confirmed state after latest sync:
-- JSON added historical backfill pages through `1794`
+- JSON added historical backfill pages through `1803`
 - Site added:
-  - `1790-1794`
+  - `1795-1803`
 - highest site level is still `4505`
 - `4341` remains missing
 
 After the latest update:
-- `playlist-data.js` now includes backfilled levels `1790-1794`
+- `playlist-data.js` now includes backfilled levels `1790-1803`
 - `home-data.js` now has:
   - `maxLevel: 4505`
-  - `missingTo5000: 805`
+  - `missingTo5000: 796`
 - homepage and levels page inputs still use `4505`
-- homepage tracked-count text is now `4195 levels tracked`
+- homepage tracked-count text is now `4204 levels tracked`
 
 ## Static Pages With Hardcoded Level Limits
 
@@ -130,7 +130,7 @@ Reason:
 
 Example:
 - after adding up to `4505`, `level/4340/` still has no `Next` because `4341` is missing
-- after backfilling `1790-1794`, `level/1794/` jumps to `1923` because `1795-1922` are still missing
+- after backfilling `1795-1803`, `level/1803/` jumps to `1923` because `1804-1922` are still missing
 
 ## SEO / Site Shape
 
