@@ -37852,5 +37852,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1818,
     "slug": "level-1818",
     "videoId": "WvN-H7TY1YU"
+  },
+  {
+    "title": "Pixel Flow Level 4506 - The one with the woman head",
+    "subtitle": "Pixel Flow Level 4506 - The one with the woman head",
+    "href": "https://www.youtube.com/watch?v=5CIEcT5fTyk",
+    "levelStart": 4506,
+    "levelEnd": 4506,
+    "slug": "level-4506",
+    "videoId": "5CIEcT5fTyk"
+  },
+  {
+    "title": "Pixel Flow Level 4507 Hard - The one wirh the White rabbit in the field",
+    "subtitle": "Pixel Flow Level 4507 Hard - The one wirh the White rabbit in the field",
+    "href": "https://www.youtube.com/watch?v=42e1J8cGXTI",
+    "levelStart": 4507,
+    "levelEnd": 4507,
+    "slug": "level-4507",
+    "videoId": "42e1J8cGXTI"
+  },
+  {
+    "title": "Pixel Flow Level 4508 Very hard - The one with the deer in a purple jumpsuit",
+    "subtitle": "Pixel Flow Level 4508 Very hard - The one with the deer in a purple jumpsuit",
+    "href": "https://www.youtube.com/watch?v=364wCoCcVYk",
+    "levelStart": 4508,
+    "levelEnd": 4508,
+    "slug": "level-4508",
+    "videoId": "364wCoCcVYk"
+  },
+  {
+    "title": "Pixel Flow Level 4509 - The one with the with surfing banana",
+    "subtitle": "Pixel Flow Level 4509 - The one with the with surfing banana",
+    "href": "https://www.youtube.com/watch?v=LpHv__NknqE",
+    "levelStart": 4509,
+    "levelEnd": 4509,
+    "slug": "level-4509",
+    "videoId": "LpHv__NknqE"
+  },
+  {
+    "title": "Pixel Flow Level 4510 - The one with the dragon and the eggs",
+    "subtitle": "Pixel Flow Level 4510 - The one with the dragon and the eggs",
+    "href": "https://www.youtube.com/watch?v=FFyb-AcDCCI",
+    "levelStart": 4510,
+    "levelEnd": 4510,
+    "slug": "level-4510",
+    "videoId": "FFyb-AcDCCI"
   }
 ]
