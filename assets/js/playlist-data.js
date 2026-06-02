@@ -37897,5 +37897,23 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4510,
     "slug": "level-4510",
     "videoId": "FFyb-AcDCCI"
+  },
+  {
+    "title": "Pixel Flow Level 1819 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1819 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=tYDSrlKeyXU",
+    "levelStart": 1819,
+    "levelEnd": 1819,
+    "slug": "level-1819",
+    "videoId": "tYDSrlKeyXU"
+  },
+  {
+    "title": "Pixel Flow Level 1820 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1820 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=pbgEI6vUJsg",
+    "levelStart": 1820,
+    "levelEnd": 1820,
+    "slug": "level-1820",
+    "videoId": "pbgEI6vUJsg"
   }
 ]
