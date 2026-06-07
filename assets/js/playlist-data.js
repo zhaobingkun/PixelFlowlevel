@@ -38023,5 +38023,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1832,
     "slug": "level-1832",
     "videoId": "H_y2jYy202k"
+  },
+  {
+    "title": "Pixel Flow Level 4511 - The one with the Farmer girl wearing a pink hat",
+    "subtitle": "Pixel Flow Level 4511 - The one with the Farmer girl wearing a pink hat",
+    "href": "https://www.youtube.com/watch?v=2PqXBik9YA4",
+    "levelStart": 4511,
+    "levelEnd": 4511,
+    "slug": "level-4511",
+    "videoId": "2PqXBik9YA4"
+  },
+  {
+    "title": "Pixel Flow Level 4512 - The man wearing a brown coat in front of the window",
+    "subtitle": "Pixel Flow Level 4512 - The man wearing a brown coat in front of the window",
+    "href": "https://www.youtube.com/watch?v=2Klaoe4GY2U",
+    "levelStart": 4512,
+    "levelEnd": 4512,
+    "slug": "level-4512",
+    "videoId": "2Klaoe4GY2U"
+  },
+  {
+    "title": "Pixel Flow Level 4513 Hard - The one with the blue animal wearing a cape and a crown",
+    "subtitle": "Pixel Flow Level 4513 Hard - The one with the blue animal wearing a cape and a crown",
+    "href": "https://www.youtube.com/watch?v=0pGDUu3qg1Y",
+    "levelStart": 4513,
+    "levelEnd": 4513,
+    "slug": "level-4513",
+    "videoId": "0pGDUu3qg1Y"
+  },
+  {
+    "title": "Pixel Flow Level 4514 - The one with the cowboy and the bull",
+    "subtitle": "Pixel Flow Level 4514 - The one with the cowboy and the bull",
+    "href": "https://www.youtube.com/watch?v=cq1kIR9VUTo",
+    "levelStart": 4514,
+    "levelEnd": 4514,
+    "slug": "level-4514",
+    "videoId": "cq1kIR9VUTo"
+  },
+  {
+    "title": "Pixel Flow Level 4515 - the one with the bunny doing a sand castle",
+    "subtitle": "Pixel Flow Level 4515 - the one with the bunny doing a sand castle",
+    "href": "https://www.youtube.com/watch?v=5yunCoFv0SU",
+    "levelStart": 4515,
+    "levelEnd": 4515,
+    "slug": "level-4515",
+    "videoId": "5yunCoFv0SU"
   }
 ]
