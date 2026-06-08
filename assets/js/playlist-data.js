@@ -38068,5 +38068,95 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4515,
     "slug": "level-4515",
     "videoId": "5yunCoFv0SU"
+  },
+  {
+    "title": "Pixel Flow Level 4516 - The one with the fighter with a Apple head",
+    "subtitle": "Pixel Flow Level 4516 - The one with the fighter with a Apple head",
+    "href": "https://www.youtube.com/watch?v=-8F1hfK4OTw",
+    "levelStart": 4516,
+    "levelEnd": 4516,
+    "slug": "level-4516",
+    "videoId": "-8F1hfK4OTw"
+  },
+  {
+    "title": "Pixel Flow Level 4517 Hard - The one with the crab sending a letter in a box",
+    "subtitle": "Pixel Flow Level 4517 Hard - The one with the crab sending a letter in a box",
+    "href": "https://www.youtube.com/watch?v=fgXYLBsRA3c",
+    "levelStart": 4517,
+    "levelEnd": 4517,
+    "slug": "level-4517",
+    "videoId": "fgXYLBsRA3c"
+  },
+  {
+    "title": "Pixel Flow Level 4518 Very Hard - The one with the oasis and the pink pig",
+    "subtitle": "Pixel Flow Level 4518 Very Hard - The one with the oasis and the pink pig",
+    "href": "https://www.youtube.com/watch?v=L2h3Z6R7kSM",
+    "levelStart": 4518,
+    "levelEnd": 4518,
+    "slug": "level-4518",
+    "videoId": "L2h3Z6R7kSM"
+  },
+  {
+    "title": "Pixel Flow Level 4519 - The one with the big blueberry",
+    "subtitle": "Pixel Flow Level 4519 - The one with the big blueberry",
+    "href": "https://www.youtube.com/watch?v=-63UY-aVZdw",
+    "levelStart": 4519,
+    "levelEnd": 4519,
+    "slug": "level-4519",
+    "videoId": "-63UY-aVZdw"
+  },
+  {
+    "title": "Pixel Flow Level 4520 - The one with the clock",
+    "subtitle": "Pixel Flow Level 4520 - The one with the clock",
+    "href": "https://www.youtube.com/watch?v=ThRwm9FWsa0",
+    "levelStart": 4520,
+    "levelEnd": 4520,
+    "slug": "level-4520",
+    "videoId": "ThRwm9FWsa0"
+  },
+  {
+    "title": "Pixel Flow Level 4521 - The one with the duckling in a pink buoy",
+    "subtitle": "Pixel Flow Level 4521 - The one with the duckling in a pink buoy",
+    "href": "https://www.youtube.com/watch?v=p2ERwv_dqv4",
+    "levelStart": 4521,
+    "levelEnd": 4521,
+    "slug": "level-4521",
+    "videoId": "p2ERwv_dqv4"
+  },
+  {
+    "title": "Pixel Flow Level 4522 - The one with the pinguin on the ice and the multicolored snakes",
+    "subtitle": "Pixel Flow Level 4522 - The one with the pinguin on the ice and the multicolored snakes",
+    "href": "https://www.youtube.com/watch?v=ggiBkPs_flc",
+    "levelStart": 4522,
+    "levelEnd": 4522,
+    "slug": "level-4522",
+    "videoId": "ggiBkPs_flc"
+  },
+  {
+    "title": "Pixel Flow Level 4523 Hard - The one with the suitcase on the road",
+    "subtitle": "Pixel Flow Level 4523 Hard - The one with the suitcase on the road",
+    "href": "https://www.youtube.com/watch?v=0NCZHQ0i85w",
+    "levelStart": 4523,
+    "levelEnd": 4523,
+    "slug": "level-4523",
+    "videoId": "0NCZHQ0i85w"
+  },
+  {
+    "title": "Pixel Flow Level 4524 - The one with the yellow and with cat and the gummies",
+    "subtitle": "Pixel Flow Level 4524 - The one with the yellow and with cat and the gummies",
+    "href": "https://www.youtube.com/watch?v=XDB7GOM8Vw4",
+    "levelStart": 4524,
+    "levelEnd": 4524,
+    "slug": "level-4524",
+    "videoId": "XDB7GOM8Vw4"
+  },
+  {
+    "title": "Pixel Flow Level 4525- The one with the sphinx and the pyramid",
+    "subtitle": "Pixel Flow Level 4525- The one with the sphinx and the pyramid",
+    "href": "https://www.youtube.com/watch?v=QDTBUtlaHz0",
+    "levelStart": 4525,
+    "levelEnd": 4525,
+    "slug": "level-4525",
+    "videoId": "QDTBUtlaHz0"
   }
 ]
