@@ -38158,5 +38158,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4525,
     "slug": "level-4525",
     "videoId": "QDTBUtlaHz0"
+  },
+  {
+    "title": "Pixel Flow Level 4526 - The one with the multicolored geometric forms",
+    "subtitle": "Pixel Flow Level 4526 - The one with the multicolored geometric forms",
+    "href": "https://www.youtube.com/watch?v=20vvLLhWQ_E",
+    "levelStart": 4526,
+    "levelEnd": 4526,
+    "slug": "level-4526",
+    "videoId": "20vvLLhWQ_E"
+  },
+  {
+    "title": "Pixel Flow Level 4527 Hard - The one with the shelves with yellow pig, the eggs and the gummies",
+    "subtitle": "Pixel Flow Level 4527 Hard - The one with the shelves with yellow pig, the eggs and the gummies",
+    "href": "https://www.youtube.com/watch?v=7vHdHlM2XDQ",
+    "levelStart": 4527,
+    "levelEnd": 4527,
+    "slug": "level-4527",
+    "videoId": "7vHdHlM2XDQ"
+  },
+  {
+    "title": "Pixel Flow Level 4528 Hard - The one with the wolf and the fox sit at the table",
+    "subtitle": "Pixel Flow Level 4528 Hard - The one with the wolf and the fox sit at the table",
+    "href": "https://www.youtube.com/watch?v=4eNWNZnQdwY",
+    "levelStart": 4528,
+    "levelEnd": 4528,
+    "slug": "level-4528",
+    "videoId": "4eNWNZnQdwY"
+  },
+  {
+    "title": "Pixel Flow Level 4529 - The one with the astronaut and the keys",
+    "subtitle": "Pixel Flow Level 4529 - The one with the astronaut and the keys",
+    "href": "https://www.youtube.com/watch?v=nEkn-wjVxWQ",
+    "levelStart": 4529,
+    "levelEnd": 4529,
+    "slug": "level-4529",
+    "videoId": "nEkn-wjVxWQ"
+  },
+  {
+    "title": "Pixel Flow Level 4530 - The one with the pink flying clock",
+    "subtitle": "Pixel Flow Level 4530 - The one with the pink flying clock",
+    "href": "https://www.youtube.com/watch?v=yZ-eBM9kEBw",
+    "levelStart": 4530,
+    "levelEnd": 4530,
+    "slug": "level-4530",
+    "videoId": "yZ-eBM9kEBw"
   }
 ]
