@@ -38203,5 +38203,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4530,
     "slug": "level-4530",
     "videoId": "yZ-eBM9kEBw"
+  },
+  {
+    "title": "Pixel Flow Level 1833 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1833 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=SZVOQuf0uRU",
+    "levelStart": 1833,
+    "levelEnd": 1833,
+    "slug": "level-1833",
+    "videoId": "SZVOQuf0uRU"
+  },
+  {
+    "title": "Pixel Flow Level 1834 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1834 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=vOdlEXHbIF4",
+    "levelStart": 1834,
+    "levelEnd": 1834,
+    "slug": "level-1834",
+    "videoId": "vOdlEXHbIF4"
+  },
+  {
+    "title": "Pixel Flow Level 1835 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1835 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=u2ovLD4T_8g",
+    "levelStart": 1835,
+    "levelEnd": 1835,
+    "slug": "level-1835",
+    "videoId": "u2ovLD4T_8g"
+  },
+  {
+    "title": "Pixel Flow Level 1836 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1836 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=xPDjsVfbfE8",
+    "levelStart": 1836,
+    "levelEnd": 1836,
+    "slug": "level-1836",
+    "videoId": "xPDjsVfbfE8"
+  },
+  {
+    "title": "Pixel Flow Level 1837 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1837 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=-WDme5DgDtw",
+    "levelStart": 1837,
+    "levelEnd": 1837,
+    "slug": "level-1837",
+    "videoId": "-WDme5DgDtw"
   }
 ]
