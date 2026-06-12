@@ -38293,5 +38293,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1842,
     "slug": "level-1842",
     "videoId": "Hccdc6ftcFg"
+  },
+  {
+    "title": "Pixel Flow Level 1843 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1843 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=DleXYupewB4",
+    "levelStart": 1843,
+    "levelEnd": 1843,
+    "slug": "level-1843",
+    "videoId": "DleXYupewB4"
+  },
+  {
+    "title": "Pixel Flow Level 1844 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1844 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=i-t8G01AtzE",
+    "levelStart": 1844,
+    "levelEnd": 1844,
+    "slug": "level-1844",
+    "videoId": "i-t8G01AtzE"
+  },
+  {
+    "title": "Pixel Flow Level 1845 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1845 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=wfuRPw6gqZ4",
+    "levelStart": 1845,
+    "levelEnd": 1845,
+    "slug": "level-1845",
+    "videoId": "wfuRPw6gqZ4"
+  },
+  {
+    "title": "Pixel Flow Level 4531 - The one with the school bus",
+    "subtitle": "Pixel Flow Level 4531 - The one with the school bus",
+    "href": "https://www.youtube.com/watch?v=lvvphi3pCGE",
+    "levelStart": 4531,
+    "levelEnd": 4531,
+    "slug": "level-4531",
+    "videoId": "lvvphi3pCGE"
+  },
+  {
+    "title": "Pixel Flow Level 4532 - The one with the door in the tree trunk",
+    "subtitle": "Pixel Flow Level 4532 - The one with the door in the tree trunk",
+    "href": "https://www.youtube.com/watch?v=5ueQS7_YgOk",
+    "levelStart": 4532,
+    "levelEnd": 4532,
+    "slug": "level-4532",
+    "videoId": "5ueQS7_YgOk"
   }
 ]
