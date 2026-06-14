@@ -38383,5 +38383,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1850,
     "slug": "level-1850",
     "videoId": "Em4DG6to0vM"
+  },
+  {
+    "title": "Pixel Flow Level 1851 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1851 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=nO4AkoxD0ws",
+    "levelStart": 1851,
+    "levelEnd": 1851,
+    "slug": "level-1851",
+    "videoId": "nO4AkoxD0ws"
+  },
+  {
+    "title": "Pixel Flow Level 1852 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1852 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=6UCIybMZFFY",
+    "levelStart": 1852,
+    "levelEnd": 1852,
+    "slug": "level-1852",
+    "videoId": "6UCIybMZFFY"
+  },
+  {
+    "title": "Pixel Flow Level 4533 Hard - The one with the free piggs",
+    "subtitle": "Pixel Flow Level 4533 Hard - The one with the free piggs",
+    "href": "https://www.youtube.com/watch?v=0J6UQNsFOYA",
+    "levelStart": 4533,
+    "levelEnd": 4533,
+    "slug": "level-4533",
+    "videoId": "0J6UQNsFOYA"
+  },
+  {
+    "title": "Pixel Flow Level 4534 - The one with the giant banana holding an axe",
+    "subtitle": "Pixel Flow Level 4534 - The one with the giant banana holding an axe",
+    "href": "https://www.youtube.com/watch?v=G-UXz4M9ne8",
+    "levelStart": 4534,
+    "levelEnd": 4534,
+    "slug": "level-4534",
+    "videoId": "G-UXz4M9ne8"
+  },
+  {
+    "title": "Pixel Flow Level 4535 - The one with the grey cat on the pink cake and the eggs",
+    "subtitle": "Pixel Flow Level 4535 - The one with the grey cat on the pink cake and the eggs",
+    "href": "https://www.youtube.com/watch?v=hjqiZ67aPK8",
+    "levelStart": 4535,
+    "levelEnd": 4535,
+    "slug": "level-4535",
+    "videoId": "hjqiZ67aPK8"
   }
 ]
