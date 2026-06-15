@@ -38428,5 +38428,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4535,
     "slug": "level-4535",
     "videoId": "hjqiZ67aPK8"
+  },
+  {
+    "title": "Pixel Flow Level 4536 - The one with the big brown dog and the cake",
+    "subtitle": "Pixel Flow Level 4536 - The one with the big brown dog and the cake",
+    "href": "https://www.youtube.com/watch?v=ImjUd-XzQLM",
+    "levelStart": 4536,
+    "levelEnd": 4536,
+    "slug": "level-4536",
+    "videoId": "ImjUd-XzQLM"
+  },
+  {
+    "title": "Pixel Flow Level 4537 Hard - The one with the snow globe with the island",
+    "subtitle": "Pixel Flow Level 4537 Hard - The one with the snow globe with the island",
+    "href": "https://www.youtube.com/watch?v=sATUP_VtV7Y",
+    "levelStart": 4537,
+    "levelEnd": 4537,
+    "slug": "level-4537",
+    "videoId": "sATUP_VtV7Y"
+  },
+  {
+    "title": "Pixel Flow Level 4538 Very Hard - The one with the bunny on the piano",
+    "subtitle": "Pixel Flow Level 4538 Very Hard - The one with the bunny on the piano",
+    "href": "https://www.youtube.com/watch?v=tgWUkpC8_-0",
+    "levelStart": 4538,
+    "levelEnd": 4538,
+    "slug": "level-4538",
+    "videoId": "tgWUkpC8_-0"
+  },
+  {
+    "title": "Pixel Flow Level 4539 - The one with the Hard rock fox",
+    "subtitle": "Pixel Flow Level 4539 - The one with the Hard rock fox",
+    "href": "https://www.youtube.com/watch?v=W72kce_vhq0",
+    "levelStart": 4539,
+    "levelEnd": 4539,
+    "slug": "level-4539",
+    "videoId": "W72kce_vhq0"
+  },
+  {
+    "title": "Pixel Flow Level 4540 - The one with the girl on the frozen lake at the sunset",
+    "subtitle": "Pixel Flow Level 4540 - The one with the girl on the frozen lake at the sunset",
+    "href": "https://www.youtube.com/watch?v=nJDlCGqqBqE",
+    "levelStart": 4540,
+    "levelEnd": 4540,
+    "slug": "level-4540",
+    "videoId": "nJDlCGqqBqE"
   }
 ]
