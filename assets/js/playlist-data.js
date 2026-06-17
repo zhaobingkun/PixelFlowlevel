@@ -38518,5 +38518,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1857,
     "slug": "level-1857",
     "videoId": "JE_2NJ_jgtQ"
+  },
+  {
+    "title": "Pixel Flow Level 1858 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1858 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=cxtj9kp582k",
+    "levelStart": 1858,
+    "levelEnd": 1858,
+    "slug": "level-1858",
+    "videoId": "cxtj9kp582k"
+  },
+  {
+    "title": "Pixel Flow Level 1859 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1859 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=AvmSwGrF_u4",
+    "levelStart": 1859,
+    "levelEnd": 1859,
+    "slug": "level-1859",
+    "videoId": "AvmSwGrF_u4"
+  },
+  {
+    "title": "Pixel Flow Level 1860 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "subtitle": "Pixel Flow Level 1860 Solution Walkthrough #games #gaming #puzzle #gameplay",
+    "href": "https://www.youtube.com/watch?v=uvCafx0YSRk",
+    "levelStart": 1860,
+    "levelEnd": 1860,
+    "slug": "level-1860",
+    "videoId": "uvCafx0YSRk"
+  },
+  {
+    "title": "Pixel Flow Level 4541 - The one with the Joconde",
+    "subtitle": "Pixel Flow Level 4541 - The one with the Joconde",
+    "href": "https://www.youtube.com/watch?v=YikofimoKoY",
+    "levelStart": 4541,
+    "levelEnd": 4541,
+    "slug": "level-4541",
+    "videoId": "YikofimoKoY"
+  },
+  {
+    "title": "Pixel Flow Level 4542 - The one with the two lovers bunny",
+    "subtitle": "Pixel Flow Level 4542 - The one with the two lovers bunny",
+    "href": "https://www.youtube.com/watch?v=XMCzba1X1aI",
+    "levelStart": 4542,
+    "levelEnd": 4542,
+    "slug": "level-4542",
+    "videoId": "XMCzba1X1aI"
   }
 ]
