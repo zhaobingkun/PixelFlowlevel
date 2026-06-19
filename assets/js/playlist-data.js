@@ -38563,5 +38563,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4542,
     "slug": "level-4542",
     "videoId": "XMCzba1X1aI"
+  },
+  {
+    "title": "Pixel Flow Level 4543 Hard - The one with the boxer with a pink pig head",
+    "subtitle": "Pixel Flow Level 4543 Hard - The one with the boxer with a pink pig head",
+    "href": "https://www.youtube.com/watch?v=jO9fkws2Ljw",
+    "levelStart": 4543,
+    "levelEnd": 4543,
+    "slug": "level-4543",
+    "videoId": "jO9fkws2Ljw"
+  },
+  {
+    "title": "Pixel Flow Level 4544 - The one with the little yellow car on the tulip fields",
+    "subtitle": "Pixel Flow Level 4544 - The one with the little yellow car on the tulip fields",
+    "href": "https://www.youtube.com/watch?v=Tfj8nWFRoP8",
+    "levelStart": 4544,
+    "levelEnd": 4544,
+    "slug": "level-4544",
+    "videoId": "Tfj8nWFRoP8"
+  },
+  {
+    "title": "Pixel Flow Level 4545 - The one with the motorcyclist on an office chair",
+    "subtitle": "Pixel Flow Level 4545 - The one with the motorcyclist on an office chair",
+    "href": "https://www.youtube.com/watch?v=nixUf1FC-xE",
+    "levelStart": 4545,
+    "levelEnd": 4545,
+    "slug": "level-4545",
+    "videoId": "nixUf1FC-xE"
+  },
+  {
+    "title": "Pixel Flow Level 4546 - The one with the little cottage and the multicolored snake",
+    "subtitle": "Pixel Flow Level 4546 - The one with the little cottage and the multicolored snake",
+    "href": "https://www.youtube.com/watch?v=4Nv2NlAwRhQ",
+    "levelStart": 4546,
+    "levelEnd": 4546,
+    "slug": "level-4546",
+    "videoId": "4Nv2NlAwRhQ"
+  },
+  {
+    "title": "Pixel Flow Level 4547 Hard - The one with the little devil",
+    "subtitle": "Pixel Flow Level 4547 Hard - The one with the little devil",
+    "href": "https://www.youtube.com/watch?v=JdacCjEmdtQ",
+    "levelStart": 4547,
+    "levelEnd": 4547,
+    "slug": "level-4547",
+    "videoId": "JdacCjEmdtQ"
   }
 ]
