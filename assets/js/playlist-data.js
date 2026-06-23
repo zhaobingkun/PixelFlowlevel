@@ -38698,5 +38698,23 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4558,
     "slug": "level-4558",
     "videoId": "A1uArirUYnk"
+  },
+  {
+    "title": "Pixel Flow Level 4559 - The one with the hourglass and the crossbows",
+    "subtitle": "Pixel Flow Level 4559 - The one with the hourglass and the crossbows",
+    "href": "https://www.youtube.com/watch?v=AE5jX7qKmbs",
+    "levelStart": 4559,
+    "levelEnd": 4559,
+    "slug": "level-4559",
+    "videoId": "AE5jX7qKmbs"
+  },
+  {
+    "title": "Pixel Flow Level 4560 - The one with the storbreaker and the crossbows",
+    "subtitle": "Pixel Flow Level 4560 - The one with the storbreaker and the crossbows",
+    "href": "https://www.youtube.com/watch?v=_ZGJ3xVE0As",
+    "levelStart": 4560,
+    "levelEnd": 4560,
+    "slug": "level-4560",
+    "videoId": "_ZGJ3xVE0As"
   }
 ]
