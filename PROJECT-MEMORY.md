@@ -40,6 +40,10 @@
 
 ## Scripts Used For Maintenance
 
+- Daily crawler wrapper:
+  - `/Users/zhaobingkun/dev/Python/spider/run_pixelflow_daily.sh`
+- Daily crawler main script:
+  - `/Users/zhaobingkun/dev/Python/spider/pixelflow.py`
 - Home data rebuild:
   - [scripts/build_home_data.py](/Users/zhaobingkun/dev/PixelFlowlevel/pixelflow/PixelFlowlevel/scripts/build_home_data.py)
 - JSON / markdown sync:
@@ -125,6 +129,7 @@ Reason:
 
 - `home.js` uses `home-data.js` to drive `maxLevel` behavior on homepage
 - `levels.js` derives max level from actual playlist data for list/search behavior
+- daily crawler default handles are currently `https://www.youtube.com/@tidan_walktrough`, `@Rikke-games`, and `https://www.youtube.com/@Chumliesgames`
 - some public/static pages can still lag if only playlist data changes and hardcoded HTML is not updated
 - when there is a numeric gap, previous level pages may not get a `Next` link if the next literal level is missing
 
