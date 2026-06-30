@@ -38851,5 +38851,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1891,
     "slug": "level-1891",
     "videoId": "bFpf-56fFag"
+  },
+  {
+    "title": "Pixel Flow Level 4561 - The one with the cowbunny",
+    "subtitle": "Pixel Flow Level 4561 - The one with the cowbunny",
+    "href": "https://www.youtube.com/watch?v=NIBCyTQ70Uo",
+    "levelStart": 4561,
+    "levelEnd": 4561,
+    "slug": "level-4561",
+    "videoId": "NIBCyTQ70Uo"
+  },
+  {
+    "title": "Pixel Flow Level 4562 - The one with the chessboard",
+    "subtitle": "Pixel Flow Level 4562 - The one with the chessboard",
+    "href": "https://www.youtube.com/watch?v=MLqNunDxkbQ",
+    "levelStart": 4562,
+    "levelEnd": 4562,
+    "slug": "level-4562",
+    "videoId": "MLqNunDxkbQ"
+  },
+  {
+    "title": "Pixel Flow Level 4563 Hard - The one with the penguin doing archery",
+    "subtitle": "Pixel Flow Level 4563 Hard - The one with the penguin doing archery",
+    "href": "https://www.youtube.com/watch?v=1oKRFPIKsOE",
+    "levelStart": 4563,
+    "levelEnd": 4563,
+    "slug": "level-4563",
+    "videoId": "1oKRFPIKsOE"
+  },
+  {
+    "title": "Pixel Flow Level 4564 - The one with the little grey cat behind the window in the night",
+    "subtitle": "Pixel Flow Level 4564 - The one with the little grey cat behind the window in the night",
+    "href": "https://www.youtube.com/watch?v=q9xO2vTQsuI",
+    "levelStart": 4564,
+    "levelEnd": 4564,
+    "slug": "level-4564",
+    "videoId": "q9xO2vTQsuI"
+  },
+  {
+    "title": "Pixel Flow Level 4565 - The one with the little cottage ans the multicolored pumpkin",
+    "subtitle": "Pixel Flow Level 4565 - The one with the little cottage ans the multicolored pumpkin",
+    "href": "https://www.youtube.com/watch?v=y-4ynOYj90s",
+    "levelStart": 4565,
+    "levelEnd": 4565,
+    "slug": "level-4565",
+    "videoId": "y-4ynOYj90s"
   }
 ]
