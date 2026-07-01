@@ -38896,5 +38896,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 4565,
     "slug": "level-4565",
     "videoId": "y-4ynOYj90s"
+  },
+  {
+    "title": "Pixel Flow Level 4566 - The one with the knight bear",
+    "subtitle": "Pixel Flow Level 4566 - The one with the knight bear",
+    "href": "https://www.youtube.com/watch?v=B8PWJE8WaDU",
+    "levelStart": 4566,
+    "levelEnd": 4566,
+    "slug": "level-4566",
+    "videoId": "B8PWJE8WaDU"
+  },
+  {
+    "title": "Pixel Flow Level 4567 - The one with the tower church",
+    "subtitle": "Pixel Flow Level 4567 - The one with the tower church",
+    "href": "https://www.youtube.com/watch?v=pg2ja58_cbI",
+    "levelStart": 4567,
+    "levelEnd": 4567,
+    "slug": "level-4567",
+    "videoId": "pg2ja58_cbI"
+  },
+  {
+    "title": "Pixel Flow Level 4568 Very Hard - The one with the big tree",
+    "subtitle": "Pixel Flow Level 4568 Very Hard - The one with the big tree",
+    "href": "https://www.youtube.com/watch?v=coUiWIbkMqc",
+    "levelStart": 4568,
+    "levelEnd": 4568,
+    "slug": "level-4568",
+    "videoId": "coUiWIbkMqc"
+  },
+  {
+    "title": "Pixel Flow Level 4569 - The one with the target and the arrow",
+    "subtitle": "Pixel Flow Level 4569 - The one with the target and the arrow",
+    "href": "https://www.youtube.com/watch?v=Y4e1m3_IfGs",
+    "levelStart": 4569,
+    "levelEnd": 4569,
+    "slug": "level-4569",
+    "videoId": "Y4e1m3_IfGs"
+  },
+  {
+    "title": "Pixel Flow Level 4570 - The one with the panda",
+    "subtitle": "Pixel Flow Level 4570 - The one with the panda",
+    "href": "https://www.youtube.com/watch?v=gLlE6lNiDyo",
+    "levelStart": 4570,
+    "levelEnd": 4570,
+    "slug": "level-4570",
+    "videoId": "gLlE6lNiDyo"
   }
 ]
