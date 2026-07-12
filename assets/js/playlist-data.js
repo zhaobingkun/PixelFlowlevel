@@ -38950,5 +38950,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1937,
     "slug": "level-1937",
     "videoId": "-Wt8ihxP3sc"
+  },
+  {
+    "title": "Pixel flow level 1911@Chumliesgames",
+    "subtitle": "Pixel flow level 1911@Chumliesgames",
+    "href": "https://www.youtube.com/watch?v=0CtVxcuiRGQ",
+    "levelStart": 1911,
+    "levelEnd": 1911,
+    "slug": "level-1911",
+    "videoId": "0CtVxcuiRGQ"
+  },
+  {
+    "title": "Pixel flow level 1914@Chumliesgames",
+    "subtitle": "Pixel flow level 1914@Chumliesgames",
+    "href": "https://www.youtube.com/watch?v=TKpG6hS3Hic",
+    "levelStart": 1914,
+    "levelEnd": 1914,
+    "slug": "level-1914",
+    "videoId": "TKpG6hS3Hic"
+  },
+  {
+    "title": "Pixel flow level 1915@Chumliesgames",
+    "subtitle": "Pixel flow level 1915@Chumliesgames",
+    "href": "https://www.youtube.com/watch?v=NEJJ--CwXcQ",
+    "levelStart": 1915,
+    "levelEnd": 1915,
+    "slug": "level-1915",
+    "videoId": "NEJJ--CwXcQ"
+  },
+  {
+    "title": "Pixel flow level 1916@Chumliesgames",
+    "subtitle": "Pixel flow level 1916@Chumliesgames",
+    "href": "https://www.youtube.com/watch?v=i70H4oqwXy0",
+    "levelStart": 1916,
+    "levelEnd": 1916,
+    "slug": "level-1916",
+    "videoId": "i70H4oqwXy0"
+  },
+  {
+    "title": "Pixel flow level 1917@Chumliesgames",
+    "subtitle": "Pixel flow level 1917@Chumliesgames",
+    "href": "https://www.youtube.com/watch?v=TDK4WzSR8NE",
+    "levelStart": 1917,
+    "levelEnd": 1917,
+    "slug": "level-1917",
+    "videoId": "TDK4WzSR8NE"
   }
 ]
