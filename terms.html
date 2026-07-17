@@ -1,17 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6428701926694635"
-     crossorigin="anonymous"></script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HCVTYH1N52"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script>
+    window.__pf_load_google = function(options = {}) {
+      if (window.__pf_google_loaded) return;
+      window.__pf_google_loaded = true;
+      if (!options.skipAds) {
+        const ads = document.createElement('script');
+        ads.async = true;
+        ads.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6428701926694635';
+        ads.crossOrigin = 'anonymous';
+        document.head.appendChild(ads);
+      }
 
-  gtag('config', 'G-HCVTYH1N52');
-</script>
+      const gtagScript = document.createElement('script');
+      gtagScript.async = true;
+      gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-HCVTYH1N52';
+      gtagScript.onload = () => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', 'G-HCVTYH1N52');
+      };
+      document.head.appendChild(gtagScript);
+    };
+    window.addEventListener('load', () => {
+      const shouldLoadAds = !(document.body && document.body.dataset.adsense === 'off');
+      const loadGoogle = () => window.__pf_load_google({ skipAds: !shouldLoadAds });
+      const timer = setTimeout(loadGoogle, 8000);
+      const cancelTimerAndLoad = () => { clearTimeout(timer); loadGoogle(); };
+      window.addEventListener('scroll', cancelTimerAndLoad, { once: true, passive: true });
+      window.addEventListener('pointerdown', cancelTimerAndLoad, { once: true });
+    });
+  </script>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +53,7 @@
   <link rel="stylesheet" href="assets/css/site.css">
 </head>
 
-<body data-level-base="levels/" data-detail-page="level">
+<body data-adsense="off" data-level-base="levels/" data-detail-page="level">
 
 <header class="site-header">
   <div class="container nav">
