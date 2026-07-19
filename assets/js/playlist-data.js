@@ -39220,5 +39220,23 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1922,
     "slug": "level-1922",
     "videoId": "liU71L8ZJ04"
+  },
+  {
+    "title": "Pixel flow level 1949@Chumliesgames",
+    "subtitle": "Pixel flow level 1949@Chumliesgames",
+    "href": "https://www.youtube.com/watch?v=9uyM-bp_D-0",
+    "levelStart": 1949,
+    "levelEnd": 1949,
+    "slug": "level-1949",
+    "videoId": "9uyM-bp_D-0"
+  },
+  {
+    "title": "Pixel flow level 1960@Chumliesgames",
+    "subtitle": "Pixel flow level 1960@Chumliesgames",
+    "href": "https://www.youtube.com/watch?v=P_jhREoOy-8",
+    "levelStart": 1960,
+    "levelEnd": 1960,
+    "slug": "level-1960",
+    "videoId": "P_jhREoOy-8"
   }
 ]
