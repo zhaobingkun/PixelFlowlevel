@@ -39238,5 +39238,14 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1960,
     "slug": "level-1960",
     "videoId": "P_jhREoOy-8"
+  },
+  {
+    "title": "Pixel flow level 1963@Chumliesgames",
+    "subtitle": "Pixel flow level 1963@Chumliesgames",
+    "href": "https://www.youtube.com/watch?v=U23WncXryQc",
+    "levelStart": 1963,
+    "levelEnd": 1963,
+    "slug": "level-1963",
+    "videoId": "U23WncXryQc"
   }
 ]
