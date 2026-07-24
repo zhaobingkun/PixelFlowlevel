@@ -293,7 +293,15 @@ def build_level_page(level: int, title: str, video_id: str, max_level: int, prev
       document.head.appendChild(gtagScript);
     }};
     window.addEventListener('load', () => {{
-      const shouldLoadAds = !(document.body && document.body.dataset.adsense === 'off');
+      const userAgent = navigator.userAgent || '';
+      const isAndroidWebView = /Android/i.test(userAgent) && (
+        userAgent.includes("; wv)") ||
+        userAgent.includes(" wv)") ||
+        (userAgent.includes("Version/4.0") && userAgent.includes("Chrome/"))
+      );
+      const shouldLoadAds =
+        !(document.body && document.body.dataset.adsense === 'off') &&
+        !isAndroidWebView;
       const loadGoogle = () => window.__pf_load_google({{ skipAds: !shouldLoadAds }});
       const timer = setTimeout(loadGoogle, 8000);
       const cancelTimerAndLoad = () => {{ clearTimeout(timer); loadGoogle(); }};

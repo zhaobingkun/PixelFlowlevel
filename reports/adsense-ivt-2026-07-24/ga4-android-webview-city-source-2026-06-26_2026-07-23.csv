@@ -1,0 +1,4 @@
+Browser,City,Session source,Active users,New users,Engaged sessions,Engagement rate,Engaged sessions per active user,Event count
+Android Webview,(not set),(direct),45,45,0,0%,0,135
+Android Webview,Jeddah,tiktok.com,1,1,1,100%,1,12
+Android Webview,Singapore,(direct),1,1,0,0%,0,3
