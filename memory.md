@@ -2,7 +2,7 @@
 
 ## 2026-08-02 Auto-Publish Update
 
-- Authorized by the user to add automatic commit and push after the daily crawler syncs the site. The launchd wrapper now runs the version-controlled publisher at `scripts/publish_daily_changes.sh`.
+- Authorized by the user to add automatic commit and push after the daily crawler syncs the site. The launchd wrapper now contains the publish logic directly; the helper `.sh` is intentionally kept outside the site repository.
 - The publisher first requires a clean `main` worktree and fast-forwards from `origin/main`; it commits and pushes only when the crawler produced site changes. No empty commit is created, and failures remain visible in the existing launchd logs.
 - The GitHub push is intended to trigger the linked Vercel deployment. The local Vercel CLI has no stored credentials, so the automation does not call `vercel --prod` directly.
 
