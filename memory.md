@@ -1,5 +1,15 @@
 # Pixel Flow Memory
 
+## 2026-08-02 Maintenance
+
+- Verified `missing_levels_1-5000.txt` against the actual numeric `level/` directories. The project copy and `/Users/zhaobingkun/dev/Python/spider/missing_levels_1-5000.txt` are identical, last modified at `2026-08-02 10:32:05`, and list `626` missing levels across `1-5000`.
+- Current site coverage is `4374` level directories with the highest level at `4570`. No missing-level file content change was needed because the daily update had already produced the correct list.
+- Static homepage/navigation controls still contain the older `4204` / `4505` values; this was observed but not changed in this missing-level verification task.
+
+## 2026-08-02 Automation Update
+
+- Added `@cheriegaming` to the daily crawler's default YouTube handles in `/Users/zhaobingkun/dev/Python/spider/pixelflow.py` and updated the matching task documentation. The launchd wrapper calls the script without `--handle` overrides, so the new account will be scanned automatically on the next scheduled run.
+
 ## Maintenance Notes
 
 - 2026-07-28: With explicit user confirmation, deployed a new Cloudflare custom security rule for `pixelflowlevel.app` named `Block all Singapore traffic`. The expression is `(ip.src.country eq "SG")`, the action is `Block`, the status is `Active`, and the execution order is `First`. Cloudflare's live Security rules list confirmed it at order 1 with description `Country equals SG`, action `Block`, and status `Active`. The previous `google gas ruls` Managed Challenge remains active at order 2 for SG/VN/KR on the homepage, levels index, and `/level/*`; Singapore requests now stop at the new order-1 block before later rules are evaluated. The PetalBot User-Agent block remains active at order 3. This blocks every Singapore request, including legitimate users, bots, assets, and `robots.txt`. No local site code, Git commit, DNS setting, or AdSense setting was changed.

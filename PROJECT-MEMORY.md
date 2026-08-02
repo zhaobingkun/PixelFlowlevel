@@ -9,11 +9,10 @@
 
 ## Current State
 
-- Current covered level page directories: `4204`
-- Current maximum level in site data: `4505`
-- Current homepage tracked-count text: `4204 levels tracked`
-- Homepage `New:` marker currently points to: `4505`
-- Current `missingTo5000` in `assets/js/home-data.js`: `796`
+- Current covered level page directories: `4374`
+- Current maximum level in site data: `4570`
+- Current generated `missingTo5000` in `assets/js/home-data.js`: `626`
+- Note: static homepage/navigation values still show the previous `4204` / `4505` snapshot and need a separate static-page sync.
 
 ## Main Files
 
@@ -82,27 +81,26 @@ External working copy:
 - `/Users/zhaobingkun/dev/Python/spider/missing_levels_1-5000.txt`
 
 Current external missing file status:
-- covered: `4204`
-- missing: `796`
+- covered: `4374`
+- missing: `626`
 - important current gaps confirmed:
   - `4341` is still missing
 
 ## Recent Level Sync History
 
 Recent confirmed state after latest sync:
-- JSON added historical backfill pages through `1803`
-- Site added:
-  - `1795-1803`
-- highest site level is still `4505`
-- `4341` remains missing
+- Current site has `4374` numeric level directories through `4570`.
+- `missing_levels_1-5000.txt` was checked against the actual level directories on 2026-08-02 and matches exactly.
+- Both the project copy and `/Users/zhaobingkun/dev/Python/spider/missing_levels_1-5000.txt` contain the same `626` missing levels.
+- `4341` remains missing.
 
 After the latest update:
 - `playlist-data.js` now includes backfilled levels `1790-1803`
 - `home-data.js` now has:
-  - `maxLevel: 4505`
-  - `missingTo5000: 796`
-- homepage and levels page inputs still use `4505`
-- homepage tracked-count text is now `4204 levels tracked`
+  - `maxLevel: 4570`
+  - `missingTo5000: 626`
+- homepage and static page inputs still use the stale `4505` snapshot
+- homepage tracked-count text is still the stale `4204 levels tracked` snapshot
 
 ## Static Pages With Hardcoded Level Limits
 
@@ -129,7 +127,7 @@ Reason:
 
 - `home.js` uses `home-data.js` to drive `maxLevel` behavior on homepage
 - `levels.js` derives max level from actual playlist data for list/search behavior
-- daily crawler default handles are currently `https://www.youtube.com/@tidan_walktrough`, `@Rikke-games`, and `https://www.youtube.com/@Chumliesgames`
+- daily crawler default handles are currently `https://www.youtube.com/@tidan_walktrough`, `@Rikke-games`, `https://www.youtube.com/@Chumliesgames`, and `@cheriegaming`
 - some public/static pages can still lag if only playlist data changes and hardcoded HTML is not updated
 - when there is a numeric gap, previous level pages may not get a `Next` link if the next literal level is missing
 
