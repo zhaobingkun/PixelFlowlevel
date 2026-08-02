@@ -11,7 +11,8 @@
 
 - Keep the site crawlable as static HTML.
 - Maintain level pages, sitemap, homepage stats, and missing-level records.
-- Do not auto commit or push unless the user explicitly asks.
+- Manual work must not auto commit or push unless the user explicitly asks. The daily launchd task is now authorized to auto-publish crawler-generated changes through `scripts/publish_daily_changes.sh`.
+- The daily publisher must refuse to run when the site repo starts dirty or is not on `main`; this prevents unrelated manual work from being included in an automated commit.
 - For daily crawler work, use the existing automation chain instead of inventing a second workflow.
 
 ## Required Reading Before Work
@@ -40,3 +41,10 @@ If any of these files are missing, recreate or update them with the current proj
   - `/Users/zhaobingkun/Library/Logs/pixelflow-daily.log`
   - `/Users/zhaobingkun/Library/Logs/pixelflow-daily.err.log`
 
+## Daily Auto-Publish
+
+- Before crawling, the wrapper fast-forwards the site repo from `origin/main` and requires a clean working tree.
+- After a successful site sync, `scripts/publish_daily_changes.sh publish` commits generated changes and pushes `main` to `origin`.
+- A run with no generated site changes does not create an empty commit.
+- The GitHub push is the publish trigger for the linked Vercel project; the daily wrapper does not require a local Vercel token.
+- If the repository is dirty, the branch is not `main`, the fast-forward check fails, or the push fails, the task exits non-zero and leaves the files available for inspection.

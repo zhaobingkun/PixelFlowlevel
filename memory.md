@@ -1,5 +1,11 @@
 # Pixel Flow Memory
 
+## 2026-08-02 Auto-Publish Update
+
+- Authorized by the user to add automatic commit and push after the daily crawler syncs the site. The launchd wrapper now runs the version-controlled publisher at `scripts/publish_daily_changes.sh`.
+- The publisher first requires a clean `main` worktree and fast-forwards from `origin/main`; it commits and pushes only when the crawler produced site changes. No empty commit is created, and failures remain visible in the existing launchd logs.
+- The GitHub push is intended to trigger the linked Vercel deployment. The local Vercel CLI has no stored credentials, so the automation does not call `vercel --prod` directly.
+
 ## 2026-08-02 Maintenance
 
 - Verified `missing_levels_1-5000.txt` against the actual numeric `level/` directories. The project copy and `/Users/zhaobingkun/dev/Python/spider/missing_levels_1-5000.txt` are identical, last modified at `2026-08-02 10:32:05`, and list `626` missing levels across `1-5000`.

@@ -14,6 +14,13 @@
 - Current generated `missingTo5000` in `assets/js/home-data.js`: `626`
 - Note: static homepage/navigation values still show the previous `4204` / `4505` snapshot and need a separate static-page sync.
 
+## Automation State
+
+- The macOS launchd task runs `/Users/zhaobingkun/dev/Python/spider/run_pixelflow_daily.sh` daily at 10:30.
+- The task now fast-forwards the site repo from `origin/main` before crawling, requires a clean `main` worktree, and automatically commits/pushes successful crawler-generated site changes.
+- The version-controlled publisher is [scripts/publish_daily_changes.sh](/Users/zhaobingkun/dev/PixelFlowlevel/pixelflow/PixelFlowlevel/scripts/publish_daily_changes.sh).
+- Pushing `origin/main` is the publish step because this repository is linked to the Vercel project `pixel-flowlevel`; no local Vercel CLI token is required.
+
 ## Main Files
 
 - Homepage:
