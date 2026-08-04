@@ -39337,5 +39337,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1895,
     "slug": "level-1895",
     "videoId": "hAVjngOM6Tc"
+  },
+  {
+    "title": "Pixel Flow Level 1896 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1896 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=g8f9vk_r7_A",
+    "levelStart": 1896,
+    "levelEnd": 1896,
+    "slug": "level-1896",
+    "videoId": "g8f9vk_r7_A"
+  },
+  {
+    "title": "Pixel Flow Level 1899 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1899 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=6_acJJ445zU",
+    "levelStart": 1899,
+    "levelEnd": 1899,
+    "slug": "level-1899",
+    "videoId": "6_acJJ445zU"
+  },
+  {
+    "title": "Pixel Flow Level 1901 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1901 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=oT1aj9T_Gkk",
+    "levelStart": 1901,
+    "levelEnd": 1901,
+    "slug": "level-1901",
+    "videoId": "oT1aj9T_Gkk"
+  },
+  {
+    "title": "Pixel Flow Level 1905 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1905 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=8jbcrnxZX1w",
+    "levelStart": 1905,
+    "levelEnd": 1905,
+    "slug": "level-1905",
+    "videoId": "8jbcrnxZX1w"
+  },
+  {
+    "title": "Pixel Flow Level 1907 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1907 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=L2DM-YXiHRo",
+    "levelStart": 1907,
+    "levelEnd": 1907,
+    "slug": "level-1907",
+    "videoId": "L2DM-YXiHRo"
   }
 ]
