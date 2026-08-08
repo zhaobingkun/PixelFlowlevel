@@ -39382,5 +39382,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 1907,
     "slug": "level-1907",
     "videoId": "L2DM-YXiHRo"
+  },
+  {
+    "title": "Pixel Flow Level 1912 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1912 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=zookc4TgE60",
+    "levelStart": 1912,
+    "levelEnd": 1912,
+    "slug": "level-1912",
+    "videoId": "zookc4TgE60"
+  },
+  {
+    "title": "Pixel Flow Level 1913 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1913 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=aJGPWoHJUyg",
+    "levelStart": 1913,
+    "levelEnd": 1913,
+    "slug": "level-1913",
+    "videoId": "aJGPWoHJUyg"
+  },
+  {
+    "title": "Pixel Flow Level 1969 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1969 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=CWAe9Nxp4wg",
+    "levelStart": 1969,
+    "levelEnd": 1969,
+    "slug": "level-1969",
+    "videoId": "CWAe9Nxp4wg"
+  },
+  {
+    "title": "Pixel Flow Level 1992 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 1992 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=ygONDqdcCLA",
+    "levelStart": 1992,
+    "levelEnd": 1992,
+    "slug": "level-1992",
+    "videoId": "ygONDqdcCLA"
+  },
+  {
+    "title": "Pixel Flow Level 2049 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2049 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=K8jXc_4-PRo",
+    "levelStart": 2049,
+    "levelEnd": 2049,
+    "slug": "level-2049",
+    "videoId": "K8jXc_4-PRo"
   }
 ]
