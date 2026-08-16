@@ -1,5 +1,10 @@
 # Project Memory
 
+## Latest Daily Automation Check
+
+- 2026-08-16: No successful wrapper run. The 10:30 launchd attempt refused because the repository was dirty from uncommitted `memory.md` and `PROJECT-MEMORY.md`; no wrapper rerun was authorized under the clean-worktree rule.
+- Current read-only state remains 4,395 numeric level directories, max level 4,570, 605 missing levels, and 4,412 sitemap URLs. Project and external missing-level files match the computed gaps.
+
 ## Project
 
 - Path: `/Users/zhaobingkun/dev/PixelFlowlevel/pixelflow/PixelFlowlevel`
@@ -9,9 +14,9 @@
 
 ## Current State
 
-- Current covered level page directories: `4374`
+- Current covered level page directories: `4395`
 - Current maximum level in site data: `4570`
-- Current generated `missingTo5000` in `assets/js/home-data.js`: `626`
+- Current generated `missingTo5000` in `assets/js/home-data.js`: `605`
 - Note: static homepage/navigation values still show the previous `4204` / `4505` snapshot and need a separate static-page sync.
 
 ## Automation State
@@ -100,6 +105,8 @@ Recent confirmed state after latest sync:
 - `missing_levels_1-5000.txt` was checked against the actual level directories on 2026-08-02 and matches exactly.
 - Both the project copy and `/Users/zhaobingkun/dev/Python/spider/missing_levels_1-5000.txt` contain the same `626` missing levels.
 - `4341` remains missing.
+
+Latest daily automation check (2026-08-09): level `2050` was added and published in commit `857bc753`; the project and external missing-level files now both contain `605` entries and match the computed gaps.
 
 After the latest update:
 - `playlist-data.js` now includes backfilled levels `1790-1803`

@@ -1,5 +1,28 @@
 # Pixel Flow Memory
 
+## 2026-08-16 Daily Automation Check
+
+- No successful wrapper run was recorded for 2026-08-16. The daily error log shows the 10:30 task refused to auto-publish because the site repo was not clean; the latest successful publish remains commit `857bc753` from 2026-08-09.
+- The repository is on `main` and local `HEAD` matches `origin/main` at `857bc753`, but `memory.md` and `PROJECT-MEMORY.md` have uncommitted changes. Per project rules, the wrapper was not run and no user changes were overwritten.
+- Confirmed `@cheriegaming` remains in the four default handles. The project has 4,395 numeric level directories with maximum level 4,570; `missing_levels_1-5000.txt` contains 605 entries and matches both the computed gaps and the external crawler copy.
+- `assets/js/home-data.js` reports `maxLevel: 4570` and `missingTo5000: 605`; `sitemap.xml` contains 4,412 URLs. No daily commit or push occurred today.
+
+## 2026-08-09 Android WebView 防护复核
+
+- 复核确认站内 Android WebView AdSense guard 已经存在并已上线：匹配 Android WebView 时继续加载 GA4，但跳过 `adsbygoogle.js`；首页、关卡模板和两个未来关卡生成器均包含该逻辑，因此本次不重复改动页面。
+- 下一步应在 Cloudflare 增加针对 `/level/*` 的 Android WebView 高频请求 Managed Challenge；先限速观察，不直接封禁全部 WebView，也不再扩大现有国家封锁范围。
+- 尝试从当前浏览器打开 Cloudflare 控制台时导航超时，新建标签仍停留在空白页；未进入登录流程，也未修改任何 Cloudflare 设置。
+- 用户随后在 Cloudflare 免费版中通过 Custom rules 创建并部署了 Android WebView 关卡页 Managed Challenge 规则；本次对话中未能由浏览器自动化端读取列表做二次核验，后续应以规则状态 Active 和 Security Events 命中记录为准。
+
+## 2026-08-09 Daily Automation Check
+
+- Confirmed the existing wrapper completed successfully today; no rerun was needed.
+- The run scanned all four default handles, including `@cheriegaming`, found and published level `2050`, committed as `857bc753` (`chore: daily Pixel Flow content sync 2026-08-09`), and logged a successful push to `origin/main`.
+- The repository is clean on `main`; local `HEAD` and `origin/main` both point to `857bc753`.
+- Site coverage is `4395` numeric level directories through `4570`; `missing_levels_1-5000.txt` has `605` entries, matches the computed gaps exactly, and matches the external crawler copy.
+- `assets/js/home-data.js` reports `maxLevel: 4570` and `missingTo5000: 605`; `sitemap.xml` contains `4412` URLs.
+- The shared error log still contains older timeout and dirty-worktree traces, but the final 2026-08-09 log block records the successful commit and push.
+
 ## 2026-08-02 Auto-Publish Update
 
 - User approved removing the old project-side publisher helper from Git history; the publish logic remains in the external launchd wrapper.
