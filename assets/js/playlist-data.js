@@ -39445,5 +39445,14 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 2073,
     "slug": "level-2073",
     "videoId": "GV9HXT2O6UY"
+  },
+  {
+    "title": "Pixel Flow Level 2104 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2104 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=cxac57l6tQI",
+    "levelStart": 2104,
+    "levelEnd": 2104,
+    "slug": "level-2104",
+    "videoId": "cxac57l6tQI"
   }
 ]
