@@ -1,5 +1,12 @@
 # Pixel Flow Memory
 
+## 2026-08-23 Manual Cleanup
+
+- Manual cleanup committed and pushed the pending 2026-08-23 project-memory-only diff as `9367d23d` (`docs: record Pixel Flow daily check 2026-08-23`), restoring a clean `main` worktree aligned with `origin/main`.
+- A manual wrapper rerun was attempted after cleanup. The normal sandbox run could not write `.git/FETCH_HEAD`; the elevated run started, and a second attempt with `SSL_CERT_FILE=/etc/ssl/cert.pem` reached all four handles, but YouTube `playlistItems` reads hung for several minutes and were interrupted before output files were rewritten.
+- No site files or level data changed during the interrupted reruns. Read-only verification after interruption showed 4,397 numeric level directories, max level 4,570, 603 missing levels, matching project/external missing-level files, `home-data.js` maxLevel 4570 / missingTo5000 603, and 4,414 sitemap URLs.
+- The latest completed crawler output remains the successful 2026-08-23 10:46 run with `found: []`; treat today as no new level found unless a later successful wrapper run completes.
+
 ## 2026-08-23 Daily Automation Check
 
 - Today's existing wrapper run completed at 10:46 +0800; it scanned all four default handles, including `@cheriegaming`, found no new levels, and correctly made no commit or push.
