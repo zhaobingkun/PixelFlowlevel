@@ -6,6 +6,7 @@
 - 已同步关卡 `2220、2225、2230、2235、2240、2260、2265、2275、2295、2300`；其中 5 个页面新建，5 个已有页面刷新为新视频。
 - 当前覆盖 4,403 个数字关卡目录，最高关卡仍为 4,570，缺口降至 597，sitemap URL 数量为 4,420。
 - 同步脚本支持对已有页面和 playlist 条目执行显式 `--update-existing`，外部 YouTube crawler 已接入 CherieGaming 专用播放列表。
+- 提交 `38d5d007` 已推送到 `origin/main`；新建的 5 个关卡页和 `sitemap.xml` 线上核验均为 HTTP 200。
 
 ## Latest Daily Automation Check
 
