@@ -1,5 +1,12 @@
 # Project Memory
 
+## 2026-09-04 YouTube 回退同步 10 关
+
+- 本机 YouTube API/播放列表请求超时，但已从 CherieGaming 的 Pixel Flow 专用播放列表关联索引核实 2026-09-02 的 10 个视频。
+- 已同步关卡 `2220、2225、2230、2235、2240、2260、2265、2275、2295、2300`；其中 5 个页面新建，5 个已有页面刷新为新视频。
+- 当前覆盖 4,403 个数字关卡目录，最高关卡仍为 4,570，缺口降至 597，sitemap URL 数量为 4,420。
+- 同步脚本支持对已有页面和 playlist 条目执行显式 `--update-existing`，外部 YouTube crawler 已接入 CherieGaming 专用播放列表。
+
 ## Latest Daily Automation Check
 
 - 2026-08-23: The existing wrapper had already completed successfully at 10:46 +0800. It scanned all four default handles including `@cheriegaming`, found no new levels, and made no commit or push. The repository is clean on `main`; local `HEAD` and the local `origin/main` tracking ref are `8dc5b25c`. Coverage is 4,397 numeric level directories, 603 missing levels, and 4,414 sitemap URLs; both missing-level files match the computed gaps. A direct remote ref check was blocked by the sandbox's SSH network restriction.
@@ -18,9 +25,9 @@
 
 ## Current State
 
-- Current covered level page directories: `4395`
+- Current covered level page directories: `4403`
 - Current maximum level in site data: `4570`
-- Current generated `missingTo5000` in `assets/js/home-data.js`: `605`
+- Current generated `missingTo5000` in `assets/js/home-data.js`: `597`
 - Note: static homepage/navigation values still show the previous `4204` / `4505` snapshot and need a separate static-page sync.
 
 ## Automation State

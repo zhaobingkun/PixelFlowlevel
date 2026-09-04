@@ -276,6 +276,45 @@ def append_playlist_entries(repo_root: str, entries: Iterable[LinkEntry], dry_ru
     return len(new_entries)
 
 
+def upsert_playlist_entries(repo_root: str, entries: Iterable[LinkEntry], dry_run: bool) -> int:
+    playlist_path = os.path.join(repo_root, "assets", "js", "playlist-data.js")
+    content = open(playlist_path, "r", encoding="utf-8", errors="ignore").read()
+    prefix = "window.PIXEL_FLOW_PLAYLIST = "
+    if not content.startswith(prefix):
+        raise RuntimeError(f"Unexpected playlist format in {playlist_path}")
+
+    data = json.loads(content[len(prefix) :].strip())
+    changed = 0
+    for entry in entries:
+        replacement = {
+            "title": entry.title,
+            "subtitle": entry.title,
+            "href": f"https://www.youtube.com/watch?v={entry.video_id}",
+            "levelStart": entry.level,
+            "levelEnd": entry.level,
+            "slug": f"level-{entry.level}",
+            "videoId": entry.video_id,
+        }
+        match = next(
+            (
+                item
+                for item in data
+                if item.get("levelStart") == entry.level and item.get("levelEnd") == entry.level
+            ),
+            None,
+        )
+        if match is None:
+            data.append(replacement)
+        else:
+            match.update(replacement)
+        changed += 1
+
+    if not dry_run:
+        with open(playlist_path, "w", encoding="utf-8") as file_obj:
+            file_obj.write(prefix + json.dumps(data, ensure_ascii=False, indent=2) + "\n")
+    return changed
+
+
 def build_level_page(level: int, title: str, video_id: str, max_level: int, prev_level: int | None, next_level: int | None) -> str:
     seo_copy = build_level_seo(level)
     safe_title = html_escape(seo_copy["heading"])
@@ -508,19 +547,25 @@ def build_level_page(level: int, title: str, video_id: str, max_level: int, prev
 """
 
 
-def write_missing_level_pages(repo_root: str, entries: dict[int, LinkEntry], max_level: int, dry_run: bool) -> tuple[int, list[int]]:
+def write_missing_level_pages(
+    repo_root: str,
+    entries: dict[int, LinkEntry],
+    max_level: int,
+    dry_run: bool,
+    update_existing: bool = False,
+) -> tuple[int, list[int]]:
     level_root = os.path.join(repo_root, "level")
     existing_dirs = {int(name) for name in os.listdir(level_root) if name.isdigit()}
 
-    missing_levels = sorted([lvl for lvl in entries if lvl not in existing_dirs])
-    if not missing_levels:
+    levels_to_write = sorted(entries if update_existing else [lvl for lvl in entries if lvl not in existing_dirs])
+    if not levels_to_write:
         return 0, []
 
-    all_levels = sorted(existing_dirs.union(missing_levels))
+    all_levels = sorted(existing_dirs.union(levels_to_write))
     idx_by_level = {lvl: i for i, lvl in enumerate(all_levels)}
 
     created = 0
-    for lvl in missing_levels:
+    for lvl in levels_to_write:
         entry = entries[lvl]
         i = idx_by_level[lvl]
         prev_level = all_levels[i - 1] if i - 1 >= 0 else None
@@ -541,10 +586,16 @@ def write_missing_level_pages(repo_root: str, entries: dict[int, LinkEntry], max
                 f.write(html)
         created += 1
 
-    return created, missing_levels
+    return created, levels_to_write
 
 
-def update_sitemap(repo_root: str, entries: dict[int, LinkEntry], added_levels: Iterable[int], dry_run: bool) -> int:
+def update_sitemap(
+    repo_root: str,
+    entries: dict[int, LinkEntry],
+    added_levels: Iterable[int],
+    updated_levels: Iterable[int] = (),
+    dry_run: bool = False,
+) -> int:
     sitemap_path = os.path.join(repo_root, "sitemap.xml")
     lines = open(sitemap_path, "r", encoding="utf-8", errors="ignore").read().splitlines()
 
@@ -562,6 +613,7 @@ def update_sitemap(repo_root: str, entries: dict[int, LinkEntry], added_levels: 
             other_url_lines.append(line)
 
     add_set = set(added_levels)
+    update_set = set(updated_levels)
     added = 0
     for lvl in sorted(add_set):
         if lvl in existing_level_lastmod:
@@ -572,6 +624,11 @@ def update_sitemap(repo_root: str, entries: dict[int, LinkEntry], added_levels: 
             lastmod = dt.date.today().isoformat()
         existing_level_lastmod[lvl] = lastmod
         added += 1
+
+    for lvl in sorted(update_set):
+        entry = entries.get(lvl)
+        if entry and entry.published_date:
+            existing_level_lastmod[lvl] = entry.published_date
 
     # Rebuild XML with the same compact 1-line-per-url style.
     out_lines: list[str] = []
@@ -608,6 +665,11 @@ def main() -> int:
         help="Path to a JSON file containing found level entries",
     )
     parser.add_argument("--repo-root", default=".", help="Repo root containing assets/ and level/")
+    parser.add_argument(
+        "--update-existing",
+        action="store_true",
+        help="Refresh existing level pages and playlist entries when newer video links are supplied",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Print what would change without writing")
     args = parser.parse_args()
 
@@ -633,10 +695,22 @@ def main() -> int:
         entries=entries_by_level,
         max_level=max_level,
         dry_run=args.dry_run,
+        update_existing=args.update_existing,
     )
 
-    added_playlist = append_playlist_entries(repo_root, missing_entries, dry_run=args.dry_run)
-    added_sitemap = update_sitemap(repo_root, entries_by_level, created_levels, dry_run=args.dry_run)
+    if args.update_existing:
+        added_playlist = upsert_playlist_entries(repo_root, entries_by_level.values(), dry_run=args.dry_run)
+        updated_levels = entries_by_level.keys()
+    else:
+        added_playlist = append_playlist_entries(repo_root, missing_entries, dry_run=args.dry_run)
+        updated_levels = ()
+    added_sitemap = update_sitemap(
+        repo_root,
+        entries_by_level,
+        created_levels,
+        updated_levels=updated_levels,
+        dry_run=args.dry_run,
+    )
 
     print(f"Parsed link entries: {len(entries_by_level)} levels (unique)")
     print(f"Playlist max level: {playlist_max}; link max level: {link_max}; new max: {max_level}")

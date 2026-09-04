@@ -1,5 +1,13 @@
 # Pixel Flow Memory
 
+## 2026-09-04 YouTube 专用播放列表回退更新
+
+- 复核确认 YouTube 上 `@cheriegaming` 的 Pixel Flow 专用播放列表有 2026-09-02 新视频；本机 YouTube API/播放列表请求持续超时，不能把网络失败当作无新关卡。
+- 为 `/Users/zhaobingkun/dev/Python/spider/pixelflow.py` 增加专用播放列表 `PLEOnLO5L7cCcaGgtl3iUt0-ngrHAqD3fq`，并将专用列表扫描上限与频道总上传列表分开，避免其他游戏视频挤出 Pixel Flow 内容。
+- 本次用已核实的 YouTube 视频嵌入链接回退同步 10 个关卡：2220、2225、2230、2235、2240、2260、2265、2275、2295、2300。其中 2260、2265、2275、2295、2300 为新建页面，其余 5 个页面更新为 2026-09-02 的新视频。
+- 更新了 `assets/js/playlist-data.js`、10 个关卡页、`sitemap.xml`、`assets/js/home-data.js` 以及同步脚本；页面数量增至 4,403，sitemap URL 增至 4,420。
+- 已通过 `git diff --check`、`xmllint --noout sitemap.xml` 和 10 个页面视频链接核对；待提交并推送后复核线上页面。
+
 ## 2026-08-26 Daily Automation Check
 
 - No successful wrapper run completed today. The existing wrapper was started after confirming a clean `main` worktree and a fast-forward from `origin/main`; it scanned the four default handles, including `@cheriegaming`, then stalled during the YouTube playlist request and was interrupted after about three minutes. The traceback showed SSL certificate verification failure followed by a hanging retry; no site sync, commit, or push occurred.
