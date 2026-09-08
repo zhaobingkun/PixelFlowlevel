@@ -1,5 +1,11 @@
 # Project Memory
 
+## 2026-09-08 Missing-List Reconciliation
+
+- The daily wrapper completed with no newly matched videos; one YouTube source had an SSL handshake timeout and the `@cheriegaming` dedicated playlist reached its 120-second per-handle limit.
+- Integrity verification found five already-published pages (`2260`, `2265`, `2275`, `2295`, `2300`) still present in both missing-level lists. The lists were corrected to 592 entries, matching the actual 4,408 numeric level directories and generated home data.
+- The external crawler now excludes existing `level/<n>/index.html` pages from its input missing list before each scan so fallback-published pages cannot remain stale.
+
 ## 2026-09-04 YouTube 回退同步 10 关
 
 - 本机 YouTube API/播放列表请求超时，但已从 CherieGaming 的 Pixel Flow 专用播放列表关联索引核实 2026-09-02 的 10 个视频。
@@ -26,9 +32,9 @@
 
 ## Current State
 
-- Current covered level page directories: `4403`
+- Current covered level page directories: `4408`
 - Current maximum level in site data: `4570`
-- Current generated `missingTo5000` in `assets/js/home-data.js`: `597`
+- Current generated `missingTo5000` in `assets/js/home-data.js`: `592`
 - Note: static homepage/navigation values still show the previous `4204` / `4505` snapshot and need a separate static-page sync.
 
 ## Automation State

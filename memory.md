@@ -1,5 +1,12 @@
 # Pixel Flow Memory
 
+## 2026-09-08 Daily Automation Rerun And Missing-List Reconciliation
+
+- The existing daily wrapper completed after fast-forwarding `main`; it checked all four configured handles, found no new matching levels, and produced no crawler-generated site commit. The first handle had a YouTube SSL handshake timeout, while the dedicated `@cheriegaming` playlist reached the 120-second per-handle limit.
+- Post-run integrity checks found five existing pages (`2260`, `2265`, `2275`, `2295`, `2300`) still listed as missing. Both missing-level files were corrected from 597 to 592 entries, matching the 4,408 numeric level directories and `assets/js/home-data.js`.
+- `/Users/zhaobingkun/dev/Python/spider/pixelflow.py` now reconciles its input list against existing `level/<n>/index.html` pages before scanning, preventing manually or fallback-published pages from remaining in later missing lists.
+- Validation passed for the reconciliation helper, Python syntax, `xmllint --noout sitemap.xml`, and `git diff --check`. The site still has maximum level 4,570 and 4,425 sitemap URLs.
+
 ## 2026-09-04 YouTube 专用播放列表回退更新
 
 - 复核确认 YouTube 上 `@cheriegaming` 的 Pixel Flow 专用播放列表有 2026-09-02 新视频；本机 YouTube API/播放列表请求持续超时，不能把网络失败当作无新关卡。
