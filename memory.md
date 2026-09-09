@@ -1,5 +1,18 @@
 # Pixel Flow Memory
 
+## 2026-09-08 CherieGaming 定向抓取 10 个关卡
+
+- YouTube 搜索接口按缺失数字查询比翻 CherieGaming 播放列表可靠；2252 的验证结果显示可返回 `CherieGaming` 的真实视频及发布时间。
+- 本轮抓取并生成了 2252–2259、2261、2262 十个关卡页。视频链接必须保留搜索返回的真实 `video_id`，不能按关卡数字推算。
+- 播放列表扫描即使返回 0 个结果，也可能只是分页或 TLS/超时问题，不能直接当作没有新关卡。
+
+## 2026-09-08 AdSense Offerwall 弹窗确认
+
+- 用户截图中的 `Unlock more content`、`View a short ad`、`Site-wide access for 24 hours` 弹窗，确认是 Google AdSense 的 Offerwall（激励广告墙），不是 Cloudflare 拦截页，也不是站内自制或第三方恶意弹窗。
+- 代码检查显示 4,427 个 HTML 页面只加载统一的 AdSense 自动广告脚本 `adsbygoogle.js?client=ca-pub-6428701926694635`；项目源码中没有 `Offerwall`、`googlefc`、`fundingchoices` 或截图文案。Offerwall 由 AdSense 后台已发布的“隐私权和消息”配置通过该脚本动态下发，无需站内实现弹窗代码。
+- 该功能与此前关闭的 Auto ads 锚定广告、插页广告、Ad intents 和 Related search 是独立设置。出现条件通常是访客达到 Offerwall 的计量阈值，并且当时有可用的激励广告；截图显示完成广告后授予全站 24 小时访问权限。
+- 如需停止，应在 AdSense 的 `Privacy & messaging` / `隐私权和消息` -> `Offerwall` 中取消发布对应消息；如需保留但降低打扰，可提高计量阈值、增加可关闭次数，或排除首页、关卡列表等 URL。本次仅诊断并记录，没有修改项目代码、AdSense、Cloudflare、DNS 或部署。
+
 ## 2026-09-08 Daily Automation Rerun And Missing-List Reconciliation
 
 - The existing daily wrapper completed after fast-forwarding `main`; it checked all four configured handles, found no new matching levels, and produced no crawler-generated site commit. The first handle had a YouTube SSL handshake timeout, while the dedicated `@cheriegaming` playlist reached the 120-second per-handle limit.

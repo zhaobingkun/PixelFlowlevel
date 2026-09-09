@@ -1,5 +1,17 @@
 # Project Memory
 
+## 2026-09-08 CherieGaming 定向抓取 10 个关卡
+
+- 由于 CherieGaming 专用播放列表分页扫描容易在 120 秒内超时，改用项目未抓取列表中的关卡数字直接调用 YouTube 搜索接口，并严格筛选频道 `CherieGaming` 与对应关卡标题。
+- 本次新增 2252、2253、2254、2255、2256、2257、2258、2259、2261、2262，共 10 个页面；同步更新 `playlist-data.js`、`home-data.js`、`sitemap.xml`，并从项目缺失列表移除这 10 个数字。
+- 以后优先用缺失数字定向查询，只有需要发现未知数字时才扫描 CherieGaming 播放列表；不要根据标题猜测视频 ID。
+
+## 2026-09-08 AdSense Offerwall Diagnosis
+
+- The full-screen `Unlock more content` prompt offering a short ad for 24 hours of site-wide access is Google AdSense Offerwall, remotely rendered through the existing AdSense script from a published `Privacy & messaging` configuration.
+- No Offerwall implementation or matching message text exists in project HTML/JavaScript. Auto ads format settings and Offerwall are separate; disabling anchors, vignettes, Ad intents, or Related search does not disable Offerwall.
+- No code, AdSense, Cloudflare, DNS, or deployment setting was changed during this diagnosis.
+
 ## 2026-09-08 Missing-List Reconciliation
 
 - The daily wrapper completed with no newly matched videos; one YouTube source had an SSL handshake timeout and the `@cheriegaming` dedicated playlist reached its 120-second per-handle limit.
