@@ -1,5 +1,16 @@
 # Project Memory
 
+## 2026-09-10 Daily抓取规则调整
+
+- 用户确认以后每天从 `missing_levels_1-5000.txt` 顺序查找 CherieGaming 的可用关卡，单次最多同步 10 个，不按视频发布时间筛选，也不多抓。
+- `/Users/zhaobingkun/dev/Python/spider/pixelflow.py` 已将默认上限改为 10；CherieGaming 改用按关卡数字的 YouTube 搜索，避免专用播放列表分页超时；其他来源保持原流程。
+- 现有 `/Users/zhaobingkun/dev/Python/spider/run_pixelflow_daily.sh` 继续负责成功后的 commit/push，未创建第二套定时发布流程。
+
+## 2026-09-10 CherieGaming 定向补抓 10 个关卡
+
+- 按项目 `missing_levels_1-5000.txt` 的顺序直接查询 YouTube 搜索接口，确认频道为 CherieGaming 后补抓 2263、2264、2266、2267、2268、2269、2270、2271、2272、2273，共 10 个。
+- 本次按用户要求不以发布时间筛选，更新了关卡页、播放列表数据、首页数据、sitemap，并从缺失列表移除这 10 个数字；未多抓其他关卡。
+
 ## 2026-09-08 CherieGaming 定向抓取 10 个关卡
 
 - 由于 CherieGaming 专用播放列表分页扫描容易在 120 秒内超时，改用项目未抓取列表中的关卡数字直接调用 YouTube 搜索接口，并严格筛选频道 `CherieGaming` 与对应关卡标题。

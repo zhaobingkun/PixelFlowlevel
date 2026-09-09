@@ -39643,5 +39643,95 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 2262,
     "slug": "level-2262",
     "videoId": "tli8x9D903I"
+  },
+  {
+    "title": "Pixel Flow Level 2263 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2263 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=eD7Snpq6sx8",
+    "levelStart": 2263,
+    "levelEnd": 2263,
+    "slug": "level-2263",
+    "videoId": "eD7Snpq6sx8"
+  },
+  {
+    "title": "Pixel Flow Level 2264 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2264 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=tAufhG8EhVs",
+    "levelStart": 2264,
+    "levelEnd": 2264,
+    "slug": "level-2264",
+    "videoId": "tAufhG8EhVs"
+  },
+  {
+    "title": "Pixel Flow Level 2266 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2266 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=DNDNSu9D1EE",
+    "levelStart": 2266,
+    "levelEnd": 2266,
+    "slug": "level-2266",
+    "videoId": "DNDNSu9D1EE"
+  },
+  {
+    "title": "Pixel Flow Level 2267 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2267 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=5Vtigy2lOes",
+    "levelStart": 2267,
+    "levelEnd": 2267,
+    "slug": "level-2267",
+    "videoId": "5Vtigy2lOes"
+  },
+  {
+    "title": "Pixel Flow Level 2268 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2268 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=mnwtH0Lom4k",
+    "levelStart": 2268,
+    "levelEnd": 2268,
+    "slug": "level-2268",
+    "videoId": "mnwtH0Lom4k"
+  },
+  {
+    "title": "Pixel Flow Level 2269 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2269 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=lfMEvml4kjo",
+    "levelStart": 2269,
+    "levelEnd": 2269,
+    "slug": "level-2269",
+    "videoId": "lfMEvml4kjo"
+  },
+  {
+    "title": "Pixel Flow Level 2270 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2270 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=IxxjSOyNEH8",
+    "levelStart": 2270,
+    "levelEnd": 2270,
+    "slug": "level-2270",
+    "videoId": "IxxjSOyNEH8"
+  },
+  {
+    "title": "Pixel Flow Level 2271 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2271 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=_T1aXqcP7B4",
+    "levelStart": 2271,
+    "levelEnd": 2271,
+    "slug": "level-2271",
+    "videoId": "_T1aXqcP7B4"
+  },
+  {
+    "title": "Pixel Flow Level 2272 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2272 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=3O3oSQZJT-4",
+    "levelStart": 2272,
+    "levelEnd": 2272,
+    "slug": "level-2272",
+    "videoId": "3O3oSQZJT-4"
+  },
+  {
+    "title": "Pixel Flow Level 2273 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2273 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=si8vN22Qh34",
+    "levelStart": 2273,
+    "levelEnd": 2273,
+    "slug": "level-2273",
+    "videoId": "si8vN22Qh34"
   }
 ]
