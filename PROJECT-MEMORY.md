@@ -1,5 +1,11 @@
 # Project Memory
 
+## 2026-09-14 PlaywithZeeee 接入与每日更新
+
+- 已将 `https://www.youtube.com/@PlaywithZeeee` 加入 `/Users/zhaobingkun/dev/Python/spider/pixelflow.py` 的默认抓取来源，并同步更新每日任务说明。
+- 今日 wrapper 扫描 5 个来源，按 missing 列表最多更新 10 个关卡：2301、2302、2303、2304、2305、2306、2308、2309、2310、2311。
+- 今日提交 `9668918b` 已推送到 `origin/main`；当前站内有 4,462 个数字关卡页，最高 4,570，缺失列表剩余 538 个。
+
 ## 2026-09-10 Daily抓取规则调整
 
 - 用户确认以后每天从 `missing_levels_1-5000.txt` 顺序查找 CherieGaming 的可用关卡，单次最多同步 10 个，不按视频发布时间筛选，也不多抓。
@@ -55,9 +61,9 @@
 
 ## Current State
 
-- Current covered level page directories: `4408`
+- Current covered level page directories: `4462`
 - Current maximum level in site data: `4570`
-- Current generated `missingTo5000` in `assets/js/home-data.js`: `592`
+- Current generated `missingTo5000` in `assets/js/home-data.js`: `538`
 - Note: static homepage/navigation values still show the previous `4204` / `4505` snapshot and need a separate static-page sync.
 
 ## Automation State
