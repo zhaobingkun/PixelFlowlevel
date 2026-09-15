@@ -40039,5 +40039,86 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 2311,
     "slug": "level-2311",
     "videoId": "GvADQ5YocCM"
+  },
+  {
+    "title": "Pixel Flow Level 2312 Walkthrough Solution (no boosters) #pixelflow #mobilegaming",
+    "subtitle": "Pixel Flow Level 2312 Walkthrough Solution (no boosters) #pixelflow #mobilegaming",
+    "href": "https://www.youtube.com/watch?v=me5kfNT3GJE",
+    "levelStart": 2312,
+    "levelEnd": 2312,
+    "slug": "level-2312",
+    "videoId": "me5kfNT3GJE"
+  },
+  {
+    "title": "Pixel Flow Level 2313 Walkthrough Solution (no boosters) #phonegame #gaming #pixelflow",
+    "subtitle": "Pixel Flow Level 2313 Walkthrough Solution (no boosters) #phonegame #gaming #pixelflow",
+    "href": "https://www.youtube.com/watch?v=ze4xXl40ruA",
+    "levelStart": 2313,
+    "levelEnd": 2313,
+    "slug": "level-2313",
+    "videoId": "ze4xXl40ruA"
+  },
+  {
+    "title": "Pixel Flow Level 2314 Walkthrough Solution (no boosters) #gaming #pixelflow #colours",
+    "subtitle": "Pixel Flow Level 2314 Walkthrough Solution (no boosters) #gaming #pixelflow #colours",
+    "href": "https://www.youtube.com/watch?v=N_5DgvHRAMU",
+    "levelStart": 2314,
+    "levelEnd": 2314,
+    "slug": "level-2314",
+    "videoId": "N_5DgvHRAMU"
+  },
+  {
+    "title": "Pixel Flow Level 2315 Walkthrough Solution (no boosters) #pixelflow #satisfyingvideo",
+    "subtitle": "Pixel Flow Level 2315 Walkthrough Solution (no boosters) #pixelflow #satisfyingvideo",
+    "href": "https://www.youtube.com/watch?v=tizZivC5Jfw",
+    "levelStart": 2315,
+    "levelEnd": 2315,
+    "slug": "level-2315",
+    "videoId": "tizZivC5Jfw"
+  },
+  {
+    "title": "Pixel Flow Level 2316 Walkthrough Solution (no boosters) #gaming #pixelflow #satisfying",
+    "subtitle": "Pixel Flow Level 2316 Walkthrough Solution (no boosters) #gaming #pixelflow #satisfying",
+    "href": "https://www.youtube.com/watch?v=YFp5HASQ9Yo",
+    "levelStart": 2316,
+    "levelEnd": 2316,
+    "slug": "level-2316",
+    "videoId": "YFp5HASQ9Yo"
+  },
+  {
+    "title": "Pixel Flow Level 2317 Walkthrough Solution (no boosters) #gamingsetup gaming #pixelflow #walkthrough",
+    "subtitle": "Pixel Flow Level 2317 Walkthrough Solution (no boosters) #gamingsetup gaming #pixelflow #walkthrough",
+    "href": "https://www.youtube.com/watch?v=SCf6gF2lhUE",
+    "levelStart": 2317,
+    "levelEnd": 2317,
+    "slug": "level-2317",
+    "videoId": "SCf6gF2lhUE"
+  },
+  {
+    "title": "Pixel Flow Level 2318 Walkthrough Solution (no boosters) #phonegaming #pixelflow #oddlysatisfying",
+    "subtitle": "Pixel Flow Level 2318 Walkthrough Solution (no boosters) #phonegaming #pixelflow #oddlysatisfying",
+    "href": "https://www.youtube.com/watch?v=U9tCOdK8ZTQ",
+    "levelStart": 2318,
+    "levelEnd": 2318,
+    "slug": "level-2318",
+    "videoId": "U9tCOdK8ZTQ"
+  },
+  {
+    "title": "Pixel Flow Level 2319 Walkthrough Solution (no boosters) #mobilegaming #pixelflow #satsfyingvideo",
+    "subtitle": "Pixel Flow Level 2319 Walkthrough Solution (no boosters) #mobilegaming #pixelflow #satsfyingvideo",
+    "href": "https://www.youtube.com/watch?v=KPHaEmQRTBk",
+    "levelStart": 2319,
+    "levelEnd": 2319,
+    "slug": "level-2319",
+    "videoId": "KPHaEmQRTBk"
+  },
+  {
+    "title": "Pixel Flow Level 2320 Walkthrough Solution (no boosters)  #gaming #pixels #satisfyingcolors",
+    "subtitle": "Pixel Flow Level 2320 Walkthrough Solution (no boosters)  #gaming #pixels #satisfyingcolors",
+    "href": "https://www.youtube.com/watch?v=nLpo45GaVrE",
+    "levelStart": 2320,
+    "levelEnd": 2320,
+    "slug": "level-2320",
+    "videoId": "nLpo45GaVrE"
   }
 ]
