@@ -40381,5 +40381,50 @@ window.PIXEL_FLOW_PLAYLIST = [
     "levelEnd": 2348,
     "slug": "level-2348",
     "videoId": "JlnXVreZfQw"
+  },
+  {
+    "title": "Pixel Flow Level 2349 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2349 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=-fcoYPIqUks",
+    "levelStart": 2349,
+    "levelEnd": 2349,
+    "slug": "level-2349",
+    "videoId": "-fcoYPIqUks"
+  },
+  {
+    "title": "Pixel Flow Level 2350 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2350 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=_Xi81h81ztw",
+    "levelStart": 2350,
+    "levelEnd": 2350,
+    "slug": "level-2350",
+    "videoId": "_Xi81h81ztw"
+  },
+  {
+    "title": "Pixel Flow Level 2351 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2351 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=tF5L7Fbda1k",
+    "levelStart": 2351,
+    "levelEnd": 2351,
+    "slug": "level-2351",
+    "videoId": "tF5L7Fbda1k"
+  },
+  {
+    "title": "Pixel Flow Level 2352 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2352 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=lHvaP9m60pw",
+    "levelStart": 2352,
+    "levelEnd": 2352,
+    "slug": "level-2352",
+    "videoId": "lHvaP9m60pw"
+  },
+  {
+    "title": "Pixel Flow Level 2353 Solution Walkthrough",
+    "subtitle": "Pixel Flow Level 2353 Solution Walkthrough",
+    "href": "https://www.youtube.com/watch?v=XAWzsozaCIw",
+    "levelStart": 2353,
+    "levelEnd": 2353,
+    "slug": "level-2353",
+    "videoId": "XAWzsozaCIw"
   }
 ]
