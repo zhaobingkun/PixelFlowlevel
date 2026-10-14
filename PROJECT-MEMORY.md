@@ -1,5 +1,23 @@
 # Project Memory
 
+## 2026-10-13 AdSense Stop-Loss Applied
+
+- User authorized the previously proposed steps 1–4. The Offerwall message list showed Pixel Flow already in draft; the remaining published message belonged to `cluesbysam.net`. It was unpublished, leaving both messages in draft without deletion.
+- Attribution correction: the 699 rewarded impressions and 174 clicks were account-wide aggregates, not proof of Pixel Flow Offerwall traffic or the limitation's cause. High engagement in a different ad format alone does not establish invalid traffic. Country summaries also cannot exclude bots; further attribution requires site/format cross-breakdowns and Cloudflare evidence.
+- Ended Pixel Flow's Google-created Vignette experiment, preserving original settings. AdSense confirmed completed, original retained, ending 2026-10-13.
+- Saved Pixel Flow Auto optimize off and automatic adoption unchecked. Auto ads remains on with only side rail enabled: Ad intents 0/1, overlay 1/3 (anchor/vignette off), in-page 0/2 (banner/multiplex off). The five excluded pages were retained.
+- Selected immediate application and verified persisted settings by reopening the editor. AdSense states changes can take up to an hour. The invalid-traffic limitation remains subject to Google's review; no recovery timing is promised.
+- No Cloudflare, site code, deployment, commit, or push changes were made. Only the investigation/action documentation was edited locally.
+
+## 2026-10-13 AdSense Invalid-Traffic Limitation Review
+
+- The active account-level ad-serving limitation began on `2026-09-24` for invalid traffic and was still active on `2026-10-13`. No appeal control was available; AdSense states that review and updates are automatic. This was a read-only investigation, with no account, Cloudflare, code, DNS, or deployment changes.
+- Before the limitation (`2026-09-13` through `2026-09-24`), the account recorded 6,080 page views, 18,305 impressions, and 369 clicks. After it (`2026-09-25` through `2026-10-12`), traffic continued at 13,620 page views but ad delivery collapsed to 525 impressions and 18 clicks.
+- Rewarded ads were the clearest outlier: 699 impressions generated 174 clicks, an implied 24.9% click/impression rate and about 47% of all pre-limit clicks. `Privacy & messaging` confirms that the Offerwall still has one active message. This is strong correlation, not definitive per-click invalidity because AdSense does not expose invalid-click labels at row level.
+- Pre-limit clicks were concentrated on high-end mobile (329 of 369 clicks) and Safari (208 of 369). Several major countries showed elevated page-click ratios, while Singapore was not a leading monetized country, so the present incident is not well explained by Singapore traffic alone.
+- The live ad configuration drifted from the July stop-loss state: Auto optimize/automatic application is enabled, and the original setup has anchor, in-page banner, and paragraph-end Ad intents enabled again. A Google-created Vignette experiment began on `2026-10-10`; it started after the limitation, so it is not the original trigger but adds recovery-period risk.
+- Recommended reversible stop-loss, pending explicit approval: unpublish Offerwall; stop the Vignette experiment while retaining original settings; disable Auto optimize/automatic application; disable Ad intents, anchor, and in-page banner, keeping only desktop side rail or temporarily disabling all Auto ads for 7–14 days.
+
 ## 2026-09-14 PlaywithZeeee 接入与每日更新
 
 - 已将 `https://www.youtube.com/@PlaywithZeeee` 加入 `/Users/zhaobingkun/dev/Python/spider/pixelflow.py` 的默认抓取来源，并同步更新每日任务说明。
