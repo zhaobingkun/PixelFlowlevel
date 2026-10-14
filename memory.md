@@ -1,5 +1,15 @@
 # Pixel Flow Memory
 
+## 2026-10-14 日更阻塞补救完成
+
+- 用户要求处理 dirty 文档阻塞；核实两份 10 月 13 日 AdSense 调查/操作记录后，单独提交 d054f698 并成功推送，未修改广告设置。
+- 首次原 wrapper 补跑被 600 秒保护中断，原因是 CherieGaming 定向查询未遵守频道预算。外部 pixelflow.py 已增加截止时间、剩余时间请求上限、单次请求重试限制；时间用尽后保留匹配供同步。测试覆盖截止时间、保留匹配和最多十关。
+- run_pixelflow_daily.sh 整体默认保护改为 900 秒，为五频道预算及频道解析留余量；README 同步。继续使用原 wrapper、默认五个来源和最多十关，不建立第二套更新流程。
+- 第二轮 wrapper exit 0，找到并新增 2508 关，提交 0e18c67ab154fb7ed486e8d1da60135561afa365 已 push origin/main。更新 level/2508、playlist-data、home-data、missing 列表和 sitemap。
+- 校验为 4506 数字关卡、最高 4570、494 缺口、4523 sitemap URL。站点/外部 missing 列表与实际目录完全一致；XML 和 diff 检查通过。生产 2508 页面 HTTP 200。
+- 本轮仍有部分 YouTube SSL/频道时间预算告警，属于部分来源扫描不完整，不能宣称所有来源完整扫描；已匹配视频正常同步。launchd 10:30 的历史 exit 1 保留，本次是手动原 wrapper 补救成功，不把它改写为定时运行成功。
+- 外部 crawler 目录不是 Git 仓库，脚本修改保留在原路径；不要只记录而遗漏实际修改，也不要把外部脚本误算入站点 commit。
+
 ## 2026-10-13 AdSense 止损设置已执行
 
 - 用户明确授权执行上一轮 1–4 项止损方案。积分墙消息列表实际显示：`pixelflowlevel.app` 原已为草稿，仍发布的是 `cluesbysam.net`；本轮取消发布后，两条消息均为草稿，消息没有删除。

@@ -1,5 +1,12 @@
 # Project Memory
 
+## 2026-10-14 Daily Recovery
+
+- Committed the reviewed AdSense records separately as d054f698. Reused the original daily wrapper; a 600-second timeout exposed an unbounded CherieGaming direct-search loop.
+- Fixed the external crawler to honor its per-handle deadline, limit request retries under that deadline, and retain matches for sync. Raised the wrapper's default overall budget to 900 seconds for five sources. Timeout-retention and ten-update-cap tests passed.
+- Recovery wrapper exited 0 and pushed 0e18c67a, adding level 2508. Verified 4506 level directories, 494 actual gaps, matching local/external missing files, 4523 sitemap entries and production HTTP 200 for the new page.
+- Some sources timed out or returned SSL errors, so coverage was partial. The old launchd failure remains historical; this was a successful manual recovery through the same wrapper. External scripts are retained in the non-Git crawler directory.
+
 ## 2026-10-13 AdSense Stop-Loss Applied
 
 - User authorized the previously proposed steps 1–4. The Offerwall message list showed Pixel Flow already in draft; the remaining published message belonged to `cluesbysam.net`. It was unpublished, leaving both messages in draft without deletion.
