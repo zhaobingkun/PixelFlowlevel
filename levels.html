@@ -46,15 +46,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Pixel Flow Levels - Video Walkthrough Library</title>
-  <meta name="description" content="Browse every Pixel Flow level video guide. Filter by range, jump to a level, and watch walkthroughs for the pixel puzzle game in one place.">
+  <title>Pixel Flow Levels: Find Video Walkthroughs &amp; Solutions</title>
+  <meta name="description" content="Find Pixel Flow walkthroughs by level number. Browse video guides and level ranges, compare the board layout, and check whether your level has a solution.">
   <meta name="keywords" content="Pixel Flow, pixel puzzle game, download Pixel Flow, free puzzle games, strategic gameplay, pixel art visuals, offline puzzle game, challenging levels, pixel flow level, pixel flow guide">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#ffe0f6">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-  <link rel="canonical" href="https://pixelflowlevel.app/levels">
+  <link rel="canonical" href="https://pixelflowlevel.app/levels.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pixel Flow Levels: Find Video Walkthroughs &amp; Solutions">
+  <meta property="og:description" content="Search by level number, browse video walkthroughs, and compare the guide with your board layout.">
+  <meta property="og:url" content="https://pixelflowlevel.app/levels.html">
+  <meta property="og:image" content="https://pixelflowlevel.app/logo.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pixel Flow Levels: Find Video Walkthroughs &amp; Solutions">
+  <meta name="twitter:description" content="Search by level number, browse video walkthroughs, and compare the guide with your board layout.">
+  <meta name="twitter:image" content="https://pixelflowlevel.app/logo.png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://pixelflowlevel.app/levels.html#collection",
+        "url": "https://pixelflowlevel.app/levels.html",
+        "name": "Pixel Flow Level Walkthroughs",
+        "description": "Searchable video walkthrough library with level-number and range navigation.",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://pixelflowlevel.app/"},
+          {"@type": "ListItem", "position": 2, "name": "Level walkthroughs", "item": "https://pixelflowlevel.app/levels.html"}
+        ]
+      }
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -82,7 +113,7 @@
       <a href="contact.html" class="">Contact</a>
     </nav>
     <div class="nav-actions">
-      <input type="number" min="1" max="4505" placeholder="Jump to level" data-nav-jump-input>
+      <input type="number" min="1" max="4570" placeholder="Jump to level" data-nav-jump-input>
       <button type="button" data-nav-jump-btn>Go</button>
     </div>
     <button class="nav-toggle" type="button" data-nav-toggle>Menu</button>
@@ -96,7 +127,7 @@
     <a href="download.html" class="">Download</a>
     <a href="about.html" class="">About</a>
     <a href="contact.html" class="">Contact</a>
-    <input type="number" min="1" max="4505" placeholder="Jump to level" data-nav-jump-input>
+    <input type="number" min="1" max="4570" placeholder="Jump to level" data-nav-jump-input>
     <button type="button" data-nav-jump-btn>Go</button>
   </div>
 </div>
@@ -105,10 +136,10 @@
   <section class="hero" style="padding-bottom: 3rem;">
     <div class="container">
       <span class="hero-kicker">Pixel Flow level library</span>
-      <h1>All Pixel Flow level walkthroughs</h1>
-      <p>Jump to any pixel flow level, filter by range, and open the video guide instantly.</p>
+      <h1>Pixel Flow level walkthroughs</h1>
+      <p>Find a Pixel Flow video walkthrough by entering your level number or browsing a level range. Compare the video's starting board with your game before following the solution; some level numbers do not yet have a guide.</p>
       <div class="search-bar">
-        <input type="number" min="1" max="4505" placeholder="Enter level number (1-4505)" data-level-search-input>
+        <input type="number" min="1" max="4570" placeholder="Enter level number (1-4570)" data-level-search-input>
         <button class="btn btn-primary" type="button" data-level-search-btn>Find level</button>
       </div>
       <div class="search-error" data-level-search-error>Level not found in this playlist.</div>
@@ -117,7 +148,7 @@
         <strong class="missing-levels-number" data-missing-to-5000>--</strong>
       </div>
       <div class="chips" style="margin-top: 1rem;">
-        <span class="chip active">Latest guides</span>
+        <span class="chip active">Browse late levels</span>
         <a class="chip" href="level/4505/">4505</a>
         <a class="chip" href="level/4504/">4504</a>
         <a class="chip" href="level/4503/">4503</a>
@@ -143,54 +174,114 @@
       </div>
       <div class="chips" data-range-filters>
         <a class="chip active" data-range="all" href="/levels.html">ALL LEVELS</a>
-        <a class="chip" data-range="1-4505" href="/levels.html?range=1-4505">1-4505</a>
-        <a class="chip" data-range="51-4505" href="/levels.html?range=51-4505">51-4505</a>
-        <a class="chip" data-range="101-4505" href="/levels.html?range=101-4505">101-4505</a>
-        <a class="chip" data-range="151-4505" href="/levels.html?range=151-4505">151-4505</a>
-        <a class="chip" data-range="201-4505" href="/levels.html?range=201-4505">201-4505</a>
-        <a class="chip" data-range="251-4505" href="/levels.html?range=251-4505">251-4505</a>
-        <a class="chip" data-range="301-4505" href="/levels.html?range=301-4505">301-4505</a>
-        <a class="chip" data-range="351-4505" href="/levels.html?range=351-4505">351-4505</a>
-        <a class="chip" data-range="401-4505" href="/levels.html?range=401-4505">401-4505</a>
-        <a class="chip" data-range="451-4505" href="/levels.html?range=451-4505">451-4505</a>
-        <a class="chip" data-range="501-4505" href="/levels.html?range=501-4505">501-4505</a>
-        <a class="chip" data-range="551-4505" href="/levels.html?range=551-4505">551-4505</a>
-        <a class="chip" data-range="901-4505" href="/levels.html?range=901-4505">901-4505</a>
-        <a class="chip" data-range="951-4505" href="/levels.html?range=951-4505">951-4505</a>
-        <a class="chip" data-range="1001-4505" href="/levels.html?range=1001-4505">1001-4505</a>
-        <a class="chip" data-range="1051-4505" href="/levels.html?range=1051-4505">1051-4505</a>
-        <a class="chip" data-range="1101-4505" href="/levels.html?range=1101-4505">1101-4505</a>
-        <a class="chip" data-range="2001-4505" href="/levels.html?range=2001-4505">2001-4505</a>
-        <a class="chip" data-range="2051-4505" href="/levels.html?range=2051-4505">2051-4505</a>
-        <a class="chip" data-range="2101-4505" href="/levels.html?range=2101-4505">2101-4505</a>
-        <a class="chip" data-range="2151-4505" href="/levels.html?range=2151-4505">2151-4505</a>
-        <a class="chip" data-range="2201-4505" href="/levels.html?range=2201-4505">2201-4505</a>
-        <a class="chip" data-range="2251-4505" href="/levels.html?range=2251-4505">2251-4505</a>
-        <a class="chip" data-range="2301-4505" href="/levels.html?range=2301-4505">2301-4505</a>
-        <a class="chip" data-range="2351-4505" href="/levels.html?range=2351-4505">2351-4505</a>
-        <a class="chip" data-range="2401-4505" href="/levels.html?range=2401-4505">2401-4505</a>
-        <a class="chip" data-range="2451-4505" href="/levels.html?range=2451-4505">2451-4505</a>
-        <a class="chip" data-range="2501-4505" href="/levels.html?range=2501-4505">2501-4505</a>
-        <a class="chip" data-range="2551-4505" href="/levels.html?range=2551-4505">2551-4505</a>
-        <a class="chip" data-range="2601-4505" href="/levels.html?range=2601-4505">2601-4505</a>
-        <a class="chip" data-range="2651-4505" href="/levels.html?range=2651-4505">2651-4505</a>
-        <a class="chip" data-range="2701-4505" href="/levels.html?range=2701-4505">2701-4505</a>
-        <a class="chip" data-range="2751-4505" href="/levels.html?range=2751-4505">2751-4505</a>
-        <a class="chip" data-range="2801-4505" href="/levels.html?range=2801-4505">2801-4505</a>
-        <a class="chip" data-range="2851-4505" href="/levels.html?range=2851-4505">2851-4505</a>
-        <a class="chip" data-range="2901-4505" href="/levels.html?range=2901-4505">2901-4505</a>
-        <a class="chip" data-range="2951-4505" href="/levels.html?range=2951-4505">2951-4505</a>
-        <a class="chip" data-range="3001-4505" href="/levels.html?range=3001-4505">3001-4505</a>
-        <a class="chip" data-range="3051-4505" href="/levels.html?range=3051-4505">3051-4505</a>
-        <a class="chip" data-range="3101-4505" href="/levels.html?range=3101-4505">3101-4505</a>
-        <a class="chip" data-range="3151-4505" href="/levels.html?range=3151-4505">3151-4505</a>
-        <a class="chip" data-range="3201-4505" href="/levels.html?range=3201-4505">3201-4505</a>
-        <a class="chip" data-range="3251-4505" href="/levels.html?range=3251-4505">3251-4505</a>
-        <a class="chip" data-range="3301-4505" href="/levels.html?range=3301-4505">3301-4505</a>
+        <a class="chip" data-range="1-50" href="/levels.html?range=1-50">1-50</a>
+        <a class="chip" data-range="51-100" href="/levels.html?range=51-100">51-100</a>
+        <a class="chip" data-range="101-150" href="/levels.html?range=101-150">101-150</a>
+        <a class="chip" data-range="151-200" href="/levels.html?range=151-200">151-200</a>
+        <a class="chip" data-range="201-250" href="/levels.html?range=201-250">201-250</a>
+        <a class="chip" data-range="251-300" href="/levels.html?range=251-300">251-300</a>
+        <a class="chip" data-range="301-350" href="/levels.html?range=301-350">301-350</a>
+        <a class="chip" data-range="351-400" href="/levels.html?range=351-400">351-400</a>
+        <a class="chip" data-range="401-450" href="/levels.html?range=401-450">401-450</a>
+        <a class="chip" data-range="451-500" href="/levels.html?range=451-500">451-500</a>
+        <a class="chip" data-range="501-550" href="/levels.html?range=501-550">501-550</a>
+        <a class="chip" data-range="551-600" href="/levels.html?range=551-600">551-600</a>
+        <a class="chip" data-range="601-650" href="/levels.html?range=601-650">601-650</a>
+        <a class="chip" data-range="651-700" href="/levels.html?range=651-700">651-700</a>
+        <a class="chip" data-range="701-750" href="/levels.html?range=701-750">701-750</a>
+        <a class="chip" data-range="751-800" href="/levels.html?range=751-800">751-800</a>
+        <a class="chip" data-range="801-850" href="/levels.html?range=801-850">801-850</a>
+        <a class="chip" data-range="851-900" href="/levels.html?range=851-900">851-900</a>
+        <a class="chip" data-range="901-950" href="/levels.html?range=901-950">901-950</a>
+        <a class="chip" data-range="951-1000" href="/levels.html?range=951-1000">951-1000</a>
+        <a class="chip" data-range="1001-1050" href="/levels.html?range=1001-1050">1001-1050</a>
+        <a class="chip" data-range="1051-1100" href="/levels.html?range=1051-1100">1051-1100</a>
+        <a class="chip" data-range="1101-1150" href="/levels.html?range=1101-1150">1101-1150</a>
+        <a class="chip" data-range="1151-1200" href="/levels.html?range=1151-1200">1151-1200</a>
+        <a class="chip" data-range="1201-1250" href="/levels.html?range=1201-1250">1201-1250</a>
+        <a class="chip" data-range="1251-1300" href="/levels.html?range=1251-1300">1251-1300</a>
+        <a class="chip" data-range="1301-1350" href="/levels.html?range=1301-1350">1301-1350</a>
+        <a class="chip" data-range="1351-1400" href="/levels.html?range=1351-1400">1351-1400</a>
+        <a class="chip" data-range="1401-1450" href="/levels.html?range=1401-1450">1401-1450</a>
+        <a class="chip" data-range="1451-1500" href="/levels.html?range=1451-1500">1451-1500</a>
+        <a class="chip" data-range="1501-1550" href="/levels.html?range=1501-1550">1501-1550</a>
+        <a class="chip" data-range="1551-1600" href="/levels.html?range=1551-1600">1551-1600</a>
+        <a class="chip" data-range="1601-1650" href="/levels.html?range=1601-1650">1601-1650</a>
+        <a class="chip" data-range="1651-1700" href="/levels.html?range=1651-1700">1651-1700</a>
+        <a class="chip" data-range="1701-1750" href="/levels.html?range=1701-1750">1701-1750</a>
+        <a class="chip" data-range="1751-1800" href="/levels.html?range=1751-1800">1751-1800</a>
+        <a class="chip" data-range="1801-1850" href="/levels.html?range=1801-1850">1801-1850</a>
+        <a class="chip" data-range="1851-1900" href="/levels.html?range=1851-1900">1851-1900</a>
+        <a class="chip" data-range="1901-1950" href="/levels.html?range=1901-1950">1901-1950</a>
+        <a class="chip" data-range="1951-2000" href="/levels.html?range=1951-2000">1951-2000</a>
+        <a class="chip" data-range="2001-2050" href="/levels.html?range=2001-2050">2001-2050</a>
+        <a class="chip" data-range="2051-2100" href="/levels.html?range=2051-2100">2051-2100</a>
+        <a class="chip" data-range="2101-2150" href="/levels.html?range=2101-2150">2101-2150</a>
+        <a class="chip" data-range="2151-2200" href="/levels.html?range=2151-2200">2151-2200</a>
+        <a class="chip" data-range="2201-2250" href="/levels.html?range=2201-2250">2201-2250</a>
+        <a class="chip" data-range="2251-2300" href="/levels.html?range=2251-2300">2251-2300</a>
+        <a class="chip" data-range="2301-2350" href="/levels.html?range=2301-2350">2301-2350</a>
+        <a class="chip" data-range="2351-2400" href="/levels.html?range=2351-2400">2351-2400</a>
+        <a class="chip" data-range="2401-2450" href="/levels.html?range=2401-2450">2401-2450</a>
+        <a class="chip" data-range="2451-2500" href="/levels.html?range=2451-2500">2451-2500</a>
+        <a class="chip" data-range="2501-2550" href="/levels.html?range=2501-2550">2501-2550</a>
+        <a class="chip" data-range="2551-2600" href="/levels.html?range=2551-2600">2551-2600</a>
+        <a class="chip" data-range="2601-2650" href="/levels.html?range=2601-2650">2601-2650</a>
+        <a class="chip" data-range="2651-2700" href="/levels.html?range=2651-2700">2651-2700</a>
+        <a class="chip" data-range="2701-2750" href="/levels.html?range=2701-2750">2701-2750</a>
+        <a class="chip" data-range="2751-2800" href="/levels.html?range=2751-2800">2751-2800</a>
+        <a class="chip" data-range="2801-2850" href="/levels.html?range=2801-2850">2801-2850</a>
+        <a class="chip" data-range="2851-2900" href="/levels.html?range=2851-2900">2851-2900</a>
+        <a class="chip" data-range="2901-2950" href="/levels.html?range=2901-2950">2901-2950</a>
+        <a class="chip" data-range="2951-3000" href="/levels.html?range=2951-3000">2951-3000</a>
+        <a class="chip" data-range="3001-3050" href="/levels.html?range=3001-3050">3001-3050</a>
+        <a class="chip" data-range="3051-3100" href="/levels.html?range=3051-3100">3051-3100</a>
+        <a class="chip" data-range="3101-3150" href="/levels.html?range=3101-3150">3101-3150</a>
+        <a class="chip" data-range="3151-3200" href="/levels.html?range=3151-3200">3151-3200</a>
+        <a class="chip" data-range="3201-3250" href="/levels.html?range=3201-3250">3201-3250</a>
+        <a class="chip" data-range="3251-3300" href="/levels.html?range=3251-3300">3251-3300</a>
+        <a class="chip" data-range="3301-3350" href="/levels.html?range=3301-3350">3301-3350</a>
+        <a class="chip" data-range="3351-3400" href="/levels.html?range=3351-3400">3351-3400</a>
+        <a class="chip" data-range="3401-3450" href="/levels.html?range=3401-3450">3401-3450</a>
+        <a class="chip" data-range="3451-3500" href="/levels.html?range=3451-3500">3451-3500</a>
+        <a class="chip" data-range="3501-3550" href="/levels.html?range=3501-3550">3501-3550</a>
+        <a class="chip" data-range="3551-3600" href="/levels.html?range=3551-3600">3551-3600</a>
+        <a class="chip" data-range="3601-3650" href="/levels.html?range=3601-3650">3601-3650</a>
+        <a class="chip" data-range="3651-3700" href="/levels.html?range=3651-3700">3651-3700</a>
+        <a class="chip" data-range="3701-3750" href="/levels.html?range=3701-3750">3701-3750</a>
+        <a class="chip" data-range="3751-3800" href="/levels.html?range=3751-3800">3751-3800</a>
+        <a class="chip" data-range="3801-3850" href="/levels.html?range=3801-3850">3801-3850</a>
+        <a class="chip" data-range="3851-3900" href="/levels.html?range=3851-3900">3851-3900</a>
+        <a class="chip" data-range="3901-3950" href="/levels.html?range=3901-3950">3901-3950</a>
+        <a class="chip" data-range="3951-4000" href="/levels.html?range=3951-4000">3951-4000</a>
+        <a class="chip" data-range="4001-4050" href="/levels.html?range=4001-4050">4001-4050</a>
+        <a class="chip" data-range="4051-4100" href="/levels.html?range=4051-4100">4051-4100</a>
+        <a class="chip" data-range="4101-4150" href="/levels.html?range=4101-4150">4101-4150</a>
+        <a class="chip" data-range="4151-4200" href="/levels.html?range=4151-4200">4151-4200</a>
+        <a class="chip" data-range="4201-4250" href="/levels.html?range=4201-4250">4201-4250</a>
+        <a class="chip" data-range="4251-4300" href="/levels.html?range=4251-4300">4251-4300</a>
+        <a class="chip" data-range="4301-4350" href="/levels.html?range=4301-4350">4301-4350</a>
+        <a class="chip" data-range="4351-4400" href="/levels.html?range=4351-4400">4351-4400</a>
+        <a class="chip" data-range="4401-4450" href="/levels.html?range=4401-4450">4401-4450</a>
+        <a class="chip" data-range="4451-4500" href="/levels.html?range=4451-4500">4451-4500</a>
+        <a class="chip" data-range="4501-4550" href="/levels.html?range=4501-4550">4501-4550</a>
+        <a class="chip" data-range="4551-4570" href="/levels.html?range=4551-4570">4551-4570</a>
       </div>
-      <p style="text-align:center; color: var(--muted); margin-top: 1rem;" data-level-count></p>
+      <p style="text-align:center; color: var(--muted); margin-top: 1rem;" data-level-count>Video guides through level 4570; some levels are still missing.</p>
       <div class="cards" data-level-grid data-level-card-container></div>
       <div class="card" data-level-empty style="display:none; margin-top: 1.5rem; text-align:center;">No levels found for that range.</div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2>Quick links to popular walkthroughs</h2>
+      <p>Open a frequently viewed guide, then compare its board and move sequence with your version of the game.</p>
+      <div class="chips">
+        <a class="chip" href="/level/138/">Pixel Flow level 138</a>
+        <a class="chip" href="/level/775/">Pixel Flow level 775</a>
+        <a class="chip" href="/level/1350/">Pixel Flow level 1350</a>
+        <a class="chip" href="/level/1650/">Pixel Flow level 1650</a>
+      </div>
     </div>
   </section>
 </main>

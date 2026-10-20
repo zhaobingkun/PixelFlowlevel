@@ -1,5 +1,13 @@
 # Pixel Flow Memory
 
+## 2026-10-20 GSC/GA4 SEO 试运行
+
+- 用户授权启动全站群 SEO 试运行。首批只优化 `/levels.html`，基线 GSC 2026-09-20 至 2026-10-17：1,033 clicks / 37,280 impressions / 2.8% CTR / position 7.0。全站 6,590 clicks / 约 216,000 impressions / 3.0% CTR / position 5.3。
+- GA4 已在登录浏览器确认 property `517579912`（account `378657081`）。同日期窗口 organic 媒介主行 5,704 sessions、4,323 engaged sessions、75.79% engagement、43 秒/session；`/levels.html` 所有渠道 776 sessions、665 active users、521 new users、49 秒/session。该 landing-page 行不是自然搜索独立行，不能混用。关键事件显示 0，尚未据此推断转化质量。
+- 线上 `/levels.html` HTTP 200，而原 canonical `/levels` HTTP 404。修正为真实页面地址，补齐 OG/Twitter/CollectionPage/BreadcrumbList，并调整 title/meta/首屏说明。修复静态 50 关分组为与 home-data 一致的 92 组、输入范围至 4570，新增 4 个已有曝光关卡的静态内链。未添加关卡、改动价格/广告配置或变更 URL 路由。
+- XML、diff、JSON-LD、单 H1、全部本页本地链接、92 组数据一致性与 JS 语法校验通过。发布 SHA 和线上结果见汇总项目试运行报告。
+- 复盘日期：2026-10-27、2026-11-03、2026-11-17；由于数据延迟，最终以修改后完整数据日比较。结合查询、设备和国家的组成判断，不将 CTR 变化直接归因于本次修改。
+
 ## 2026-10-14 日更阻塞补救完成
 
 - 用户要求处理 dirty 文档阻塞；核实两份 10 月 13 日 AdSense 调查/操作记录后，单独提交 d054f698 并成功推送，未修改广告设置。
