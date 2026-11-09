@@ -27,6 +27,7 @@ ROOT_PUBLIC_FILES = {
     "level.html",
     "levels.html",
     "logo.png",
+    "missing_levels_1-5000.txt",
     "privacy.html",
     "robots.txt",
     "sitemap.xml",

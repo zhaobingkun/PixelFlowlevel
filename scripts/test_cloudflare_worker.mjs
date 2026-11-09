@@ -110,6 +110,10 @@ assert.equal(response.headers.get("x-content-type-options"), "nosniff");
 response = await fetchPath("/levels.html");
 assert.equal(response.status, 200);
 
+response = await fetchPath("/missing_levels_1-5000.txt");
+assert.equal(response.status, 200);
+assert.match(await response.text(), /^\d+/m);
+
 response = await fetchPath("/level/1/");
 assert.equal(response.status, 200);
 
