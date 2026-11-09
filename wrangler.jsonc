@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developers.cloudflare.com/workers/wrangler/config-schema.json",
+  "name": "pixel-flowlevel",
+  "main": "src/worker.mjs",
+  "compatibility_date": "2026-11-09",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "pixelflowlevel.app/*",
+      "zone_name": "pixelflowlevel.app"
+    },
+    {
+      "pattern": "www.pixelflowlevel.app/*",
+      "zone_name": "pixelflowlevel.app"
+    }
+  ],
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "none"
+  }
+}
